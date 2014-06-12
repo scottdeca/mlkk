@@ -408,7 +408,7 @@ header.navigation {
   background-color: transparent;
   font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 600;
-  height: 60px;
+  height: 3.75em;
   width: 100%;
   z-index: 999;
   position: absolute; }
@@ -428,11 +428,11 @@ header.navigation {
       clear: both; }
   header.navigation .logo {
     float: left;
-    max-height: 60px;
+    max-height: 3.75em;
     padding-left: 1em;
     padding-right: 2em; }
     header.navigation .logo img {
-      max-height: 60px;
+      max-height: 3.75em;
       padding: .8em 0; }
   header.navigation .navigation-menu-button {
     color: rgba(255, 255, 255, 0.9);
@@ -441,7 +441,7 @@ header.navigation {
     float: right;
     font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 3.75em;
     margin: 0;
     padding-right: 1em;
     text-transform: uppercase; }
@@ -473,7 +473,7 @@ header.navigation {
   header.navigation ul li {
     background: #bed62f;
     display: block;
-    line-height: 60px;
+    line-height: 3.75em;
     overflow: hidden;
     padding-right: .8em;
     text-align: right;
@@ -483,7 +483,7 @@ header.navigation {
       header.navigation ul li {
         background: transparent;
         display: inline;
-        line-height: 60px;
+        line-height: 3.75em;
         text-decoration: none;
         width: auto; } }
     header.navigation ul li a {
@@ -521,7 +521,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
         header.navigation .submenu li {
-          line-height: 46.15385px; }
+          line-height: 2.88462em; }
           header.navigation .submenu li:first-child a {
             padding-top: 1em; }
           header.navigation .submenu li:last-child a {
@@ -636,14 +636,7 @@ header.navigation {
           display: block; } }
 
 .hero {
-  /*
-  	$image-gradient-color-left: red; 
-  	$transparency-left: .9;
-  	$image-gradient-color-right: yellow; 
-  	$transparency-right: .8;
-  	$horizontal-angle: 90deg;
-  */
-  background: url(/img/hero/hero_home.jpg);
+  background: url(/img/hero/hero_home_2.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -652,9 +645,8 @@ header.navigation {
   display: table;
   margin-bottom: 1.5em; }
   .hero .overlay {
-    background-color: rgba(152, 171, 37, 0.4);
-    background-image: -webkit-linear-gradient(-450deg, rgba(152, 171, 37, 0.4), rgba(190, 214, 47, 0.4));
-    background-image: linear-gradient(180deg,rgba(152, 171, 37, 0.4), rgba(190, 214, 47, 0.4));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, transparent 50%, transparent 100%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, transparent 50%, transparent 100%);
     display: block;
     position: absolute;
     top: 0px;
@@ -670,14 +662,11 @@ header.navigation {
     		  @include position(absolute, 0px 0px 0px 0px);
     		}
     */ }
-  .hero .hero-logo img {
-    height: 4em;
-    margin-bottom: 1em; }
   .hero .hero-inner {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
-    padding: 6.75em 4em 3em;
+    padding: 8.75em 10em 6em;
     margin: auto;
     text-align: center;
     color: white;
@@ -692,31 +681,31 @@ header.navigation {
       display: table;
       clear: both; }
     .hero .hero-inner button {
-      border: 1px solid #92a717;
+      border: 1px solid #057781;
       border-radius: 3px;
-      box-shadow: inset 0 1px 0 0 #cddc76;
-      color: #333333;
+      box-shadow: inset 0 1px 0 0 #37d6e3;
+      color: white;
       display: inline-block;
       font-size: inherit;
       font-weight: bold;
-      background-color: #bed62f;
-      background-image: -webkit-linear-gradient(#bed62f, #9eb419);
-      background-image: linear-gradient(#bed62f, #9eb419);
+      background-color: #11afbc;
+      background-image: -webkit-linear-gradient(#11afbc, #06858f);
+      background-image: linear-gradient(#11afbc, #06858f);
       padding: 7px 18px;
       text-decoration: none;
-      text-shadow: 0 1px 0 #cbe535;
+      text-shadow: 0 1px 0 #016870;
       background-clip: padding-box;
       font-size: 1em;
       outline: none; }
       .hero .hero-inner button:hover:not(:disabled) {
-        box-shadow: inset 0 1px 0 0 #bfd24c;
+        box-shadow: inset 0 1px 0 0 #1bbecb;
         cursor: pointer;
-        background-color: #abc02b;
-        background-image: -webkit-linear-gradient(#abc02b, #92a618);
-        background-image: linear-gradient(#abc02b, #92a618); }
+        background-color: #1296a1;
+        background-image: -webkit-linear-gradient(#1296a1, #067780);
+        background-image: linear-gradient(#1296a1, #067780); }
       .hero .hero-inner button:active:not(:disabled), .hero .hero-inner button:focus:not(:disabled) {
-        border: 1px solid #92a717;
-        box-shadow: inset 0 0 8px 4px #859817, inset 0 0 8px 4px #859817; }
+        border: 1px solid #057781;
+        box-shadow: inset 0 0 8px 4px #066871, inset 0 0 8px 4px #066871; }
       .hero .hero-inner button:disabled {
         opacity: 0.5;
         cursor: not-allowed; }
@@ -728,7 +717,7 @@ header.navigation {
         font-weight: 200; }
         @media screen and (min-width: 53.75em) {
           .hero .hero-inner .hero-copy h1 {
-            font-size: 3.5em; } }
+            font-size: 4rem; } }
       .hero .hero-inner .hero-copy p {
         margin: auto;
         margin-bottom: 3em;

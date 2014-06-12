@@ -1,23 +1,14 @@
-.hero {
-	$hero-background: desaturate($base-accent-color, 30);	
+.hero {	
 	$hero-color: white;
 
-	$image-gradient-color-top: shade($green, 20); 
-	$transparency-top: .6;
-	$image-gradient-color-bottom: $green; 
-	$transparency-bottom: .6;
+	$image-gradient-color-top: black; 
+	$transparency-top: .7;
+	$image-gradient-color-bottom: black; 
+	$transparency-bottom: 1;
 	$vertical-angle: 180deg;
 	$navigation-height: em(60);
 	
-/*
-	$image-gradient-color-left: red; 
-	$transparency-left: .9;
-	$image-gradient-color-right: yellow; 
-	$transparency-right: .8;
-	$horizontal-angle: 90deg;
-*/
-	
-	background: url(/img/hero/hero_home.jpg);
+	background: url(/img/hero/hero_home_2.jpg);
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -28,8 +19,7 @@
 	
 	
 	.overlay {
-		@include linear-gradient($vertical-angle, transparentize($image-gradient-color-top, $transparency-top), 
-		  transparentize($image-gradient-color-bottom, $transparency-bottom));
+		@include background-image(linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%));
 		display: block;
 		@include position(absolute, 0px 0px 0px 0px);
 		
@@ -43,16 +33,11 @@
 		}
 */
 	}
-
-	.hero-logo img {
-		height: 4em;
-		margin-bottom: 1em;
-	}
 	
 	.hero-inner {
 		@include outer-container;
 		@include clearfix;
-		padding: ($navigation-height + 3em) 4em 3em;
+		padding: ($navigation-height + 5em) 10em 6em;
 		margin: auto;
 		text-align: center;
 		color: $hero-color;
@@ -60,7 +45,7 @@
 		z-index: 99;
 
 		button {
-			@include button(simple, $base-accent-color);
+			@include button(simple, $blue);
 			font-size: $base-font-size;
 			outline: none;
 		}
@@ -74,7 +59,7 @@
 				font-weight: 200;
 
 				@include media($large-screen) {
-					font-size: 3.5em;
+					font-size: rem(64);
 				}
 			}
 

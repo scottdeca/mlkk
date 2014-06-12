@@ -2,7 +2,9 @@
 $sans-serif: $helvetica;
 $serif: $georgia;
 $base-font-family: $sans-serif;
-$header-font-family: $base-font-family;
+$display-font-family: "bree", $helvetica;
+$ui-font-family: "jaf-facitweb", "Din Next LT Pro", $helvetica;
+$header-font-family: $display-font-family;
 
 // Sizes
 $base-font-size: 1em;
@@ -26,7 +28,7 @@ $base-background-color: white;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-accent-color: $green;
 
 // Link Colors
 $base-link-color: $base-accent-color;

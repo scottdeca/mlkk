@@ -1,7 +1,7 @@
 header.navigation {
   $navigation-padding: 1em;
-  $navigation-background: $dark-gray;
-  $navigation-color: transparentize(white, 0.3);
+  $navigation-background: $green;
+  $navigation-color: transparentize(white, 0.1);
   $navigation-color-hover: white;
   $navigation-height: 60px;
   $navigation-nav-button-background: $base-accent-color;
@@ -13,12 +13,13 @@ header.navigation {
   $navigation-submenu-padding: 1em;
   $horizontal-bar-mode: $large-screen;
 
-  background-color: $navigation-background;
-  border-bottom: 1px solid darken($navigation-background, 10);
-  font-family: $sans-serif;
+  background-color: transparent;
+  font-family: $ui-font-family;
+  font-weight: 600;
   height: $navigation-height;
   width: 100%;
   z-index: 999;
+  position: absolute;
 
   .menu-wrapper {
     @include outer-container;
@@ -44,7 +45,7 @@ header.navigation {
     cursor: pointer;
     display: block;
     float: right;
-    font-family: $sans-serif;
+    font-family: $ui-font-family;
     font-weight: 700;
     line-height: $navigation-height;
     margin: 0;
@@ -64,7 +65,7 @@ header.navigation {
     z-index: 9999999;
     float: none;
     @include media ($horizontal-bar-mode) {
-      float: left;
+      float: right;
     }
   }
 
@@ -104,7 +105,8 @@ header.navigation {
     }
 
     a {
-      font-weight: 400;
+      font-weight: 600;
+      font-size: rem(14);
       display: inline-block;
       color: $navigation-color;
 

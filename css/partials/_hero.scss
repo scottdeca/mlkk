@@ -1,11 +1,5 @@
 .hero {	
 	$hero-color: white;
-
-	$image-gradient-color-top: black; 
-	$transparency-top: .7;
-	$image-gradient-color-bottom: black; 
-	$transparency-bottom: 1;
-	$vertical-angle: 180deg;
 	$navigation-height: em(60);
 	
 	background: url(/img/hero/hero_home_2.jpg);
@@ -22,16 +16,6 @@
 		@include background-image(linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%));
 		display: block;
 		@include position(absolute, 0px 0px 0px 0px);
-		
-/*
-		&:after {
-		  content: '';
-		  @include linear-gradient($horizontal-angle, transparentize($image-gradient-color-left, $transparency-left), 
-		    transparentize($image-gradient-color-right, $transparency-right));
-		  display: block;
-		  @include position(absolute, 0px 0px 0px 0px);
-		}
-*/
 	}
 	
 	.hero-inner {

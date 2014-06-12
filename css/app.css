@@ -652,16 +652,7 @@ header.navigation {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    left: 0px;
-    /*
-    		&:after {
-    		  content: '';
-    		  @include linear-gradient($horizontal-angle, transparentize($image-gradient-color-left, $transparency-left), 
-    		    transparentize($image-gradient-color-right, $transparency-right));
-    		  display: block;
-    		  @include position(absolute, 0px 0px 0px 0px);
-    		}
-    */ }
+    left: 0px; }
   .hero .hero-inner {
     max-width: 68em;
     margin-left: auto;

@@ -737,3 +737,66 @@ header.navigation {
           .hero .hero-inner .hero-copy p {
             font-size: 1.2em;
             max-width: 40%; } }
+
+.bullets {
+  overflow: auto;
+  margin-bottom: 1.5em; }
+  @media screen and (min-width: 53.75em) {
+    .bullets .two-col-bullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .bullets .two-col-bullet:last-child {
+        margin-right: 0; }
+      .bullets .two-col-bullet:nth-child(2n) {
+        margin-right: 0; }
+      .bullets .two-col-bullet:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (min-width: 53.75em) {
+    .bullets .three-col-bullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .bullets .three-col-bullet:last-child {
+        margin-right: 0; }
+      .bullets .three-col-bullet:nth-child(3n) {
+        margin-right: 0; }
+      .bullets .three-col-bullet:nth-child(3n+1) {
+        clear: left; } }
+  @media screen and (min-width: 53.75em) {
+    .bullets .four-col-bullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .bullets .four-col-bullet:last-child {
+        margin-right: 0; }
+      .bullets .four-col-bullet:nth-child(4n) {
+        margin-right: 0; }
+      .bullets .four-col-bullet:nth-child(4n+1) {
+        clear: left; } }
+  .bullets .bullet-icon {
+    width: 8.25em;
+    height: 8.25em;
+    margin: inherit auto; }
+  .bullets .bullet-icon-1 {
+    background-image: url(/img/bullet_1.png); }
+  .bullets .bullet-icon-2 {
+    background-image: url(/img/bullet_2.png); }
+  .bullets .bullet-icon-3 {
+    background-image: url(/img/bullet_3.png); }
+  .bullets .bullet-icon-4 {
+    background-image: url(/img/bullet_4.png); }
+  .bullets .bullet-content {
+    margin-bottom: 2em; }
+  .bullets h2 {
+    font-size: 1rem;
+    font-family: "bree", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #11afbc;
+    padding-top: 1.17857em;
+    margin-bottom: .5em;
+    display: inline-block; }

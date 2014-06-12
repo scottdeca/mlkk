@@ -1,24 +1,9 @@
 .bullets {
+	@include outer-container;
   overflow: auto;
   margin-bottom: $base-line-height;
 
-  // change ".three-col-bullet" class to this for two bullet layout
-  .two-col-bullet {
-    @include media($large-screen) {
-      @include span-columns(6);
-      @include omega(2n);  
-    } 
-  }
-  
-  .three-col-bullet {
-    @include media($large-screen) {
-      @include span-columns(4);
-      @include omega(3n);
-    }
-  }
-
-  // change ".three-col-bullet" class to this for four bullet layout
-  .four-col-bullet {
+  & > div {
     @include media($large-screen) {
       @include span-columns(3);
       @include omega(4n);
@@ -26,14 +11,8 @@
   }
 
   .bullet-icon {
-    //float: left;
-    //background: transparent;
-    //padding: $icon-bullet-size /4;
-    //border-radius: 50%;
     width: 100%;
     height: em(132);
-    //position: absolute;
-    //top: -($icon-bullet-size);
     margin: inherit auto;
     background-position: center center;
     background-repeat: no-repeat;
@@ -56,8 +35,8 @@
   }
 
   .bullet-content {
-    //margin-left: $icon-bullet-size *1.4;
     margin-bottom: 2em;
+    text-align: center;
   }
 
   h2 {
@@ -69,5 +48,10 @@
     padding-top: 1em;
     margin-bottom: .5em;
     display: inline-block;
+  }
+  
+  p {
+	  color: tint(black, 50%);
+	  font-size: rem(15);
   }
 }

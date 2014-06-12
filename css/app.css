@@ -739,43 +739,26 @@ header.navigation {
             max-width: 40%; } }
 
 .bullets {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
   overflow: auto;
   margin-bottom: 1.5em; }
+  .bullets:after {
+    content: "";
+    display: table;
+    clear: both; }
   @media screen and (min-width: 53.75em) {
-    .bullets .two-col-bullet {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .bullets .two-col-bullet:last-child {
-        margin-right: 0; }
-      .bullets .two-col-bullet:nth-child(2n) {
-        margin-right: 0; }
-      .bullets .two-col-bullet:nth-child(2n+1) {
-        clear: left; } }
-  @media screen and (min-width: 53.75em) {
-    .bullets .three-col-bullet {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .bullets .three-col-bullet:last-child {
-        margin-right: 0; }
-      .bullets .three-col-bullet:nth-child(3n) {
-        margin-right: 0; }
-      .bullets .three-col-bullet:nth-child(3n+1) {
-        clear: left; } }
-  @media screen and (min-width: 53.75em) {
-    .bullets .four-col-bullet {
+    .bullets > div {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .bullets .four-col-bullet:last-child {
+      .bullets > div:last-child {
         margin-right: 0; }
-      .bullets .four-col-bullet:nth-child(4n) {
+      .bullets > div:nth-child(4n) {
         margin-right: 0; }
-      .bullets .four-col-bullet:nth-child(4n+1) {
+      .bullets > div:nth-child(4n+1) {
         clear: left; } }
   .bullets .bullet-icon {
     width: 100%;
@@ -792,7 +775,8 @@ header.navigation {
   .bullets .bullet-icon-4 {
     background-image: url(/img/bullet_4.png); }
   .bullets .bullet-content {
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    text-align: center; }
   .bullets h2 {
     font-size: 1rem;
     font-family: "bree", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -802,3 +786,6 @@ header.navigation {
     padding-top: 1em;
     margin-bottom: .5em;
     display: inline-block; }
+  .bullets p {
+    color: #7f7f7f;
+    font-size: 0.9375rem; }

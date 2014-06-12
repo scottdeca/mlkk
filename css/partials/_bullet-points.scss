@@ -1,6 +1,4 @@
 .bullets {
-  $icon-bullet-size: em(132);
-  
   overflow: auto;
   margin-bottom: $base-line-height;
 
@@ -32,11 +30,13 @@
     //background: transparent;
     //padding: $icon-bullet-size /4;
     //border-radius: 50%;
-    width: $icon-bullet-size;
-    height: $icon-bullet-size;
+    width: 100%;
+    height: em(132);
     //position: absolute;
     //top: -($icon-bullet-size);
     margin: inherit auto;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 
   .bullet-icon-1 {
@@ -66,7 +66,7 @@
 	font-style: italic;
 	font-weight: 700;
 	color: $blue;
-    padding-top: $icon-bullet-size /7;
+    padding-top: 1em;
     margin-bottom: .5em;
     display: inline-block;
   }

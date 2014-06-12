@@ -61,14 +61,18 @@
 	    </div>
 	  </div>
 	  <div class="bullet four-col-bullet">
-	    <div class="bullet-icon bullet-icon-3"></div>
+	    <div class="bullet-icon">
+	      <img src="/img/bullet_3.png" alt="">
+	    </div>
 	    <div class="bullet-content">
 	      <h2>Last Bullet Title</h2>
 	      <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
 	    </div>
 	  </div>
 	  <div class="bullet four-col-bullet">
-	    <div class="bullet-icon bullet-icon-4"></div>
+	    <div class="bullet-icon">
+	      <img src="/img/bullet_4.png" alt="">
+	    </div>
 	    <div class="bullet-content">
 	      <h2>Last Bullet Title</h2>
 	      <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>

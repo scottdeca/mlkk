@@ -45,7 +45,7 @@
 		<div class="overlay"></div>
 	</div>
 	
-	<div class="bullets">
+	<section class="bullets">
 	  <div class="bullet">
 	    <div class="bullet-icon bullet-icon-1"></div>
 	    <div class="bullet-content">
@@ -74,8 +74,80 @@
 	      <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
 	    </div>
 	  </div> 
-	</div>
-
+	</section>
+	
+	<section class="featuredpage-newsfeed">
+		<div class="featured-page">
+			<h2>Lorem Ipsum dolor mets</h2>
+			<p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+		</div>
+		<div class="newsfeed">
+			<ul>
+				<li>
+					<h3 class="newsfeed-headline">Toledo City Paper nominates MLK Kitchen for an award</h3>
+					<span class="newsfeed-meta">Mar 25, 2014 | <a href="#">Read More</a></span>
+				</li>
+				<li>
+					<h3 class="newsfeed-headline">Toledo City Paper nominates MLK Kitchen for an award</h3>
+					<span class="newsfeed-meta">Mar 25, 2014 | <a href="#">Read More</a></span>
+				</li>
+				<li>
+					<h3 class="newsfeed-headline">Toledo City Paper nominates MLK Kitchen for an award</h3>
+					<span class="newsfeed-meta">Mar 25, 2014 | <a href="#">Read More</a></span>
+				</li>
+			</ul>
+		</div>
+	</section>
+	
+	<section class="testimonials-homepage">
+		<h2 class="inline-with-rule">What people are saying about MLK Kitchen</h2>
+		<p>Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit 
+remfugit latem que pe. Ga. Uciliatur aut ut excepro vitatur remoluptus.</p>
+		
+		<div class="testimonial-widget">
+			<div class="testimonial-image">
+				<img src="http://placehold.it/300x250" alt="" />
+			</div>
+			<div class="testimonial-quote">
+				<p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+				<span class="testimonial-name">– Marc Reynolds</span>
+			</div>
+		</div>
+		<span class="read-more">Read more stories &rarr;</span>
+	</section>
+	
+	<footer>
+		<div class="colophon">
+			<img class="logo" src="/img/kfp_logo_rev.png" alt="MLK Kitchen for the Poor" />
+			<div class="contact-info">
+				<ul class="address">
+					<li>Street Address</li>
+					<li>Address #1</li>
+					<li>Toledo, OH 43604</li>
+				</ul>
+				<ul class="phone-email">
+					<li>419 555 5555</li>
+					<li>contact@kitchenforthepoor</li>
+				</ul>
+			</div>
+			
+			<p class="copyright">Copyright ©2014 Martin Luther King Kitchen for the Poor. <a href="#">Privacy Policy</a></p>
+		</div>
+		
+		<div class="tell-us-more">
+			<h3>Tell us about you</h3>
+			<p>Whether you’d like to help out at our next event, help cook some meals, or just learn more, we’d be glad to hear from you.</p>
+			<form>
+				<select name="select_element">
+					<option value="1">Option 1</option>
+					<option value="2">Option 2</option>
+					<option value="3">Option 3</option>
+				</select>
+				<input class="button" type="submit" value="submit">
+			</form>
+		</div>
+	</footer>
+	
 
 <script src="js/vendor/jquery.js"></script>
 

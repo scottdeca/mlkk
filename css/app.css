@@ -825,6 +825,9 @@ header.navigation {
     font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 0.875rem;
     letter-spacing: -0.05em; }
+  .featuredpage-newsfeed .divider {
+    padding: 0 0.5em;
+    color: #b2b2b2; }
   .featuredpage-newsfeed a.read-more {
     color: #11afbc; }
     .featuredpage-newsfeed a.read-more:hover {

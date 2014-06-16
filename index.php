@@ -81,15 +81,15 @@
       <ul>
         <li>
           <h3 class="newsfeed-headline">Toledo City Paper nominates MLK Kitchen for an award</h3>
-          <span class="newsfeed-meta">Mar 25, 2014 | <a class="read-more" href="#">Read More</a></span>
+          <span class="newsfeed-meta">Mar 25, 2014<span class="divider">|</span><a class="read-more" href="#">Read More</a></span>
         </li>
         <li>
           <h3 class="newsfeed-headline">Toledo City Paper nominates MLK Kitchen for an award</h3>
-          <span class="newsfeed-meta">Mar 25, 2014 | <a class="read-more" href="#">Read More</a></span>
+          <span class="newsfeed-meta">Mar 25, 2014<span class="divider">|</span><a class="read-more" href="#">Read More</a></span>
         </li>
         <li>
           <h3 class="newsfeed-headline">Toledo City Paper nominates MLK Kitchen for an award</h3>
-          <span class="newsfeed-meta">Mar 25, 2014 | <a class="read-more" href="#">Read More</a></span>
+          <span class="newsfeed-meta">Mar 25, 2014<span class="divider">|</span><a class="read-more" href="#">Read More</a></span>
         </li>
       </ul>
     </div>

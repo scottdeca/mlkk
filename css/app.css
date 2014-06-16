@@ -199,6 +199,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.grid-wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .grid-wrapper:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 button,
 input[type="submit"] {
   -webkit-font-smoothing: antialiased;
@@ -219,8 +228,8 @@ input[type="submit"] {
 body {
   -webkit-font-smoothing: antialiased;
   background-color: white;
-  color: #333333;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #444444;
+  font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -276,12 +285,12 @@ img {
 
 blockquote {
   border-left: 2px solid #dddddd;
-  color: #595959;
+  color: #6a6a6a;
   margin: 1.5em 0;
   padding-left: 0.75em; }
 
 cite {
-  color: #737373;
+  color: #848484;
   font-style: italic; }
   cite:before {
     content: '\2014 \00A0'; }
@@ -296,7 +305,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em; }
 
 label {
@@ -320,7 +329,7 @@ select[multiple=multiple] {
   border-radius: 0.1875em;
   border: 1px solid #dddddd;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em 0.5em;
@@ -773,7 +782,10 @@ header.navigation {
 .featuredpage-newsfeed {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  border-top: 2px dotted #ddd;
+  padding-top: 3rem;
+  margin-bottom: 1.5em; }
   .featuredpage-newsfeed:after {
     content: "";
     display: table;
@@ -782,6 +794,158 @@ header.navigation {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%; }
+    width: 48.82117%;
+    padding: 0.625rem 0; }
     .featuredpage-newsfeed > div:last-child {
       margin-right: 0; }
+  .featuredpage-newsfeed .featured-page {
+    padding-right: 4rem;
+    border-right: 1px solid #ddd;
+    min-height: 250px; }
+    .featuredpage-newsfeed .featured-page h2 {
+      font-weight: 100;
+      font-size: 2.4375rem;
+      margin-bottom: 0.875rem; }
+    .featuredpage-newsfeed .featured-page p {
+      font-size: 1.125rem;
+      line-height: 1.625;
+      color: #999999; }
+  .featuredpage-newsfeed .newsfeed {
+    padding-left: 4rem; }
+  .featuredpage-newsfeed .newsfeed li {
+    margin-bottom: 0.8125rem; }
+  .featuredpage-newsfeed .newsfeed-headline {
+    font-style: italic;
+    line-height: 1; }
+  .featuredpage-newsfeed .newsfeed-meta {
+    font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: -0.05em; }
+  .featuredpage-newsfeed a.read-more {
+    color: #11afbc; }
+    .featuredpage-newsfeed a.read-more:hover {
+      color: #444444; }
+
+.testimonials-homepage {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .testimonials-homepage:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .testimonials-homepage .inline-with-rule {
+    text-align: center; }
+  .testimonials-homepage .description {
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.625; }
+  .testimonials-homepage .testimonial-widget {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    border: 1px solid #dddddd; }
+    .testimonials-homepage .testimonial-widget:last-child {
+      margin-right: 0; }
+
+footer {
+  background: #bed62f;
+  padding: 3em 1.618em;
+  width: 100%;
+  font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+  footer .colophon {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%; }
+    footer .colophon:last-child {
+      margin-right: 0; }
+    footer .colophon .logo {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 33.07155%;
+      margin-bottom: 1.75rem; }
+      footer .colophon .logo:last-child {
+        margin-right: 0; }
+    footer .colophon .address {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 25.63506%; }
+      footer .colophon .address:last-child {
+        margin-right: 0; }
+    footer .colophon .phone-email {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 55.38104%;
+      margin-left: 14.87299%; }
+      footer .colophon .phone-email:last-child {
+        margin-right: 0; }
+    footer .colophon .copyright {
+      float: left;
+      display: block;
+      margin-right: 4.11092%;
+      width: 100%; }
+      footer .colophon .copyright:last-child {
+        margin-right: 0; }
+  footer .tell-us-more {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    footer .tell-us-more:last-child {
+      margin-right: 0; }
+  footer p {
+    color: rgba(87, 103, 66, 0.7);
+    font-size: 0.9375rem;
+    line-height: 1.5em;
+    margin: auto; }
+  footer .footer-links {
+    margin-bottom: 1.5em; }
+    footer .footer-links:after {
+      content: "";
+      display: table;
+      clear: both; }
+    @media screen and (min-width: 40em) {
+      footer .footer-links {
+        margin-left: 25.58941%; } }
+  footer ul {
+    margin-bottom: 3em; }
+    @media screen and (min-width: 40em) {
+      footer ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%; }
+        footer ul:last-child {
+          margin-right: 0; }
+        footer ul:nth-child(3n) {
+          margin-right: 0; }
+        footer ul:nth-child(3n+1) {
+          clear: left; }
+        footer ul:after {
+          content: "";
+          display: table;
+          clear: both; } }
+  footer li {
+    text-align: center; }
+    @media screen and (min-width: 40em) {
+      footer li {
+        text-align: left; } }
+  footer li a {
+    color: rgba(87, 103, 66, 0.7); }
+    footer li a:hover {
+      color: #576742; }
+  footer li h3 {
+    color: #576742;
+    font-size: 1em;
+    font-weight: 800;
+    margin-bottom: .4em; }
+  footer hr {
+    border: 1px solid rgba(87, 103, 66, 0.4);
+    margin: 0 auto 1.5em;
+    width: 12em; }

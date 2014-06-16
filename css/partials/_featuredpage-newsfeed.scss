@@ -1,7 +1,56 @@
 .featuredpage-newsfeed {
 	@include outer-container;
+	border-top: 2px dotted #ddd;
+	padding-top: rem(48);
+	margin-bottom: $base-line-height;
 	
 	& > div {
 		@include span-columns(6);
+		padding: rem(10) 0;
 	}
+	
+	.featured-page {
+  	padding-right: rem(64);
+  	border-right: 1px solid #ddd;
+  	min-height: 250px;
+  	
+  	h2 {
+    	font-weight: 100;
+    	font-size: rem(39);
+    	margin-bottom: rem(14);
+  	}
+  	
+  	p {
+    	font-size: rem(18);
+    	line-height: (26 / 16);
+    	color: $medium-gray;
+  	}
+	}
+	
+	.newsfeed {
+  	padding-left: rem(64);
+	}
+	
+	.newsfeed li {
+  	margin-bottom: rem(13);
+	}
+	
+	.newsfeed-headline {
+  	font-style: italic;
+  	line-height: 1;
+  	//color: $dark-gray;
+	}
+	
+	.newsfeed-meta {
+  	font-family: $ui-font-family;
+  	font-size: rem(14);
+  	letter-spacing: -0.05em;
+	}
+	
+	a.read-more {
+  	color: $blue;
+  	
+  	&:hover { color: $dark-gray; }
+	}
+	
 }

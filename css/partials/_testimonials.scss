@@ -1,0 +1,23 @@
+.testimonials-homepage {
+  @include outer-container;
+  
+  .inline-with-rule {
+    text-align: center;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: rem(18);
+    line-height: (26 / 16);
+  }
+  
+  .testimonial-widget {
+    @include span-columns(8);
+    @include shift(2);
+    border: 1px solid $light-gray;
+    //drop shadow
+    
+    //crop image
+    //quote styling
+  }
+}

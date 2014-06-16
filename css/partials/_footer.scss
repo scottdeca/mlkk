@@ -1,0 +1,99 @@
+footer {
+  $footer-color: $dark-green;
+  $footer-link-color: transparentize($footer-color, .3);
+  $footer-disclaimer-color: transparentize($footer-color, .3);
+
+  background: $green;
+  padding: $base-line-height*2 $gutter;
+  width: 100%;
+  font-family: $ui-font-family;
+  
+  .colophon {
+  	 @include span-columns(7);
+  	 
+  	 .logo { 
+  	  @include span-columns(2.5 of 7);
+  	  margin-bottom: rem(28);
+  	  }
+  	 
+  	 .address {
+    	 @include span-columns(2 of 7);
+  	 }
+  	 
+  	 .phone-email {
+    	 @include span-columns(4 of 7);
+    	 @include shift(1);
+  	 }
+  	 
+  	 .copyright {
+    	 @include span-columns(7 of 7);
+  	 }
+  }
+  
+  .tell-us-more {
+    @include span-columns(5);
+  }
+  
+  p {
+    color: $footer-disclaimer-color;
+    font-size: rem(15);
+    line-height: 1.5em;
+    margin: auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .footer-links {
+    @include clearfix;
+    margin-bottom: $base-line-height;
+
+    @include media($medium-screen) {
+      @include shift(3);
+    }
+  }
+
+  ul {
+    margin-bottom: $base-line-height*2;
+
+    @include media($medium-screen) {
+      @include span-columns(3);
+      @include omega(3n);
+      @include clearfix;
+    }
+  }
+
+  li {
+    text-align: center;
+
+    @include media($medium-screen) {
+      text-align: left;
+    }
+  }
+
+  li a {
+    color: $footer-link-color;
+
+    &:hover {
+      color: transparentize($footer-color, 0);
+    }
+  }
+
+  li h3 {
+    color: $footer-color;
+    font-size: 1em;
+    font-weight: 800;
+    margin-bottom: .4em;
+  }  
+
+  hr {
+    border: 1px solid transparentize($footer-disclaimer-color, .3);
+    margin: 0 auto $base-line-height;
+    width: 12em;
+  }
+}

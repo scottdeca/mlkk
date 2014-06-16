@@ -1,5 +1,10 @@
+// Layout
+.grid-wrapper {
+    @include outer-container;
+  }
+
 // Typography
-$sans-serif: $helvetica;
+$sans-serif: "freight-sans-pro", $helvetica;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $display-font-family: "bree", $helvetica;
@@ -15,8 +20,9 @@ $base-border-radius: em(3);
 
 // Colors
 $green: #bed62f;
+$dark-green: #576742;
 $blue: #11afbc;
-$dark-gray: #333;
+$dark-gray: #444;
 $medium-gray: #999;
 $light-gray: #DDD;
 $light-red: #FBE3E4;

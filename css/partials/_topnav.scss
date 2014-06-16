@@ -102,27 +102,26 @@ header.navigation {
       line-height: $navigation-height;
       text-decoration: none;
       width: auto;
+      padding-right: 1.2em;
     }
 
     a {
       font-weight: 600;
       font-size: rem(14);
-      display: inline-block;
+      //display: inline-block;
+      padding-bottom: 3px;
       color: $navigation-color;
-
-      @include media ($horizontal-bar-mode) {
-        padding-right: 1em;
-      }
 
       &:hover {
         color: $navigation-color-hover;
+        border-bottom: 2px solid $navigation-color-hover;
       }
     }
   }
 
   .active-nav-item a {
     padding-bottom: 3px;
-    border-bottom: 1px solid $navigation-active-link-color;
+    border-bottom: 2px solid $navigation-active-link-color;
   }
 
   li.more {

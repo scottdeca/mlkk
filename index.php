@@ -21,12 +21,7 @@
           <li class="nav-link"><a href="javascript:void(0)">Our Work</a></li>
           <li class="nav-link"><a href="javascript:void(0)">Get Help</a></li>
           <li class="nav-link"><a href="javascript:void(0)">Get Involved</a></li>
-          <li class="nav-link more"><a href="javascript:void(0)">News & Events</a>
-            <ul class="submenu">
-              <li><a href="javascript:void(0)">Submenu Item</a></li>
-              <li><a href="javascript:void(0)">Another Item</a></li>
-            </ul>
-          </li>
+          <li class="nav-link"><a href="javascript:void(0)">News & Events</a>
           <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
           <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
         </ul>

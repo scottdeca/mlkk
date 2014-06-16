@@ -499,20 +499,19 @@ header.navigation {
         display: inline;
         line-height: 3.75em;
         text-decoration: none;
-        width: auto; } }
+        width: auto;
+        padding-right: 1.2em; } }
     header.navigation ul li a {
       font-weight: 600;
       font-size: 0.875rem;
-      display: inline-block;
+      padding-bottom: 3px;
       color: rgba(255, 255, 255, 0.9); }
-      @media screen and (min-width: 53.75em) {
-        header.navigation ul li a {
-          padding-right: 1em; } }
       header.navigation ul li a:hover {
-        color: white; }
+        color: white;
+        border-bottom: 2px solid white; }
   header.navigation .active-nav-item a {
     padding-bottom: 3px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5); }
   header.navigation li.more {
     padding-right: 0; }
     header.navigation li.more:hover .submenu {

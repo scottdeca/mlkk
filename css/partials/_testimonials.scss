@@ -18,9 +18,14 @@
   .testimonial-widget {
     @include span-columns(8);
     @include shift(2);
-    border: 1px solid $light-gray;
     margin-bottom: rem(100);
-    @extend .soft-dropshadow;
+    
+    & > div {
+      border: 1px solid $light-gray;
+      @extend .soft-dropshadow;
+      @include clearfix;
+      margin-bottom: em(14);
+    }
   }
   
   .testimonial-image {
@@ -28,7 +33,7 @@
       margin-right: 8%;
       float: left;
       overflow: hidden;
-      max-height: 200px;
+      max-height: em(200);
       
       img { width: 100%; }
     }
@@ -38,14 +43,26 @@
       width: 46%;
       
       p {
-        //font-family: $display-font-family;
+        position: relative;
         font-style: italic;
         font-weight: 100;
-        color: $medium-gray;
+        color: tint(black, 40%);
         font-size: rem(18);
         line-height: rem(23);
-        margin-top: rem(30);
+        margin-top: $base-line-height;
         padding-right: $base-line-height;
+        
+        &::before {
+          content: '';
+          position: absolute;
+          width: 24px;
+          height: 21px;
+          top: -4px;
+          left: -30px;
+          background-image: url(/img/icon_quote.png);
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
       }
       
       .testimonial-name {
@@ -56,10 +73,12 @@
     }
     
     .read-more {
-      @include span-columns(8);
-      @include shift(2);
-      
+      display: block;
+      font-family: $ui-font-family;
+      font-size: rem(15);
+      font-weight: 600;
       text-align: right;
+      color: $blue;
     }
     
 }

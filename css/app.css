@@ -208,7 +208,7 @@ table {
     display: table;
     clear: both; }
 
-.soft-dropshadow, .testimonials-homepage .testimonial-widget {
+.soft-dropshadow, .testimonials-homepage .testimonial-widget > div {
   -webkit-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18); }
@@ -856,42 +856,57 @@ header.navigation {
     margin-right: 2.35765%;
     width: 65.88078%;
     margin-left: 17.05961%;
-    border: 1px solid #dddddd;
     margin-bottom: 6.25rem; }
     .testimonials-homepage .testimonial-widget:last-child {
       margin-right: 0; }
+    .testimonials-homepage .testimonial-widget > div {
+      border: 1px solid #dddddd;
+      margin-bottom: 0.875em; }
+      .testimonials-homepage .testimonial-widget > div:after {
+        content: "";
+        display: table;
+        clear: both; }
   .testimonials-homepage .testimonial-image {
     width: 46%;
     margin-right: 8%;
     float: left;
     overflow: hidden;
-    max-height: 200px; }
+    max-height: 12.5em; }
     .testimonials-homepage .testimonial-image img {
       width: 100%; }
   .testimonials-homepage .testimonial-quote {
     float: left;
     width: 46%; }
     .testimonials-homepage .testimonial-quote p {
+      position: relative;
       font-style: italic;
       font-weight: 100;
-      color: #999999;
+      color: #666666;
       font-size: 1.125rem;
       line-height: 1.4375rem;
-      margin-top: 1.875rem;
+      margin-top: 1.5em;
       padding-right: 1.5em; }
+      .testimonials-homepage .testimonial-quote p::before {
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 21px;
+        top: -4px;
+        left: -30px;
+        background-image: url(/img/icon_quote.png);
+        background-repeat: no-repeat;
+        background-position: center center; }
     .testimonials-homepage .testimonial-quote .testimonial-name {
       font-style: normal;
       font-size: 1rem;
       color: #999999; }
   .testimonials-homepage .read-more {
-    float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-left: 17.05961%;
-    text-align: right; }
-    .testimonials-homepage .read-more:last-child {
-      margin-right: 0; }
+    font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-align: right;
+    color: #11afbc; }
 
 footer {
   background: #bed62f;

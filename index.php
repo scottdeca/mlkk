@@ -106,15 +106,17 @@
 remfugit latem que pe. Ga. Uciliatur aut ut excepro vitatur remoluptus.</p>
     
     <div class="testimonial-widget">
-      <div class="testimonial-image">
-        <img src="http://placehold.it/300x250" alt="" />
+      <div>
+        <div class="testimonial-image">
+          <img src="http://placehold.it/300x250" alt="" />
+        </div>
+        <div class="testimonial-quote">
+          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+          <span class="testimonial-name">– Marc Reynolds</span>
+        </div>
       </div>
-      <div class="testimonial-quote">
-        <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-        <span class="testimonial-name">– Marc Reynolds</span>
-      </div>
+      <span class="read-more">Read more stories &rarr;</span>
     </div>
-    <span class="read-more">Read more stories &rarr;</span>
   </section>
   
   <footer>

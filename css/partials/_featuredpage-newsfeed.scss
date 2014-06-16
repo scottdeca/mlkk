@@ -25,6 +25,12 @@
     	line-height: (26 / 16);
     	color: $medium-gray;
   	}
+  	
+  	button {
+    	background-color: white;
+      border: 1px solid $base-button-color;
+      color: $base-button-color;
+  	}
 	}
 	
 	.newsfeed {

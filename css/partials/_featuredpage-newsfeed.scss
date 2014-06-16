@@ -2,7 +2,7 @@
 	@include outer-container;
 	border-top: 2px dotted #ddd;
 	padding-top: rem(48);
-	margin-bottom: $base-line-height;
+	margin-bottom: $base-line-height*2;
 	
 	& > div {
 		@include span-columns(6);
@@ -23,7 +23,7 @@
   	p {
     	font-size: rem(18);
     	line-height: (26 / 16);
-    	color: $medium-gray;
+    	//color: $medium-gray;
   	}
   	
   	button {

@@ -1,6 +1,6 @@
 .hero {	
 	$hero-color: white;
-	$navigation-height: em(60);
+	$navigation-height: (em(85) + 1em);
 	
 	background: url(/img/hero/hero_home_2.jpg);
 	background-size: cover;
@@ -9,7 +9,7 @@
 	position: relative;
 	width: 100%;
 	display: table;
-	margin-bottom: $base-line-height;
+	margin-bottom: $base-line-height*3;
 	
 	
 	.overlay {

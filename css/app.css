@@ -208,6 +208,11 @@ table {
     display: table;
     clear: both; }
 
+.soft-dropshadow, .testimonials-homepage .testimonial-widget {
+  -webkit-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18); }
+
 button,
 input[type="submit"] {
   -webkit-font-smoothing: antialiased;
@@ -835,19 +840,57 @@ header.navigation {
     display: table;
     clear: both; }
   .testimonials-homepage .inline-with-rule {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 0.5rem; }
   .testimonials-homepage .description {
     text-align: center;
     font-size: 1.125rem;
-    line-height: 1.625; }
+    line-height: 1.625rem;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.125rem; }
   .testimonials-homepage .testimonial-widget {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
     margin-left: 17.05961%;
-    border: 1px solid #dddddd; }
+    border: 1px solid #dddddd;
+    margin-bottom: 6.25rem; }
     .testimonials-homepage .testimonial-widget:last-child {
+      margin-right: 0; }
+  .testimonials-homepage .testimonial-image {
+    width: 46%;
+    margin-right: 8%;
+    float: left;
+    overflow: hidden;
+    max-height: 200px; }
+    .testimonials-homepage .testimonial-image img {
+      width: 100%; }
+  .testimonials-homepage .testimonial-quote {
+    float: left;
+    width: 46%; }
+    .testimonials-homepage .testimonial-quote p {
+      font-style: italic;
+      font-weight: 100;
+      color: #999999;
+      font-size: 1.125rem;
+      line-height: 1.4375rem;
+      margin-top: 1.875rem;
+      padding-right: 1.5em; }
+    .testimonials-homepage .testimonial-quote .testimonial-name {
+      font-style: normal;
+      font-size: 1rem;
+      color: #999999; }
+  .testimonials-homepage .read-more {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    text-align: right; }
+    .testimonials-homepage .read-more:last-child {
       margin-right: 0; }
 
 footer {

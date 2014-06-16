@@ -1,7 +1,12 @@
 // Layout
 .grid-wrapper {
-    @include outer-container;
-  }
+  @include outer-container;
+}
+
+// Styles
+.soft-dropshadow {
+  @include prefixer(box-shadow, 0px 1px 14px 0px rgba(0, 0, 0, 0.18), webkit moz spec);       
+}
 
 // Typography
 $sans-serif: "freight-sans-pro", $helvetica;

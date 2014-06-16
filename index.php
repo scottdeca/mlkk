@@ -34,8 +34,8 @@
       <div class="hero-copy">
         <h1>Tem qui dellor sunt voluptaepre 200 et a con 52 soluptati unt quo omniet occaesequo ommo.</h1>
       </div>
-      <button>Learn More</button>
-      <button>Give</button>
+      <button class="learn-more">Learn More</button>
+      <button class="give">Give</button>
     </div>
     <div class="overlay"></div>
   </div>

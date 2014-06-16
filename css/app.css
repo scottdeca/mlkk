@@ -685,36 +685,20 @@ header.navigation {
       display: table;
       clear: both; }
     .hero .hero-inner button {
-      border: 1px solid #057781;
-      border-radius: 3px;
-      box-shadow: inset 0 1px 0 0 #37d6e3;
-      color: white;
-      display: inline-block;
-      font-size: inherit;
-      font-weight: bold;
-      background-color: #11afbc;
-      background-image: -webkit-linear-gradient(#11afbc, #06858f);
-      background-image: linear-gradient(#11afbc, #06858f);
-      padding: 7px 18px;
-      text-decoration: none;
-      text-shadow: 0 1px 0 #016870;
-      background-clip: padding-box;
       font-size: 1em;
       outline: none; }
-      .hero .hero-inner button:hover:not(:disabled) {
-        box-shadow: inset 0 1px 0 0 #1bbecb;
-        cursor: pointer;
-        background-color: #1296a1;
-        background-image: -webkit-linear-gradient(#1296a1, #067780);
-        background-image: linear-gradient(#1296a1, #067780); }
-      .hero .hero-inner button:active:not(:disabled), .hero .hero-inner button:focus:not(:disabled) {
-        border: 1px solid #057781;
-        box-shadow: inset 0 0 8px 4px #066871, inset 0 0 8px 4px #066871; }
-      .hero .hero-inner button:disabled {
-        opacity: 0.5;
-        cursor: not-allowed; }
+    .hero .hero-inner .learn-more {
+      background-color: transparent;
+      border: 1px solid white; }
+    .hero .hero-inner .give {
+      background-color: white;
+      color: #576742;
+      border: 1px solid white;
+      margin-left: 1em;
+      min-width: 5.625em; }
     .hero .hero-inner .hero-copy {
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 3.875em; }
       .hero .hero-inner .hero-copy h1 {
         font-size: 1.8em;
         margin-bottom: .2em;

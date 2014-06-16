@@ -29,13 +29,26 @@
 		z-index: 99;
 
 		button {
-			@include button(simple, $blue);
 			font-size: $base-font-size;
 			outline: none;
+		}
+		
+		.learn-more {
+  		background-color: transparent;
+  		border: 1px solid white;
+		}
+		
+		.give {
+  		background-color: white;
+  		color: $dark-green;
+  		border: 1px solid white;
+  		margin-left: 1em;
+  		min-width: em(90);
 		}
 
 		.hero-copy {
 			text-align: center;
+			margin-bottom: em(62);
 			
 			h1 {
 				font-size: 1.8em;

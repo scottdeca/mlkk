@@ -117,7 +117,7 @@ remfugit latem que pe. Ga. Uciliatur aut ut excepro vitatur remoluptus.</p>
   <footer>
     <div class="grid-wrapper">
       <div class="colophon">
-        <img class="logo" src="/img/kfp_logo_rev.png" alt="MLK Kitchen for the Poor">
+        <img class="logo" src="/img/kfp_logo_green.png" alt="MLK Kitchen for the Poor">
         <div class="contact-info">
           <ul class="address">
             <li>Street Address</li>

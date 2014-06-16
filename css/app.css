@@ -922,6 +922,9 @@ footer {
     width: 57.35098%; }
     footer .colophon:last-child {
       margin-right: 0; }
+    footer .colophon li {
+      font-size: 0.875rem;
+      line-height: 1.55; }
     footer .colophon .logo {
       float: left;
       display: block;
@@ -941,29 +944,83 @@ footer {
       float: left;
       display: block;
       margin-right: 4.11092%;
-      width: 55.38104%;
-      margin-left: 14.87299%; }
+      width: 55.38104%; }
       footer .colophon .phone-email:last-child {
         margin-right: 0; }
     footer .colophon .copyright {
       float: left;
       display: block;
       margin-right: 4.11092%;
-      width: 100%; }
+      width: 100%;
+      text-transform: uppercase;
+      font-size: 0.75rem; }
       footer .colophon .copyright:last-child {
         margin-right: 0; }
+      footer .colophon .copyright a {
+        color: rgba(87, 103, 66, 0.7); }
+        footer .colophon .copyright a:hover {
+          color: #576742; }
   footer .tell-us-more {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 40.29137%; }
+    width: 40.29137%;
+    padding-left: 6%;
+    border-left: 1px solid rgba(87, 103, 66, 0.2); }
     footer .tell-us-more:last-child {
       margin-right: 0; }
-  footer p {
-    color: rgba(87, 103, 66, 0.7);
-    font-size: 0.9375rem;
-    line-height: 1.5em;
-    margin: auto; }
+    footer .tell-us-more h3 {
+      font-size: 1.875rem;
+      line-height: 2.75rem;
+      font-weight: 100;
+      margin-bottom: 0.6875rem; }
+    footer .tell-us-more p {
+      font-size: 1.0625rem;
+      line-height: 1.5rem;
+      font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      margin-bottom: 2.5em;
+      color: rgba(87, 103, 66, 0.75); }
+    footer .tell-us-more select {
+      width: 80%;
+      float: left;
+      -webkit-appearance: none !important;
+      background-color: #bed62f;
+      background-image: url(/img/icon_dropdown_arrow.png);
+      background-repeat: no-repeat;
+      background-position: 97% center;
+      border: 1px solid rgba(87, 103, 66, 0.8);
+      padding: 0.44444rem;
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.75);
+      line-height: normal;
+      border-radius: 0;
+      height: 2.5rem; }
+    footer .tell-us-more .button {
+      width: 20%;
+      float: left;
+      color: #bed62f;
+      background-color: rgba(87, 103, 66, 0.8);
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      display: block;
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding-top: 0;
+      padding-bottom: 0;
+      border-style: solid;
+      border-width: 1px;
+      overflow: hidden;
+      font-size: 1rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      text-align: center;
+      border: none; }
   footer .footer-links {
     margin-bottom: 1.5em; }
     footer .footer-links:after {
@@ -999,9 +1056,9 @@ footer {
   footer li a {
     color: rgba(87, 103, 66, 0.7); }
     footer li a:hover {
-      color: #576742; }
+      color: rgba(87, 103, 66, 0.8); }
   footer li h3 {
-    color: #576742;
+    color: rgba(87, 103, 66, 0.8);
     font-size: 1em;
     font-weight: 800;
     margin-bottom: .4em; }

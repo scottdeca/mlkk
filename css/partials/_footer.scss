@@ -1,7 +1,9 @@
 footer {
-  $footer-color: $dark-green;
-  $footer-link-color: transparentize($footer-color, .3);
-  $footer-disclaimer-color: transparentize($footer-color, .3);
+  $footer-color: transparentize($dark-green, .2);
+  $footer-link-color: transparentize($footer-color, .1);
+  $footer-disclaimer-color: transparentize($footer-color, .1);
+  $footer-form-height: rem(40);
+  $footer-font-size: rem(16);
 
   background: $green;
   padding: $base-line-height*2 $gutter;
@@ -10,6 +12,11 @@ footer {
   
   .colophon {
   	 @include span-columns(7);
+  	 
+  	 li {
+    	 font-size: rem(14);
+    	 line-height: 1.55;
+  	 }
   	 
   	 .logo { 
   	  @include span-columns(2.5 of 7);
@@ -22,24 +29,92 @@ footer {
   	 
   	 .phone-email {
     	 @include span-columns(4 of 7);
-    	 @include shift(1);
   	 }
   	 
   	 .copyright {
     	 @include span-columns(7 of 7);
+    	 text-transform: uppercase;
+    	 font-size: rem(12);
+    	 
+    	 a { 
+    	  color: $footer-disclaimer-color;
+    	  &:hover { color: $dark-green; }
+    	  }
   	 }
   }
   
   .tell-us-more {
     @include span-columns(5);
+    padding-left: 6%;
+    border-left: 1px solid transparentize($footer-color, .6);
+    
+    h3 {
+      font-size: rem(30);
+      line-height: rem(44);
+      font-weight: 100;
+      margin-bottom: rem(11);
+    }
+    
+    p {
+      font-size: rem(17);
+      line-height: rem(24);
+      font-family: $sans-serif;
+      margin-bottom: em(40);
+      color: transparentize($footer-color, .05);
+    }
+    
+    select {
+      width: 80%;
+      float: left;
+      
+      -webkit-appearance: none !important;
+      background-color: $green;
+      //background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCIDQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTQuMSA3LjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE0LjEgNy44OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIDQo8Zz4NCgk8cG9seWxpbmUgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6IzVGNkQxODsiIHBvaW50cz0iMC40LDAuNCA2LjcsNi43IDcuMSw3LjEgNy40LDYuNyAxMy44LDAuNCAJIi8+DQo8L2c+DQo8L3N2Zz4NCg==');
+      background-image: url(/img/icon_dropdown_arrow.png);
+      background-repeat: no-repeat;
+      background-position: 97% center;
+      border: 1px solid $footer-color;
+      padding: 0.44444rem;
+      font-size: $footer-font-size;
+      color: rgba(0, 0, 0, 0.75);
+      line-height: normal;
+      border-radius: 0;
+      height: $footer-form-height;
+    }
+    
+    .button {
+      width: 20%;
+      float: left;
+      
+      color: $green;
+      background-color: $footer-color;
+      @include prefixer(border-radius, 0, webkit moz spec);
+      
+      // Clean up required here
+      display: block;
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      //width: 100%;
+      padding-top: 0;
+      padding-bottom: 0;
+      border-style: solid;
+      border-width: 1px;
+      overflow: hidden;
+      font-size: $footer-font-size;
+      height: $footer-form-height;
+      line-height: $footer-form-height;
+      
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      text-align: center;
+      //line-height: 1.88889rem;
+      border: none;
+    }
   }
-  
-  p {
-    color: $footer-disclaimer-color;
-    font-size: rem(15);
-    line-height: 1.5em;
-    margin: auto;
-  }
+
   
   
   

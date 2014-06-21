@@ -43,7 +43,7 @@
       <li class="active" data-magellan-arrival="mission"><a href="#mission">Mission</a></li>
       <li data-magellan-arrival="hunger"><a href="#hunger">Learn about hunger</a></li>
       <li data-magellan-arrival="programs"><a href="#programs">Programs</a></li>
-      <lidata-magellan-arrival="stories"><a href="#stories">Stories</a></li>
+      <li data-magellan-arrival="stories"><a href="#stories">Stories</a></li>
     </ul>
   </div>
   

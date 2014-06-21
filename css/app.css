@@ -419,14 +419,15 @@ input[type="submit"] {
   white-space: nowrap; }
 
 [data-magellan-expedition], [data-magellan-expedition-clone] {
-  z-index: 50;
-  min-width: 100%; }
-  [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
-    margin-bottom: 0; }
-    [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
-      margin-bottom: 0; }
-    [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
-      line-height: 1.8em; }
+  /*
+.sub-nav {
+    margin-bottom: 0;
+    dd { margin-bottom: 0; }
+    a {
+      line-height: 1.8em;
+    }
+  }
+*/ }
 
 header.navigation {
   background-color: transparent;

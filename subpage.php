@@ -107,7 +107,7 @@ Rev. the tremendous need he saw in his community.</p>
     <div class="program-widget">
       <div class="program-slide-1">
         <div class="program-image">
-          <img src="http://placehold.it/618x256"
+          <img src="http://placehold.it/800x256">
         </div>
         <div class="program-info">
           <h3>Bowl-a-Thon</h3>

@@ -20,7 +20,13 @@
      }
   }
   
+  
+  // Subpage overrides -- slightly redundant, unless these items get reused on other pages
   .mini-bullet-points {
+    @include span-columns(8);
+  }
+  
+  .program-widget {
     @include span-columns(8);
   }
 }
@@ -28,14 +34,16 @@
 .subpage {
   h2 {
     font-weight: 100;
-    font-size: $base-font-size * 2.5;
+    //font-size: $base-font-size * 2.5;
+    font-size: rem(39);
     line-height: $unitless-line-height * .8;
     margin-bottom: $base-line-height * .4;
   }
   
   section > p {
     @include span-columns(8);
-    font-size: $base-font-size * 1.4;
+    //font-size: $base-font-size * 1.4;
+    font-size: rem(21);
     line-height: $unitless-line-height * .95;
   }
 }
@@ -115,5 +123,40 @@
   
   .quote-credit {
     font-size: $base-font-size * 1.3;
+  }
+}
+
+.program-widget {
+  @include span-columns(8);
+  margin: $base-line-height 0 ($base-line-height * 2.3);
+  background-color: white;
+  border: 1px solid $light-gray;
+  @extend .soft-dropshadow;
+  
+  .program-image {
+    max-height: rem(256);
+    margin: 0;
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  .program-info {
+    padding: $base-line-height * 2;
+    padding-top: $base-line-height *.75;
+    text-align: center;
+    
+    h3 {
+      font-size: rem(30);
+      margin-bottom: $base-line-height * .2;
+      color: $blue;
+    }
+    
+    p {
+      font-size: rem(18);
+      color: tint(black, 50%);
+    }
   }
 }

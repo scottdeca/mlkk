@@ -418,17 +418,6 @@ input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap; }
 
-[data-magellan-expedition], [data-magellan-expedition-clone] {
-  /*
-.sub-nav {
-    margin-bottom: 0;
-    dd { margin-bottom: 0; }
-    a {
-      line-height: 1.8em;
-    }
-  }
-*/ }
-
 header.navigation {
   background-color: transparent;
   font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;

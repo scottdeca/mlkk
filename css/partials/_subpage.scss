@@ -29,6 +29,10 @@
   .program-widget {
     @include span-columns(8);
   }
+  
+  .testimonial-widget {
+    @include span-columns(6);
+    }
 }
 
 .subpage {
@@ -136,9 +140,10 @@
   .program-image {
     max-height: rem(256);
     margin: 0;
+    overflow: hidden;
     
     img {
-      max-width: 100%;
+      width: 100%;
       height: auto;
     }
   }
@@ -159,4 +164,82 @@
       color: tint(black, 50%);
     }
   }
+}
+
+
+.testimonial-widget {
+  margin-bottom: rem(100);
+  
+  .testimonial-box {
+    border: 1px solid $light-gray;
+    @extend .soft-dropshadow;
+    @include clearfix;
+    margin-bottom: em(14);
+  }
+}
+  
+.testimonial-image {
+    overflow: hidden;
+    max-height: em(200);
+    
+    img { width: 100%; }
+  }
+
+.testimonial-info {
+  padding: $base-line-height * 1.6;
+  
+  h4 {
+    font-size: rem(30);
+    font-weight: 100;
+    line-height: $unitless-line-height * .7;
+    margin-bottom: $base-line-height * .3;
+  }
+  
+  p {
+    font-size: rem(18);
+    color: tint(black, 40%);
+    line-height: $unitless-line-height * .9;
+  }
+}
+
+.testimonial-quote {
+  padding: $base-line-height * 1.6;
+  
+  p {
+    position: relative;
+    font-style: italic;
+    font-weight: 100;
+    color: tint(black, 40%);
+    font-size: rem(18);
+    line-height: rem(23);
+    margin: 0 $base-line-height ($base-line-height * .5) ($base-line-height * 2);
+    
+    &::before {
+      content: '';
+      position: absolute;
+      width: 24px;
+      height: 21px;
+      top: -4px;
+      left: -30px;
+      background-image: url(/img/icon_quote.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+  
+  .testimonial-name {
+    margin-left: $base-line-height * 2;
+    font-style: normal;
+    font-size: rem(16);
+    color: tint(black, 60%);
+  }
+}
+
+.read-more {
+  display: block;
+  font-family: $ui-font-family;
+  font-size: rem(15);
+  font-weight: 600;
+  text-align: right;
+  color: $blue;
 }

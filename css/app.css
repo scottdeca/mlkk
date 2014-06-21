@@ -1106,7 +1106,7 @@ footer {
 .subpage h2 {
   font-weight: 100;
   font-size: 2.5em;
-  line-height: 1.125em;
+  line-height: 1.2;
   margin-bottom: 0.6em; }
 .subpage section > p {
   float: left;
@@ -1114,7 +1114,7 @@ footer {
   margin-right: 2.35765%;
   width: 65.88078%;
   font-size: 1.4em;
-  line-height: 1.425em; }
+  line-height: 1.425; }
   .subpage section > p:last-child {
     margin-right: 0; }
 
@@ -1146,5 +1146,26 @@ footer {
     margin-bottom: 0.3em; }
   .mini-bullet-point p {
     font-size: 1.1em;
-    line-height: 1.41em;
+    line-height: 1.41;
     padding-right: 10%; }
+
+.info-snacks {
+  min-height: 30.625rem;
+  background-color: #bed62f;
+  text-align: center;
+  padding: 9.375rem 0;
+  margin: 4.2em 0; }
+  .info-snacks h3 {
+    font-size: 2.8em;
+    font-style: italic;
+    color: white;
+    margin-bottom: 1.05em; }
+  .info-snacks .big-number {
+    font-size: 4.6875rem;
+    font-weight: 100;
+    color: black; }
+  .info-snacks .big-number-caption {
+    font-size: 1.875rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400; }

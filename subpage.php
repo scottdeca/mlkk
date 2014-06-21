@@ -76,11 +76,13 @@ Rev. the tremendous need he saw in his community.</p>
   </section>
   
   <div class="info-snacks">
-    <h3>Since opening our doors in 1969</h3>
-    <div class="sliding-facts">
-      <div id="slide-1">
-        <h4 class="big-number">2,309,239,001</h4>
-        <h5 class="description">Meals Served</h5>
+    <div class="grid-wrapper">
+      <h3>Since opening our doors in 1969</h3>
+      <div class="sliding-facts">
+        <div id="slide-1">
+          <h4 class="big-number">2,309,239,001</h4>
+          <h5 class="big-number-caption">Meals Served</h5>
+        </div>
       </div>
     </div>
   </div>

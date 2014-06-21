@@ -29,14 +29,14 @@
   h2 {
     font-weight: 100;
     font-size: $base-font-size * 2.5;
-    line-height: $header-line-height * .9;
+    line-height: $unitless-line-height * .8;
     margin-bottom: $base-line-height * .4;
   }
   
   section > p {
     @include span-columns(8);
     font-size: $base-font-size * 1.4;
-    line-height: $base-line-height * .95;
+    line-height: $unitless-line-height * .95;
   }
 }
 
@@ -59,7 +59,38 @@
   
   p {
     font-size: $base-font-size * 1.1;
-    line-height: $base-line-height * .94;
+    line-height: $unitless-line-height * .94;
     padding-right: 10%;
+  }
+}
+
+.info-snacks {
+  min-height: rem(490);
+  background-color: $green;
+  text-align: center;
+  padding: rem(150) 0;
+  margin: ($base-line-height * 2.8) 0;
+  
+  h3 {
+    font-size: $base-font-size * 2.8;
+    font-style: italic;
+    color: white;
+    margin-bottom: $base-line-height * .7;
+  }
+  
+  .sliding-facts {
+  }
+  
+  .big-number {
+    font-size: rem(75);
+    font-weight: 100;
+    color: black;
+  }
+  
+  .big-number-caption {
+    font-size: rem(30);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
   }
 }

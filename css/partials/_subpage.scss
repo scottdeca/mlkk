@@ -20,6 +20,9 @@
      }
   }
   
+  .mini-bullet-points {
+    @include span-columns(8);
+  }
 }
 
 .subpage {
@@ -27,18 +30,19 @@
     font-weight: 100;
     font-size: $base-font-size * 2.5;
     line-height: $header-line-height * .9;
-    margin-bottom: $base-line-height * .5;
+    margin-bottom: $base-line-height * .4;
   }
   
   section > p {
     @include span-columns(8);
     font-size: $base-font-size * 1.4;
-    line-height: $base-line-height * .85;
+    line-height: $base-line-height * .95;
   }
 }
 
 .mini-bullet-points {
   @include span-columns(8);
+  margin-top: $base-line-height * 1.5;
 }
 
 .mini-bullet-point {
@@ -49,10 +53,13 @@
   h4 {
     font-size: $base-font-size;
     font-style: italic;
+    color: $blue;
     margin-bottom: $base-line-height * .2;
   }
   
   p {
-    font-size: $base-font-size;
+    font-size: $base-font-size * 1.1;
+    line-height: $base-line-height * .94;
+    padding-right: 10%;
   }
 }

@@ -1095,19 +1095,26 @@ footer {
     width: 23.23176%; }
     .subpage-with-subnav .subpage-subnav > ul:last-child {
       margin-right: 0; }
+.subpage-with-subnav .mini-bullet-points {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .subpage-with-subnav .mini-bullet-points:last-child {
+    margin-right: 0; }
 
 .subpage h2 {
   font-weight: 100;
   font-size: 2.5em;
   line-height: 1.125em;
-  margin-bottom: 0.75em; }
+  margin-bottom: 0.6em; }
 .subpage section > p {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 65.88078%;
   font-size: 1.4em;
-  line-height: 1.275em; }
+  line-height: 1.425em; }
   .subpage section > p:last-child {
     margin-right: 0; }
 
@@ -1115,7 +1122,8 @@ footer {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%; }
+  width: 65.88078%;
+  margin-top: 2.25em; }
   .mini-bullet-points:last-child {
     margin-right: 0; }
 
@@ -1134,6 +1142,9 @@ footer {
   .mini-bullet-point h4 {
     font-size: 1em;
     font-style: italic;
+    color: #11afbc;
     margin-bottom: 0.3em; }
   .mini-bullet-point p {
-    font-size: 1em; }
+    font-size: 1.1em;
+    line-height: 1.41em;
+    padding-right: 10%; }

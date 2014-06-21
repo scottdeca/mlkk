@@ -418,6 +418,16 @@ input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap; }
 
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+  z-index: 50;
+  min-width: 100%; }
+  [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
+    margin-bottom: 0; }
+    [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
+      margin-bottom: 0; }
+    [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
+      line-height: 1.8em; }
+
 header.navigation {
   background-color: transparent;
   font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -691,12 +701,18 @@ header.navigation {
     .hero .hero-inner .learn-more {
       background-color: transparent;
       border: 1px solid white; }
+      .hero .hero-inner .learn-more:hover {
+        background-color: rgba(255, 255, 255, 0.2); }
     .hero .hero-inner .give {
       background-color: white;
       color: #576742;
       border: 1px solid white;
       margin-left: 1em;
       min-width: 5.625em; }
+      .hero .hero-inner .give:hover {
+        -webkit-box-shadow: 0px 0px 18px 0px rgba(255, 255, 255, 0.6);
+        -moz-box-shadow: 0px 0px 18px 0px rgba(255, 255, 255, 0.6);
+        box-shadow: 0px 0px 18px 0px rgba(255, 255, 255, 0.6); }
     .hero .hero-inner .hero-copy {
       text-align: center;
       margin-bottom: 3.875em; }
@@ -1054,3 +1070,38 @@ footer {
     border: 1px solid rgba(87, 103, 66, 0.4);
     margin: 0 auto 1.5em;
     width: 12em; }
+
+.hero {
+  background: url(/img/hero/hero_home_2.jpg); }
+
+.subpage-with-subnav section {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .subpage-with-subnav section:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .subpage-with-subnav section > * {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-left: 25.58941%; }
+    .subpage-with-subnav section > *:last-child {
+      margin-right: 0; }
+.subpage-with-subnav .subpage-subnav {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .subpage-with-subnav .subpage-subnav:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .subpage-with-subnav .subpage-subnav > ul {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .subpage-with-subnav .subpage-subnav > ul:last-child {
+      margin-right: 0; }

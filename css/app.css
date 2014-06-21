@@ -1095,3 +1095,45 @@ footer {
     width: 23.23176%; }
     .subpage-with-subnav .subpage-subnav > ul:last-child {
       margin-right: 0; }
+
+.subpage h2 {
+  font-weight: 100;
+  font-size: 2.5em;
+  line-height: 1.125em;
+  margin-bottom: 0.75em; }
+.subpage section > p {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  font-size: 1.4em;
+  line-height: 1.275em; }
+  .subpage section > p:last-child {
+    margin-right: 0; }
+
+.mini-bullet-points {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .mini-bullet-points:last-child {
+    margin-right: 0; }
+
+.mini-bullet-point {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  margin-bottom: 1.05em; }
+  .mini-bullet-point:last-child {
+    margin-right: 0; }
+  .mini-bullet-point:nth-child(2n) {
+    margin-right: 0; }
+  .mini-bullet-point:nth-child(2n+1) {
+    clear: left; }
+  .mini-bullet-point h4 {
+    font-size: 1em;
+    font-style: italic;
+    margin-bottom: 0.3em; }
+  .mini-bullet-point p {
+    font-size: 1em; }

@@ -93,9 +93,11 @@ Rev. the tremendous need he saw in his community.</p>
     <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
   </section>
   
-  <div class="quote">
-    <h3>“Were it not for the generous hearts of our donors and supporters, we would be unable to meet that need”</h3>
-    <span class="quote-name">Harvey</span>
+  <div class="featured-quote">
+    <div class="grid-wrapper">
+      <h3>“Were it not for the generous hearts of our donors and supporters, we would be unable to meet that need”</h3>
+      <span class="quote-credit">&mdash; Harvey</span>
+    </div>
   </div>
   
   <section id="programs">

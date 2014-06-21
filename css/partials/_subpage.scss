@@ -64,12 +64,16 @@
   }
 }
 
-.info-snacks {
+%section-breaks {
   min-height: rem(490);
   background-color: $green;
   text-align: center;
   padding: rem(150) 0;
   margin: ($base-line-height * 2.8) 0;
+}
+
+.info-snacks {
+  @extend %section-breaks;
   
   h3 {
     font-size: $base-font-size * 2.8;
@@ -92,5 +96,24 @@
     color: white;
     text-transform: uppercase;
     font-weight: 400;
+  }
+}
+
+.featured-quote {
+  @extend %section-breaks;
+  background-color: #ddd;
+  
+  .grid-wrapper {
+    padding: 0 10em;
+  }
+  
+  h3 {
+    color: $blue;
+    font-size: rem(43);
+    font-style: italic;
+  }
+  
+  .quote-credit {
+    font-size: $base-font-size * 1.3;
   }
 }

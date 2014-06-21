@@ -1149,23 +1149,35 @@ footer {
     line-height: 1.41;
     padding-right: 10%; }
 
-.info-snacks {
+.info-snacks, .featured-quote {
   min-height: 30.625rem;
   background-color: #bed62f;
   text-align: center;
   padding: 9.375rem 0;
   margin: 4.2em 0; }
-  .info-snacks h3 {
-    font-size: 2.8em;
-    font-style: italic;
-    color: white;
-    margin-bottom: 1.05em; }
-  .info-snacks .big-number {
-    font-size: 4.6875rem;
-    font-weight: 100;
-    color: black; }
-  .info-snacks .big-number-caption {
-    font-size: 1.875rem;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 400; }
+
+.info-snacks h3 {
+  font-size: 2.8em;
+  font-style: italic;
+  color: white;
+  margin-bottom: 1.05em; }
+.info-snacks .big-number {
+  font-size: 4.6875rem;
+  font-weight: 100;
+  color: black; }
+.info-snacks .big-number-caption {
+  font-size: 1.875rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+.featured-quote {
+  background-color: #ddd; }
+  .featured-quote .grid-wrapper {
+    padding: 0 10em; }
+  .featured-quote h3 {
+    color: #11afbc;
+    font-size: 2.6875rem;
+    font-style: italic; }
+  .featured-quote .quote-credit {
+    font-size: 1.3em; }

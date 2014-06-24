@@ -78,12 +78,20 @@ Rev. the tremendous need he saw in his community.</p>
   <div class="info-snacks">
     <div class="grid-wrapper">
       <h3>Since opening our doors in 1969</h3>
-      <div class="sliding-facts">
-        <div id="slide-1">
+      <ul class="sliding-facts">
+        <li>
           <h4 class="big-number">2,309,239,001</h4>
           <h5 class="big-number-caption">Meals Served</h5>
-        </div>
-      </div>
+        </li>
+        <li>
+          <h4 class="big-number">2,309,239,001</h4>
+          <h5 class="big-number-caption">Meals Served</h5>
+        </li>
+        <li>
+          <h4 class="big-number">2,309,239,001</h4>
+          <h5 class="big-number-caption">Meals Served</h5>
+        </li>
+      </ul>
     </div>
   </div>
   
@@ -188,6 +196,30 @@ Rev. the tremendous need he saw in his community.</p>
 
 <script src="js/foundation/foundation.js"></script>
 <script src="js/foundation/foundation.magellan.js"></script>
+
+<script src="js/vendor/slippry.js"></script>
+
+<script type="text/javascript">
+  jQuery('.sliding-facts').slippry({
+    // general elements & wrapper
+    slippryWrapper: '<div class="sy-box pictures-slider" />', // wrapper to wrap everything, including pager
+  
+    // options
+    adaptiveHeight: false, // height of the sliders adapts to current slide
+    captions: false, // Position: overlay, below, custom, false
+  
+    // pager
+    pager: false,
+    
+    // controls
+    controls: false,
+    autoHover: false,
+  
+    // transitions
+    transition: 'horizontal', // fade, horizontal, kenburns, false
+    speed: 300 // time the transition takes (ms)
+  });
+</script>
 
 <script type="text/javascript">
   $(document).ready(function() {

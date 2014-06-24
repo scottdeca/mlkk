@@ -137,7 +137,7 @@ $experimental-support-for-khtml: true;
     .sy-slides-wrap, .sy-pager {
       visibility: hidden;
     }
-    background: url(assets/img/sy-loader.gif) 50% 50% no-repeat;
+    background: url(/img/slippry-assets/sy-loader.gif) 50% 50% no-repeat;
     @include background-size(32px);
     min-height: 40px;
   }

@@ -157,6 +157,41 @@ Rev. the tremendous need he saw in his community.</p>
     </div>
   </section>
   
+  <section class="shop">
+    <h2 class="restricted-width">Shop</h2>
+    <section id="shop-demo">
+      <article title="Strawberries">
+        <div class="image-content"><img src="http://placehold.it/300x250" alt="demo1_2" class="product-image"></div>
+        <div class="product-info">
+          <p>Everyone loves Strawberries. If you like bowls full of them, then you should buy this, it's really tasty and everyone will be jealous. You can put them in salads with feta or with icecream.</p>
+          <a href="#!" class="button-link more-info">More information</a><a href="#!" class="button-link buy-now">Buy now</a>
+        </div>
+      </article>
+      <article title="White flowers">
+        <div class="image-content"><img src="http://placehold.it/300x250" alt="demo1_2" class="product-image"></div>
+        <div class="product-info">
+          <p>White flowers are for peace, so if you're fighting with someone, maybe you should buy them this?</p>
+          <a href="#!" class="button-link more-info">More information</a><a href="#!" class="button-link buy-now">Buy now</a>
+        </div>
+      </article>
+      <article title="Beetroot and goat's cheese cake">
+        <div class="image-content"><img src="http://placehold.it/300x250" alt="demo1_2" class="product-image"></div>
+        <div class="product-info">
+          <p>Savoury cheesecake? What?! It sounds amazing to me! Throw on some walnuts and it's like a goatcheese, beetroot and walnut salad in cake form. Mmmmm cake.</p>
+          <a href="#!" class="button-link more-info">More information</a><a href="#!" class="button-link buy-now">Buy now</a>
+        </div>
+      </article>
+      <article title="Yellow flowers">
+        <div class="image-content"><img src="http://placehold.it/300x250" alt="demo1_2" class="product-image"></div>
+        <div class="product-info">
+          <p>Thinking of giving someone some red roses? Did you know that in some cultures red roses are given to the mistress, while yellow roses are given to the true love? Save some awkwardness, go yellow.</p>
+          <a href="#!" class="button-link more-info">More information</a><a href="#!" class="button-link buy-now">Buy now</a>
+        </div>
+      </article>
+    </section>
+    <h2 class="product-name"></h2>
+  </section>
+  
   <footer>
     <div class="grid-wrapper">
       <div class="colophon">
@@ -218,6 +253,31 @@ Rev. the tremendous need he saw in his community.</p>
     // transitions
     transition: 'horizontal', // fade, horizontal, kenburns, false
     speed: 300 // time the transition takes (ms)
+  });
+  
+  jQuery('#shop-demo').slippry({
+    // general elements & wrapper
+    slippryWrapper: '<div class="sy-box shop-slider" />', // wrapper to wrap everything, including pager
+    elements: 'article', // elments cointaining slide content
+  
+    // options
+    adaptiveHeight: false, // height of the sliders adapts to current slide
+    start: 2, // num (starting from 1), random
+    loop: false, // first -> last & last -> first arrows
+    captionsSrc: 'article',
+    captions: 'custom', // Position: overlay, below, custom, false
+    captionsEl: '.product-name',
+  
+    // pager
+    pager: false,
+  
+    // transitions
+    slideMargin: 20, // spacing between slides (in %)
+    useCSS: true,
+    transition: 'horizontal',
+  
+    // slideshow
+    auto: false
   });
 </script>
 

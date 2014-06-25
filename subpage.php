@@ -157,40 +157,56 @@ Rev. the tremendous need he saw in his community.</p>
     </div>
   </section>
   
-  <section class="shop">
-    <h2 class="restricted-width">Shop</h2>
-    <section id="shop-demo">
-      <article title="Strawberries">
-        <div class="image-content"><img src="http://placehold.it/300x250" alt="demo1_2" class="product-image"></div>
-        <div class="product-info">
-          <p>Everyone loves Strawberries. If you like bowls full of them, then you should buy this, it's really tasty and everyone will be jealous. You can put them in salads with feta or with icecream.</p>
-          <a href="#!" class="button-link more-info">More information</a><a href="#!" class="button-link buy-now">Buy now</a>
+  
+  
+  <section id="stories-slider" class="shop">
+  
+    <h2>Lorem ipsum programs dolor optium</h2>
+    <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+    
+    
+    <div id="shop-demo">
+    
+      <article class="testimonial-box">
+         <div class="testimonial-image">
+          <img src="http://placehold.it/300x250" alt="" />
+        </div>
+        <div class="testimonial-info">
+          <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
+          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+          <a href="#!" class="button-link buy-now">Continue reading &rarr;</a>
         </div>
       </article>
-      <article title="White flowers">
-        <div class="image-content"><img src="http://placehold.it/300x250" alt="demo1_2" class="product-image"></div>
-        <div class="product-info">
-          <p>White flowers are for peace, so if you're fighting with someone, maybe you should buy them this?</p>
-          <a href="#!" class="button-link more-info">More information</a><a href="#!" class="button-link buy-now">Buy now</a>
+      
+      <article title="Read More" class="testimonial-box">
+        <div class="testimonial-image">
+          <img src="http://placehold.it/300x250" alt="" />
+        </div>
+        <div class="testimonial-quote">
+          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+          <span class="testimonial-name">– Marc Reynolds</span>
         </div>
       </article>
-      <article title="Beetroot and goat's cheese cake">
-        <div class="image-content"><img src="http://placehold.it/300x250" alt="demo1_2" class="product-image"></div>
-        <div class="product-info">
-          <p>Savoury cheesecake? What?! It sounds amazing to me! Throw on some walnuts and it's like a goatcheese, beetroot and walnut salad in cake form. Mmmmm cake.</p>
-          <a href="#!" class="button-link more-info">More information</a><a href="#!" class="button-link buy-now">Buy now</a>
+      
+      <article class="testimonial-box">
+         <div class="testimonial-image">
+          <img src="http://placehold.it/300x250" alt="" />
+        </div>
+        <div class="testimonial-info">
+          <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
+          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+          <button class="read-more">Continue reading &rarr;</span>
         </div>
       </article>
-      <article title="Yellow flowers">
-        <div class="image-content"><img src="http://placehold.it/300x250" alt="demo1_2" class="product-image"></div>
-        <div class="product-info">
-          <p>Thinking of giving someone some red roses? Did you know that in some cultures red roses are given to the mistress, while yellow roses are given to the true love? Save some awkwardness, go yellow.</p>
-          <a href="#!" class="button-link more-info">More information</a><a href="#!" class="button-link buy-now">Buy now</a>
-        </div>
-      </article>
-    </section>
+      
+    </div>
+    
+    
     <h2 class="product-name"></h2>
   </section>
+  
+  
+  
   
   <footer>
     <div class="grid-wrapper">
@@ -265,14 +281,15 @@ Rev. the tremendous need he saw in his community.</p>
     start: 2, // num (starting from 1), random
     loop: false, // first -> last & last -> first arrows
     captionsSrc: 'article',
-    captions: 'custom', // Position: overlay, below, custom, false
+    //captions: 'custom', // Position: overlay, below, custom, false
+    captions: 'false',
     captionsEl: '.product-name',
   
     // pager
     pager: false,
   
     // transitions
-    slideMargin: 20, // spacing between slides (in %)
+    slideMargin: 8, // spacing between slides (in %)
     useCSS: true,
     transition: 'horizontal',
   

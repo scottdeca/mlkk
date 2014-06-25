@@ -30,9 +30,11 @@
     @include span-columns(8);
   }
   
+  /*
   .testimonial-widget {
     @include span-columns(6);
     }
+  */
 }
 
 .subpage {
@@ -169,15 +171,15 @@
 
 .testimonial-widget {
   margin-bottom: rem(100);
-  
-  .testimonial-box {
-    border: 1px solid $light-gray;
-    @extend .soft-dropshadow;
-    @include clearfix;
-    margin-bottom: em(14);
-  }
 }
-  
+
+.testimonial-box {
+  border: 1px solid $light-gray;
+  @extend .soft-dropshadow;
+  @include clearfix;
+  margin-bottom: em(14);
+}
+
 .testimonial-image {
     overflow: hidden;
     max-height: em(200);

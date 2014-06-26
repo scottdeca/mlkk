@@ -157,13 +157,15 @@
     -->
     
     
-    <section id="stories-slider" class="shop">
+    <section id="stories-slider">
     
       <h2 class="section-name hidden">Stories</h2>
       <h2>Lorem ipsum programs dolor optium</h2>
       <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
       
-      
+    </section>
+    
+    <div class="shop">
       <div id="shop-demo">
       
         <article class="testimonial-box">
@@ -219,10 +221,8 @@
         </article>
         
       </div>
-      
-      
       <h2 class="product-name"></h2>
-    </section>
+    </div>
   
   </div> <!-- .subnav-content ends -->
   

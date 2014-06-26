@@ -1719,6 +1719,23 @@ footer {
 .shop {
   padding-bottom: 6.25rem; }
 
+.shop {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .shop:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .shop > * {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-left: 25.58941%; }
+    .shop > *:last-child {
+      margin-right: 0; }
+
 .shop-slider {
   margin-top: 1.5625rem; }
 

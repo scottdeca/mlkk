@@ -1558,20 +1558,22 @@ footer {
       margin-left: 25.58941%; }
       .subpage-with-subnav section > *:last-child {
         margin-right: 0; }
-  .subpage-with-subnav .subpage-subnav {
+  .subpage-with-subnav .scroll-nav {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto; }
-    .subpage-with-subnav .subpage-subnav:after {
+    .subpage-with-subnav .scroll-nav:after {
       content: "";
       display: table;
       clear: both; }
-    .subpage-with-subnav .subpage-subnav > ul {
+    .subpage-with-subnav .scroll-nav.fixed {
+      position: fixed; }
+    .subpage-with-subnav .scroll-nav > ul {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .subpage-with-subnav .subpage-subnav > ul:last-child {
+      .subpage-with-subnav .scroll-nav > ul:last-child {
         margin-right: 0; }
   .subpage-with-subnav .mini-bullet-points {
     float: left;
@@ -1588,6 +1590,11 @@ footer {
     .subpage-with-subnav .program-widget:last-child {
       margin-right: 0; }
 
+.subpage .section-name.hidden {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  color: transparent; }
 .subpage h2 {
   font-weight: 100;
   font-size: 2.4375rem;

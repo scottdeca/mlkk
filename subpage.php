@@ -38,6 +38,7 @@
     <div class="overlay"></div>
   </div>
   
+<!--
   <div class="subpage-subnav" data-magellan-expedition="fixed">
     <ul>
       <li class="active" data-magellan-arrival="mission"><a href="#mission">Mission</a></li>
@@ -46,106 +47,147 @@
       <li data-magellan-arrival="stories"><a href="#stories">Stories</a></li>
     </ul>
   </div>
+-->
   
-  <section id="mission" data-magellan-destination="mission">
-    <h2>MLK Kitchen for the Poor feeds anyone who walks through its doors — regardless of race, age, sex or religious belief.</h2>
-    <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
-    
-    <div class="mini-bullet-points 2-column">
-      <div class="mini-bullet-point">
-        <h4>Meal delivery</h4>
-        <p>The MLK Kitchen for the Poor was established in 1969 by the late 
-Rev. the tremendous need he saw in his community.</p>
-      </div>
-      <div class="mini-bullet-point">
-        <h4>Meal delivery</h4>
-        <p>The MLK Kitchen for the Poor was established in 1969 by the late 
-Rev. the tremendous need he saw in his community.</p>
-      </div>
-      <div class="mini-bullet-point">
-        <h4>Meal delivery</h4>
-        <p>The MLK Kitchen for the Poor was established in 1969 by the late 
-Rev. the tremendous need he saw in his community.</p>
-      </div>
-      <div class="mini-bullet-point">
-        <h4>Meal delivery</h4>
-        <p>The MLK Kitchen for the Poor was established in 1969 by the late 
-Rev. the tremendous need he saw in his community.</p>
-      </div>
-    </div>
-  </section>
+  <div class="subnav-content">
   
-  <div class="info-snacks">
-    <div class="grid-wrapper">
-      <h3>Since opening our doors in 1969</h3>
-      <ul class="sliding-facts">
-        <li>
-          <h4 class="big-number">2,309,239,001</h4>
-          <h5 class="big-number-caption">Meals Served</h5>
-        </li>
-        <li>
-          <h4 class="big-number">2,309,239,001</h4>
-          <h5 class="big-number-caption">Meals Served</h5>
-        </li>
-        <li>
-          <h4 class="big-number">2,309,239,001</h4>
-          <h5 class="big-number-caption">Meals Served</h5>
-        </li>
-      </ul>
-    </div>
-  </div>
-  
-  <section id="learn-about-hunger" data-magellan-destination="hunger">
-    <h2>MLK Kitchen for the Poor feeds anyone who walks through its doors — regardless of race, age, sex or religious belief.</h2>
-    <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
-    <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
-  </section>
-  
-  <div class="featured-quote">
-    <div class="grid-wrapper">
-      <h3>“Were it not for the generous hearts of our donors and supporters, we would be unable to meet that need”</h3>
-      <span class="quote-credit">&mdash; Harvey</span>
-    </div>
-  </div>
-  
-  <section id="programs">
-    <h2>Lorem ipsum programs dolor mptium</h2>
-    <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
-    
-    <div class="program-widget">
-      <div class="program-slide-1">
-        <div class="program-image">
-          <img src="http://placehold.it/800x256">
+    <section id="mission">
+      <h2 class="section-name hidden">Mission</h2>
+      <h2>MLK Kitchen for the Poor feeds anyone who walks through its doors — regardless of race, age, sex or religious belief.</h2>
+      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+      
+      <div class="mini-bullet-points 2-column">
+        <div class="mini-bullet-point">
+          <h4>Meal delivery</h4>
+          <p>The MLK Kitchen for the Poor was established in 1969 by the late 
+  Rev. the tremendous need he saw in his community.</p>
         </div>
-        <div class="program-info">
-          <h3>Bowl-a-Thon</h3>
-          <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+        <div class="mini-bullet-point">
+          <h4>Meal delivery</h4>
+          <p>The MLK Kitchen for the Poor was established in 1969 by the late 
+  Rev. the tremendous need he saw in his community.</p>
+        </div>
+        <div class="mini-bullet-point">
+          <h4>Meal delivery</h4>
+          <p>The MLK Kitchen for the Poor was established in 1969 by the late 
+  Rev. the tremendous need he saw in his community.</p>
+        </div>
+        <div class="mini-bullet-point">
+          <h4>Meal delivery</h4>
+          <p>The MLK Kitchen for the Poor was established in 1969 by the late 
+  Rev. the tremendous need he saw in his community.</p>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <!--
-  <section id="stories">
-    <h2>Lorem ipsum programs dolor mptium</h2>
-    <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+    </section>
     
-    <div class="testimonial-widget">
-      <div id="story-slide-1">
-        <div class="testimonial-box">
-          <div class="testimonial-image">
+    <div class="info-snacks">
+      <div class="grid-wrapper">
+        <h3>Since opening our doors in 1969</h3>
+        <ul class="sliding-facts">
+          <li>
+            <h4 class="big-number">2,309,239,001</h4>
+            <h5 class="big-number-caption">Meals Served</h5>
+          </li>
+          <li>
+            <h4 class="big-number">2,309,239,001</h4>
+            <h5 class="big-number-caption">Meals Served</h5>
+          </li>
+          <li>
+            <h4 class="big-number">2,309,239,001</h4>
+            <h5 class="big-number-caption">Meals Served</h5>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <section id="learn-about-hunger" data-magellan-destination="hunger">
+      <h2 class="section-name hidden">Learn about Hunger</h2>
+      <h2>MLK Kitchen for the Poor feeds anyone who walks through its doors — regardless of race, age, sex or religious belief.</h2>
+      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+    </section>
+    
+    <div class="featured-quote">
+      <div class="grid-wrapper">
+        <h3>“Were it not for the generous hearts of our donors and supporters, we would be unable to meet that need”</h3>
+        <span class="quote-credit">&mdash; Harvey</span>
+      </div>
+    </div>
+    
+    <section id="programs">
+      <h2 class="section-name hidden">Programs</h2>
+      <h2>Lorem ipsum programs dolor optium</h2>
+      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+      
+      <div class="program-widget">
+        <div class="program-slide-1">
+          <div class="program-image">
+            <img src="http://placehold.it/800x256">
+          </div>
+          <div class="program-info">
+            <h3>Bowl-a-Thon</h3>
+            <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--
+    <section id="stories">
+      <h2>Lorem ipsum programs dolor mptium</h2>
+      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+      
+      <div class="testimonial-widget">
+        <div id="story-slide-1">
+          <div class="testimonial-box">
+            <div class="testimonial-image">
+              <img src="http://placehold.it/300x250" alt="" />
+            </div>
+            <div class="testimonial-info">
+              <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
+              <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+            </div>
+          </div>
+          <button class="read-more">Continue reading &rarr;</span>
+        </div>
+        
+        <div id="story-slide-2">
+          <div class="testimonial-box">
+            <div class="testimonial-image">
+              <img src="http://placehold.it/300x250" alt="" />
+            </div>
+            <div class="testimonial-quote">
+              <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+              <span class="testimonial-name">– Marc Reynolds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+    
+    
+    <section id="stories-slider" class="shop">
+    
+      <h2 class="section-name hidden">Stories</h2>
+      <h2>Lorem ipsum programs dolor optium</h2>
+      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+      
+      
+      <div id="shop-demo">
+      
+        <article class="testimonial-box">
+           <div class="testimonial-image">
             <img src="http://placehold.it/300x250" alt="" />
           </div>
           <div class="testimonial-info">
             <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
             <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+            <a href="#!" class="button-link buy-now">Continue reading &rarr;</a>
           </div>
-        </div>
-        <button class="read-more">Continue reading &rarr;</span>
-      </div>
-      
-      <div id="story-slide-2">
-        <div class="testimonial-box">
+        </article>
+        
+        <article title="Read More" class="testimonial-box">
           <div class="testimonial-image">
             <img src="http://placehold.it/300x250" alt="" />
           </div>
@@ -153,80 +195,46 @@ Rev. the tremendous need he saw in his community.</p>
             <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
             <span class="testimonial-name">– Marc Reynolds</span>
           </div>
-        </div>
+        </article>
+        
+        <article class="testimonial-box">
+           <div class="testimonial-image">
+            <img src="http://placehold.it/300x250" alt="" />
+          </div>
+          <div class="testimonial-info">
+            <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
+            <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+            <a href="#!" class="button-link buy-now">Continue reading &rarr;</a>
+          </div>
+        </article>
+        
+        <article title="Read More" class="testimonial-box">
+          <div class="testimonial-image">
+            <img src="http://placehold.it/300x250" alt="" />
+          </div>
+          <div class="testimonial-quote">
+            <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+            <span class="testimonial-name">– Marc Reynolds</span>
+          </div>
+        </article>
+        
+        <article title="Read More" class="testimonial-box">
+          <div class="testimonial-image">
+            <img src="http://placehold.it/300x250" alt="" />
+          </div>
+          <div class="testimonial-quote">
+            <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+            <span class="testimonial-name">– Marc Reynolds</span>
+          </div>
+        </article>
+        
       </div>
-    </div>
-  </section>
-  -->
-  
-  
-  <section id="stories-slider" class="shop">
-  
-    <h2>Lorem ipsum programs dolor optium</h2>
-    <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
-    
-    
-    <div id="shop-demo">
-    
-      <article class="testimonial-box">
-         <div class="testimonial-image">
-          <img src="http://placehold.it/300x250" alt="" />
-        </div>
-        <div class="testimonial-info">
-          <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
-          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-          <a href="#!" class="button-link buy-now">Continue reading &rarr;</a>
-        </div>
-      </article>
       
-      <article title="Read More" class="testimonial-box">
-        <div class="testimonial-image">
-          <img src="http://placehold.it/300x250" alt="" />
-        </div>
-        <div class="testimonial-quote">
-          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-          <span class="testimonial-name">– Marc Reynolds</span>
-        </div>
-      </article>
       
-      <article class="testimonial-box">
-         <div class="testimonial-image">
-          <img src="http://placehold.it/300x250" alt="" />
-        </div>
-        <div class="testimonial-info">
-          <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
-          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-          <a href="#!" class="button-link buy-now">Continue reading &rarr;</a>
-        </div>
-      </article>
-      
-      <article title="Read More" class="testimonial-box">
-        <div class="testimonial-image">
-          <img src="http://placehold.it/300x250" alt="" />
-        </div>
-        <div class="testimonial-quote">
-          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-          <span class="testimonial-name">– Marc Reynolds</span>
-        </div>
-      </article>
-      
-      <article title="Read More" class="testimonial-box">
-        <div class="testimonial-image">
-          <img src="http://placehold.it/300x250" alt="" />
-        </div>
-        <div class="testimonial-quote">
-          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-          <span class="testimonial-name">– Marc Reynolds</span>
-        </div>
-      </article>
-      
-    </div>
-    
-    
-    <h2 class="product-name"></h2>
-  </section>
+      <h2 class="product-name"></h2>
+    </section>
   
-  
+  </div> <!-- .subnav-content ends -->
   
   
   <footer>
@@ -265,7 +273,7 @@ Rev. the tremendous need he saw in his community.</p>
   
 
 <script src="js/vendor/jquery.js"></script>
-<script src="js/foundation/app.js"></script>
+<script src="js/vendor/jquery.scrollNav.min.js"></script>
 
 <script src="js/vendor/slippry.js"></script>
 
@@ -315,6 +323,26 @@ Rev. the tremendous need he saw in his community.</p>
     // slideshow
     auto: false
   });
+  
+  $('.subnav-content').scrollNav({
+    sections: '.section-name',
+    subSections: false,
+    sectionElem: 'div',
+    showHeadline: true,
+    headlineText: 'Scroll To',
+    showTopLink: true,
+    topLinkText: 'Top',
+    fixedMargin: 40,
+    scrollOffset: 40,
+    animated: true,
+    speed: 500,
+    insertTarget: this.selector,
+    insertLocation: 'insertBefore',
+    arrowKeys: false,
+    onInit: null,
+    onRender: null,
+    onDestroy: null
+});
 </script>
 
 <script type="text/javascript">

@@ -13,8 +13,11 @@
     }
   }
   
-  .subpage-subnav {
+  .scroll-nav {
     @include outer-container;
+    
+    &.fixed { position: fixed; }
+    
      & > ul {
        @include span-columns(3);
      }
@@ -38,6 +41,13 @@
 }
 
 .subpage {
+  .section-name.hidden {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    color: transparent;
+  }
+  
   h2 {
     font-weight: 100;
     //font-size: $base-font-size * 2.5;

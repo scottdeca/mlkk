@@ -165,8 +165,8 @@
       
     </section>
     
-    <div class="shop">
-      <div id="shop-demo">
+    <div class="testimonial-widget">
+      <div id="testimonial-widget-slider">
       
         <article class="testimonial-box">
            <div class="testimonial-image">
@@ -288,9 +288,9 @@
     speed: 300 // time the transition takes (ms)
   });
   
-  jQuery('#shop-demo').slippry({
+  jQuery('#testimonial-widget-slider').slippry({
     // general elements & wrapper
-    slippryWrapper: '<div class="sy-box shop-slider" />', // wrapper to wrap everything, including pager
+    slippryWrapper: '<div class="sy-box testimonial-widget-slider" />', // wrapper to wrap everything, including pager
     elements: 'article', // elments cointaining slide content
   
     // options

@@ -204,13 +204,13 @@
 }
 */
 
-.shop {
+.testimonial-widget {
   padding-bottom: rem(100);
 }
 
 //  Constrains the testimonials widget to the grid somewhat, without using <section>
 //  Could be cleaner
-.shop {
+.testimonial-widget {
     @include outer-container;
     padding: 0 $gutter;
     
@@ -220,7 +220,7 @@
     }
   }
 
-.shop-slider {
+.testimonial-widget-slider {
   margin-top: rem(25);
 }
 

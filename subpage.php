@@ -326,8 +326,8 @@
     scrollOffset: 40,
     animated: true,
     speed: 500,
-    insertTarget: this.selector,
-    insertLocation: 'prependTo',
+    insertTarget: $('#mission'), // this.selector
+    insertLocation: 'prependTo', //insertBefore, prependTo, appendTo, or insertAfter
     arrowKeys: false,
     onInit: null,
     onRender: null,

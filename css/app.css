@@ -1542,6 +1542,26 @@ footer {
     @include span-columns(6);
     }
   */ }
+  .subpage-with-subnav .scroll-nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    margin-left: 0%;
+    position: absolute;
+    z-index: 9; }
+    .subpage-with-subnav .scroll-nav:last-child {
+      margin-right: 0; }
+    .subpage-with-subnav .scroll-nav.fixed .scroll-nav__wrapper {
+      position: fixed;
+      top: 2.5rem; }
+    .subpage-with-subnav .scroll-nav .active a {
+      color: black; }
+    .subpage-with-subnav .scroll-nav li {
+      font-size: 0.875rem;
+      font-weight: 700;
+      font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      line-height: 2.25; }
   .subpage-with-subnav section {
     max-width: 68em;
     margin-left: auto;
@@ -1572,42 +1592,6 @@ footer {
     width: 65.88078%; }
     .subpage-with-subnav .program-widget:last-child {
       margin-right: 0; }
-
-/*
-.subnav-content {
-  position: relative;
-  
-  .scroll-nav {
-    @include outer-container;
-    position: relative;
-    
-    &.fixed .scroll-nav__wrapper { 
-      position: fixed;
-      top: 40px;
-      }
-    
-     .scroll-nav__wrapper {
-       @include span-columns(3);
-       position: absolute;
-       top: 0; left: 0;
-     }
-  }
-  
-}
-*/
-.subnav-content {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  .subnav-content:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .subnav-content .scroll-nav {
-    position: absolute; }
-  .subnav-content .scroll-nav.fixed .scroll-nav__wrapper {
-    position: fixed;
-    top: 2.5rem; }
 
 .subpage .section-name.hidden {
   visibility: hidden;

@@ -3,7 +3,31 @@
 }
 
 .subpage-with-subnav {
-
+  
+  .scroll-nav {
+    @include span-columns(3);
+    @include shift(0);
+    position: absolute;
+    z-index: 9;
+    
+    &.fixed .scroll-nav__wrapper {
+      position: fixed;
+      top: rem(40);
+    }
+    
+    .active a {
+      //font-weight: 700;
+      color: black;
+    }
+    
+    li {
+      font-size: rem(14);
+      font-weight: 700;
+      font-family: $ui-font-family;
+      line-height: $unitless-line-height * 1.5;
+    }
+  }
+  
   section {
     @include outer-container;
     
@@ -28,45 +52,6 @@
     }
   */
 }
-
-/*
-.subnav-content {
-  position: relative;
-  
-  .scroll-nav {
-    @include outer-container;
-    position: relative;
-    
-    &.fixed .scroll-nav__wrapper { 
-      position: fixed;
-      top: 40px;
-      }
-    
-     .scroll-nav__wrapper {
-       @include span-columns(3);
-       position: absolute;
-       top: 0; left: 0;
-     }
-  }
-  
-}
-*/
-
-
-.subnav-content {
-  @include outer-container;
-  
-  .scroll-nav {
-    position: absolute;
-  }
-  
-  .scroll-nav.fixed .scroll-nav__wrapper {
-    position: fixed;
-    top: rem(40);
-  }
-
-}
-
 
 .subpage {
   .section-name.hidden {
@@ -124,6 +109,8 @@
   text-align: center;
   padding: rem(150) 0;
   margin: ($base-line-height * 2.8) 0;
+  //z-index: 10; // pops the section over the subnav
+  //position: relative; // fix to override the z-index layering of the subnav
 }
 
 .info-snacks {

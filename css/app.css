@@ -890,6 +890,9 @@ input[type="submit"] {
     min-width: 400px;
     max-width: 590px;
     width: 50%; } }
+.shop-slider {
+  float: left; }
+
 header.navigation {
   background-color: transparent;
   font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -1581,15 +1584,15 @@ footer {
   .subpage-with-subnav .mini-bullet-points {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
+    margin-right: 3.16844%;
+    width: 88.53684%; }
     .subpage-with-subnav .mini-bullet-points:last-child {
       margin-right: 0; }
   .subpage-with-subnav .program-widget {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
+    margin-right: 3.16844%;
+    width: 88.53684%; }
     .subpage-with-subnav .program-widget:last-child {
       margin-right: 0; }
 
@@ -1605,21 +1608,21 @@ footer {
   font-size: 2.4375rem;
   line-height: 1.2;
   margin-bottom: 0.6em; }
-.subpage section > p {
+.subpage .scroll-nav__section > p {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
+  margin-right: 3.16844%;
+  width: 88.53684%;
   font-size: 1.3125rem;
   line-height: 1.425; }
-  .subpage section > p:last-child {
+  .subpage .scroll-nav__section > p:last-child {
     margin-right: 0; }
 
 .mini-bullet-points {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
+  margin-right: 3.16844%;
+  width: 88.53684%;
   margin-top: 2.25em; }
   .mini-bullet-points:last-child {
     margin-right: 0; }

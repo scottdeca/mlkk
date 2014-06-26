@@ -39,11 +39,11 @@
   
   // Subpage overrides -- slightly redundant, unless these items get reused on other pages
   .mini-bullet-points {
-    @include span-columns(8);
+    @include span-columns(8 of 9);
   }
   
   .program-widget {
-    @include span-columns(8);
+    @include span-columns(8 of 9);
   }
   
   /*
@@ -71,8 +71,9 @@
     margin-bottom: $base-line-height * .4;
   }
   
-  section > p {
-    @include span-columns(8);
+  //section > p,
+  .scroll-nav__section > p {
+    @include span-columns(8 of 9);
     //font-size: $base-font-size * 1.4;
     font-size: rem(21);
     line-height: $unitless-line-height * .95;
@@ -80,7 +81,7 @@
 }
 
 .mini-bullet-points {
-  @include span-columns(8);
+  @include span-columns(8 of 9);
   margin-top: $base-line-height * 1.5;
 }
 

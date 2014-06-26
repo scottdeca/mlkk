@@ -1,6 +1,9 @@
 /* Shop */
 
-.shop { overflow: hidden; max-width: 100% !important; }
+.shop { 
+  overflow: hidden; 
+  max-width: 100% !important; // Creates illusion of going off screen
+  }
 
 @media only screen and (min-width: 401px) {
   .shop .sy-box .sy-slides-wrap {
@@ -99,4 +102,8 @@
     max-width: 590px;
     width: 50%;
   }
+}
+
+.shop-slider {
+  float: left;
 }

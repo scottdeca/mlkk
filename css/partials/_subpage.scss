@@ -169,8 +169,18 @@
 }
 
 
+/*
 .testimonial-widget {
   margin-bottom: rem(100);
+}
+*/
+
+.shop {
+  padding-bottom: rem(100);
+}
+
+.shop-slider {
+  margin-top: rem(25);
 }
 
 .testimonial-box {
@@ -204,7 +214,7 @@
   }
 }
 
-.testimonial-quote {
+.subpage .testimonial-quote {
   padding: $base-line-height * 1.6;
   
   p {

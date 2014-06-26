@@ -125,6 +125,7 @@ Rev. the tremendous need he saw in his community.</p>
     </div>
   </section>
   
+  <!--
   <section id="stories">
     <h2>Lorem ipsum programs dolor mptium</h2>
     <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
@@ -156,7 +157,7 @@ Rev. the tremendous need he saw in his community.</p>
       </div>
     </div>
   </section>
-  
+  -->
   
   
   <section id="stories-slider" class="shop">
@@ -195,7 +196,27 @@ Rev. the tremendous need he saw in his community.</p>
         <div class="testimonial-info">
           <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
           <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-          <button class="read-more">Continue reading &rarr;</span>
+          <a href="#!" class="button-link buy-now">Continue reading &rarr;</a>
+        </div>
+      </article>
+      
+      <article title="Read More" class="testimonial-box">
+        <div class="testimonial-image">
+          <img src="http://placehold.it/300x250" alt="" />
+        </div>
+        <div class="testimonial-quote">
+          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+          <span class="testimonial-name">– Marc Reynolds</span>
+        </div>
+      </article>
+      
+      <article title="Read More" class="testimonial-box">
+        <div class="testimonial-image">
+          <img src="http://placehold.it/300x250" alt="" />
+        </div>
+        <div class="testimonial-quote">
+          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+          <span class="testimonial-name">– Marc Reynolds</span>
         </div>
       </article>
       
@@ -244,9 +265,7 @@ Rev. the tremendous need he saw in his community.</p>
   
 
 <script src="js/vendor/jquery.js"></script>
-
-<script src="js/foundation/foundation.js"></script>
-<script src="js/foundation/foundation.magellan.js"></script>
+<script src="js/foundation/app.js"></script>
 
 <script src="js/vendor/slippry.js"></script>
 

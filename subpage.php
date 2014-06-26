@@ -326,7 +326,7 @@
     scrollOffset: 40,
     animated: true,
     speed: 500,
-    insertTarget: $('#mission'), // this.selector
+    insertTarget: $('.subnav-content > section:first-child'), // this.selector
     insertLocation: 'prependTo', //insertBefore, prependTo, appendTo, or insertAfter
     arrowKeys: false,
     onInit: null,

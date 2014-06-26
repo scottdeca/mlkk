@@ -1558,23 +1558,6 @@ footer {
       margin-left: 25.58941%; }
       .subpage-with-subnav section > *:last-child {
         margin-right: 0; }
-  .subpage-with-subnav .scroll-nav {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto; }
-    .subpage-with-subnav .scroll-nav:after {
-      content: "";
-      display: table;
-      clear: both; }
-    .subpage-with-subnav .scroll-nav.fixed {
-      position: fixed; }
-    .subpage-with-subnav .scroll-nav > ul {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .subpage-with-subnav .scroll-nav > ul:last-child {
-        margin-right: 0; }
   .subpage-with-subnav .mini-bullet-points {
     float: left;
     display: block;
@@ -1590,10 +1573,41 @@ footer {
     .subpage-with-subnav .program-widget:last-child {
       margin-right: 0; }
 
+.subnav-content {
+  position: relative; }
+  .subnav-content .scroll-nav {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; }
+    .subnav-content .scroll-nav:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .subnav-content .scroll-nav:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .subnav-content .scroll-nav.fixed .scroll-nav__wrapper {
+      position: fixed;
+      top: 40px; }
+    .subnav-content .scroll-nav .scroll-nav__wrapper {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .subnav-content .scroll-nav .scroll-nav__wrapper:last-child {
+        margin-right: 0; }
+
 .subpage .section-name.hidden {
   visibility: hidden;
   height: 0;
   width: 0;
+  margin: 0;
+  padding: 0;
   color: transparent; }
 .subpage h2 {
   font-weight: 100;

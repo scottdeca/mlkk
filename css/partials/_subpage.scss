@@ -13,17 +13,6 @@
     }
   }
   
-  .scroll-nav {
-    @include outer-container;
-    
-    &.fixed { position: fixed; }
-    
-     & > ul {
-       @include span-columns(3);
-     }
-  }
-  
-  
   // Subpage overrides -- slightly redundant, unless these items get reused on other pages
   .mini-bullet-points {
     @include span-columns(8);
@@ -40,11 +29,37 @@
   */
 }
 
+
+.subnav-content {
+  position: relative;
+  
+  .scroll-nav {
+    @include outer-container;
+    position: relative;
+    @include clearfix;
+    
+    &.fixed .scroll-nav__wrapper { 
+      position: fixed;
+      top: 40px;
+      }
+    
+     .scroll-nav__wrapper {
+       @include span-columns(3);
+       position: absolute;
+       top: 0; left: 0;
+     }
+  }
+  
+}
+
+
 .subpage {
   .section-name.hidden {
     visibility: hidden;
     height: 0;
     width: 0;
+    margin: 0;
+    padding: 0;
     color: transparent;
   }
   

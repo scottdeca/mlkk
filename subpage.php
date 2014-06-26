@@ -38,16 +38,6 @@
     <div class="overlay"></div>
   </div>
   
-<!--
-  <div class="subpage-subnav" data-magellan-expedition="fixed">
-    <ul>
-      <li class="active" data-magellan-arrival="mission"><a href="#mission">Mission</a></li>
-      <li data-magellan-arrival="hunger"><a href="#hunger">Learn about hunger</a></li>
-      <li data-magellan-arrival="programs"><a href="#programs">Programs</a></li>
-      <li data-magellan-arrival="stories"><a href="#stories">Stories</a></li>
-    </ul>
-  </div>
--->
   
   <div class="subnav-content">
   
@@ -328,16 +318,16 @@
     sections: '.section-name',
     subSections: false,
     sectionElem: 'div',
-    showHeadline: true,
+    showHeadline: false,
     headlineText: 'Scroll To',
-    showTopLink: true,
+    showTopLink: false,
     topLinkText: 'Top',
     fixedMargin: 40,
     scrollOffset: 40,
     animated: true,
     speed: 500,
     insertTarget: this.selector,
-    insertLocation: 'insertBefore',
+    insertLocation: 'prependTo',
     arrowKeys: false,
     onInit: null,
     onRender: null,

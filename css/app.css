@@ -1568,7 +1568,8 @@ footer {
   .subpage-with-subnav section {
     max-width: 68em;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding: 0 1.618em; }
     .subpage-with-subnav section:after {
       content: "";
       display: table;
@@ -1722,7 +1723,8 @@ footer {
 .shop {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding: 0 1.618em; }
   .shop:after {
     content: "";
     display: table;

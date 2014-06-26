@@ -30,6 +30,7 @@
   
   section {
     @include outer-container;
+    padding: 0 $gutter;
     
     & > * {
       @include span-columns(9);
@@ -211,6 +212,7 @@
 //  Could be cleaner
 .shop {
     @include outer-container;
+    padding: 0 $gutter;
     
     & > * {
       @include span-columns(9);

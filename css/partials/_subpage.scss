@@ -29,14 +29,13 @@
   */
 }
 
-
+/*
 .subnav-content {
   position: relative;
   
   .scroll-nav {
     @include outer-container;
     position: relative;
-    @include clearfix;
     
     &.fixed .scroll-nav__wrapper { 
       position: fixed;
@@ -50,6 +49,22 @@
      }
   }
   
+}
+*/
+
+
+.subnav-content {
+  @include outer-container;
+  
+  .scroll-nav {
+    position: absolute;
+  }
+  
+  .scroll-nav.fixed .scroll-nav__wrapper {
+    position: fixed;
+    top: rem(40);
+  }
+
 }
 
 

@@ -1573,34 +1573,41 @@ footer {
     .subpage-with-subnav .program-widget:last-child {
       margin-right: 0; }
 
+/*
 .subnav-content {
-  position: relative; }
-  .subnav-content .scroll-nav {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative; }
-    .subnav-content .scroll-nav:after {
-      content: "";
-      display: table;
-      clear: both; }
-    .subnav-content .scroll-nav:after {
-      content: "";
-      display: table;
-      clear: both; }
-    .subnav-content .scroll-nav.fixed .scroll-nav__wrapper {
+  position: relative;
+  
+  .scroll-nav {
+    @include outer-container;
+    position: relative;
+    
+    &.fixed .scroll-nav__wrapper { 
       position: fixed;
-      top: 40px; }
-    .subnav-content .scroll-nav .scroll-nav__wrapper {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%;
-      position: absolute;
-      top: 0;
-      left: 0; }
-      .subnav-content .scroll-nav .scroll-nav__wrapper:last-child {
-        margin-right: 0; }
+      top: 40px;
+      }
+    
+     .scroll-nav__wrapper {
+       @include span-columns(3);
+       position: absolute;
+       top: 0; left: 0;
+     }
+  }
+  
+}
+*/
+.subnav-content {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .subnav-content:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .subnav-content .scroll-nav {
+    position: absolute; }
+  .subnav-content .scroll-nav.fixed .scroll-nav__wrapper {
+    position: fixed;
+    top: 2.5rem; }
 
 .subpage .section-name.hidden {
   visibility: hidden;

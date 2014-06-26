@@ -208,7 +208,7 @@ table {
     display: table;
     clear: both; }
 
-.soft-dropshadow, .testimonials-homepage .testimonial-widget > div, .program-widget, .testimonial-box {
+.soft-dropshadow, .testimonials-homepage .testimonial-box-horizontal > div, .program-widget, .testimonial-box {
   -webkit-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18); }
@@ -1321,19 +1321,19 @@ header.navigation {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3.125rem; }
-  .testimonials-homepage .testimonial-widget {
+  .testimonials-homepage .testimonial-box-horizontal {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%;
     margin-left: 17.05961%;
     margin-bottom: 6.25rem; }
-    .testimonials-homepage .testimonial-widget:last-child {
+    .testimonials-homepage .testimonial-box-horizontal:last-child {
       margin-right: 0; }
-    .testimonials-homepage .testimonial-widget > div {
+    .testimonials-homepage .testimonial-box-horizontal > div {
       border: 1px solid #dddddd;
       margin-bottom: 0.875em; }
-      .testimonials-homepage .testimonial-widget > div:after {
+      .testimonials-homepage .testimonial-box-horizontal > div:after {
         content: "";
         display: table;
         clear: both; }

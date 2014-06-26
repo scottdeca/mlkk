@@ -15,7 +15,7 @@
     margin-bottom: rem(50);
   }
   
-  .testimonial-widget {
+  .testimonial-box-horizontal {
     @include span-columns(8);
     @include shift(2);
     margin-bottom: rem(100);

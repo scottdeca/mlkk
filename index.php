@@ -100,7 +100,7 @@
     <p class="description">Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit 
 remfugit latem que pe. Ga. Uciliatur aut ut excepro vitatur remoluptus.</p>
     
-    <div class="testimonial-widget">
+    <div class="testimonial-box-horizontal">
       <div>
         <div class="testimonial-image">
           <img src="http://placehold.it/300x250" alt="" />

@@ -110,7 +110,7 @@
       <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
       
       <div class="program-widget">
-        <div class="program-slide-1">
+        <article>
           <div class="program-image">
             <img src="http://placehold.it/800x256">
           </div>
@@ -118,8 +118,19 @@
             <h3>Bowl-a-Thon</h3>
             <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
           </div>
-        </div>
+        </article>
+        <article>
+          <div class="program-image">
+            <img src="http://placehold.it/800x256">
+          </div>
+          <div class="program-info">
+            <h3>Bowl-a-Thon</h3>
+            <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+          </div>
+        </article>
       </div>
+      
+      
     </section>
     
     <!--
@@ -286,6 +297,30 @@
     // transitions
     transition: 'horizontal', // fade, horizontal, kenburns, false
     speed: 300 // time the transition takes (ms)
+  });
+  
+  jQuery('.program-widget').slippry({
+    // general elements & wrapper
+    slippryWrapper: '<div class="sy-box program-slider" />', // wrapper to wrap everything, including pager
+    elements: 'article',
+    
+    // options
+    adaptiveHeight: true, // height of the sliders adapts to current slide
+    captions: false, // Position: overlay, below, custom, false
+  
+    // pager
+    pager: true,
+    
+    // controls
+    controls: false,
+    autoHover: true,
+  
+    // transitions
+    transition: 'horizontal', // fade, horizontal, kenburns, false
+    speed: 300, // time the transition takes (ms)
+    
+    // slideshow
+    auto: false,
   });
   
   jQuery('#testimonial-widget-slider').slippry({

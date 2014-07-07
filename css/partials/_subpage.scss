@@ -250,7 +250,7 @@
 
 .testimonial-box {
   border: 1px solid $light-gray;
-  @extend .soft-dropshadow;
+  //@extend .soft-dropshadow; //moved to slippry-testimonials
   @include clearfix;
   margin-bottom: em(14);
 }

@@ -1,6 +1,19 @@
 button,
+a.button,
 input[type="submit"] {
   @extend %button;
+  @include appearance(none);
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button.hollow,
+a.button.hollow,
+input[type="submit"].hollow {
+  @extend %button-hollow;
   @include appearance(none);
   border: none;
   cursor: pointer;

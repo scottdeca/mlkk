@@ -186,7 +186,7 @@
           <div class="testimonial-info">
             <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
             <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-            <a href="#!" class="button-link buy-now">Continue reading &rarr;</a>
+            <div class="button-link-wrapper"><a href="#!" class="button-link buy-now button hollow">Continue reading &rarr;</a></div>
           </div>
         </article>
         
@@ -207,7 +207,7 @@
           <div class="testimonial-info">
             <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
             <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-            <a href="#!" class="button-link buy-now">Continue reading &rarr;</a>
+            <div class="button-link-wrapper"><a href="#!" class="button-link buy-now button hollow">Continue reading &rarr;</a></div>
           </div>
         </article>
         

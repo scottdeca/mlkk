@@ -208,25 +208,48 @@ table {
     display: table;
     clear: both; }
 
-.soft-dropshadow, .testimonials-homepage .testimonial-box-horizontal > div, .program-slider .sy-slides-wrap, .testimonial-box {
+.soft-dropshadow, .testimonial-widget .sy-box .sy-slide.sy-active, .testimonials-homepage .testimonial-box-horizontal > div, .program-slider .sy-slides-wrap {
   -webkit-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18); }
 
 button,
+a.button,
 input[type="submit"] {
   -webkit-font-smoothing: antialiased;
   background-color: #11afbc;
   border-radius: 0;
   color: white;
   display: inline-block;
-  font-size: 1em;
-  font-weight: bold;
+  font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 300;
   line-height: 1;
   padding: .75em 1em;
   text-decoration: none; }
   button:hover,
+  a.button:hover,
   input[type="submit"]:hover {
+    background-color: #0b6e76;
+    color: white; }
+
+button.hollow,
+a.button.hollow,
+input[type="submit"].hollow {
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  border-radius: 0;
+  color: #11afbc;
+  display: inline-block;
+  font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 300;
+  line-height: 1;
+  padding: .75em 1em;
+  text-decoration: none; }
+  button.hollow:hover,
+  a.button.hollow:hover,
+  input[type="submit"].hollow:hover {
     background-color: #0b6e76;
     color: white; }
 
@@ -406,7 +429,22 @@ dl {
     margin: 0; }
 
 button,
+a.button,
 input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+button.hollow,
+a.button.hollow,
+input[type="submit"].hollow {
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -846,18 +884,23 @@ input[type="submit"] {
   -o-transition: opacity 1s;
   transition: opacity 1s; }
 
-.testimonial-widget .sy-box .sy-slide .button-link {
+.testimonial-widget .sy-box .sy-slide .buy-now {
   opacity: 0; }
 
-.testimonial-widget .sy-box .sy-slide .button-link {
+.testimonial-widget .sy-box .sy-slide .button-link-wrapper {
   position: absolute;
-  bottom: 1em; }
+  bottom: 1em;
+  bottom: -4.5em;
+  right: 0;
+  left: 0; }
 
 .testimonial-widget .sy-box .sy-slide .buy-now {
-  bottom: -3em;
-  right: 0;
-  left: 0;
-  text-align: center; }
+  display: block;
+  width: intrinsic;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #11afbc;
+  padding: 1.2em; }
 
 @media only screen and (max-width: 500px) {
   .testimonial-widget .sy-box .sy-slide .product-info .buy-now {

@@ -208,7 +208,7 @@ table {
     display: table;
     clear: both; }
 
-.soft-dropshadow, .testimonials-homepage .testimonial-box-horizontal > div, .program-widget, .testimonial-box {
+.soft-dropshadow, .testimonials-homepage .testimonial-box-horizontal > div, .program-slider .sy-slides-wrap, .testimonial-box {
   -webkit-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18); }
@@ -1589,13 +1589,6 @@ footer {
     width: 88.53684%; }
     .subpage-with-subnav .mini-bullet-points:last-child {
       margin-right: 0; }
-  .subpage-with-subnav .program-widget {
-    float: left;
-    display: block;
-    margin-right: 3.16844%;
-    width: 88.53684%; }
-    .subpage-with-subnav .program-widget:last-child {
-      margin-right: 0; }
 
 .subpage .section-name.hidden {
   visibility: hidden;
@@ -1683,32 +1676,47 @@ footer {
   .featured-quote .quote-credit {
     font-size: 1.3em; }
 
-.program-widget {
+.program-slider {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
-  margin: 1.5em 0 3.45em;
-  background-color: white;
-  border: 1px solid #dddddd; }
-  .program-widget:last-child {
+  margin-right: 3.16844%;
+  width: 77.07368%;
+  margin-top: 1.5em; }
+  .program-slider:last-child {
     margin-right: 0; }
-  .program-widget .program-image {
+  .program-slider .sy-slides-wrap {
+    background-color: white;
+    border: 1px solid #dddddd; }
+  .program-slider .sy-pager {
+    margin-bottom: 3.45em; }
+  .program-slider .sy-pager li {
+    height: 0.7em;
+    width: 0.7em;
+    color: #333333; }
+    .program-slider .sy-pager li a {
+      position: relative; }
+    .program-slider .sy-pager li.sy-active a {
+      height: 1em;
+      width: 1em;
+      position: relative;
+      top: -0.15em;
+      background-color: #FDB813; }
+  .program-slider .program-image {
     max-height: 16rem;
     margin: 0;
     overflow: hidden; }
-    .program-widget .program-image img {
+    .program-slider .program-image img {
       width: 100%;
       height: auto; }
-  .program-widget .program-info {
+  .program-slider .program-info {
     padding: 3em;
     padding-top: 1.125em;
     text-align: center; }
-    .program-widget .program-info h3 {
+    .program-slider .program-info h3 {
       font-size: 1.875rem;
       margin-bottom: 0.3em;
       color: #11afbc; }
-    .program-widget .program-info p {
+    .program-slider .program-info p {
       font-size: 1.125rem;
       color: #7f7f7f; }
 

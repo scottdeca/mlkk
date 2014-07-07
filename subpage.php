@@ -176,7 +176,7 @@
       
     </section>
     
-    <div class="testimonial-widget">
+    <div class="testimonial-widget"><div class="grid-push-3">
       <div id="testimonial-widget-slider">
       
         <article class="testimonial-box">
@@ -233,7 +233,7 @@
         
       </div>
       <h2 class="product-name"></h2>
-    </div>
+    </div></div>
   
   </div> <!-- .subnav-content ends -->
   

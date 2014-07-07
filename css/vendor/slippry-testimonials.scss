@@ -47,10 +47,9 @@
 }
 .testimonial-widget .sy-box .sy-slide {
   opacity: 0.6;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
+  @include prefixer(transition, opacity 1s, webkit moz spec);
+  @include prefixer(transition, scale 0.5s, webkit moz spec);
+  @include prefixer(transform, scale(0.9), webkit moz spec);
 }
 
 .testimonial-widget .sy-box .sy-slide .buy-now {
@@ -86,16 +85,15 @@
 .testimonial-widget .sy-box .sy-slide.sy-active {
   @extend .soft-dropshadow;
   opacity: 1;
+  @include prefixer(transform, scale(1), webkit moz spec);
 }
 .testimonial-widget .sy-box .sy-slide.sy-active .buy-now {
   opacity: 1;
 }
 
 .testimonial-widget .sy-box .sy-slide * {
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
+  @include prefixer(transition, scale 0.5s, webkit moz spec);
+  @include prefixer(transition, opacity 1s, webkit moz spec);
 }
 .product-name,
 .testimonial-widget-slider .slide_box {

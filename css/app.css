@@ -879,15 +879,12 @@ input[type="submit"].hollow {
     background: none; } }
 .testimonial-widget .sy-box .sy-slide {
   opacity: 0.6;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  transition: opacity 1s;
-  -webkit-transition: scale 0.5s;
-  -moz-transition: scale 0.5s;
-  transition: scale 0.5s;
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
-  transform: scale(0.9); }
+  transform: scale(0.9);
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out; }
 
 .testimonial-widget .sy-box .sy-slide .buy-now {
   opacity: 0; }
@@ -926,12 +923,9 @@ input[type="submit"].hollow {
   opacity: 1; }
 
 .testimonial-widget .sy-box .sy-slide * {
-  -webkit-transition: scale 0.5s;
-  -moz-transition: scale 0.5s;
-  transition: scale 0.5s;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  transition: opacity 1s; }
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
 
 .product-name,
 .testimonial-widget-slider .slide_box {

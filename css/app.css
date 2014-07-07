@@ -807,11 +807,12 @@ input[type="submit"] {
 
 @media only screen and (min-width: 401px) {
   .testimonial-widget .sy-box .sy-slides-wrap {
-    min-width: 400px;
-    max-width: 620px;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto; } }
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 87.05267%; }
+    .testimonial-widget .sy-box .sy-slides-wrap:last-child {
+      margin-right: 0; } }
 .testimonial-widget .sy-box .sy-slides-crop {
   overflow: visible; }
 

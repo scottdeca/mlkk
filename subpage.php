@@ -350,9 +350,11 @@
     pager: false,
   
     // transitions
-    slideMargin: 8, // spacing between slides (in %)
+    slideMargin: 1, // spacing between slides (in %)
     useCSS: true,
     transition: 'horizontal',
+    easing: 'swing',
+    speed: 500, // time the transition takes (ms)
   
     // slideshow
     auto: false

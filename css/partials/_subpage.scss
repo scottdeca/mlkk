@@ -172,15 +172,23 @@
   }
   
   .sy-pager li {
-    @include size(.7em);
     color: tint(black, 20%);
-    a { position: relative; }
+    margin: 0 .7em 0 0;
+    
+    a { 
+      //@include size(.7em); 
+      //position: relative;
+      @include prefixer(transition, scale 0.5s, webkit moz spec);
+      @include prefixer(transform, scale(0.7), webkit moz spec);
+      }
     
     &.sy-active a { 
       //border: 2px solid #FDB813;
-      @include size(1em);
-      position: relative;
-      top: -0.15em;
+      //@include size(1em);
+      @include prefixer(transition, scale 0.5s, webkit moz spec);
+      @include prefixer(transform, scale(1), webkit moz spec);
+      //position: relative;
+      //top: -0.15em;
       background-color: #FDB813;
       }
   }

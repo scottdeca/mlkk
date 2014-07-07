@@ -128,6 +128,15 @@
             <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
           </div>
         </article>
+        <article>
+          <div class="program-image">
+            <img src="http://placehold.it/800x256">
+          </div>
+          <div class="program-info">
+            <h3>Bowl-a-Thon</h3>
+            <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+          </div>
+        </article>
       </div>
       
       

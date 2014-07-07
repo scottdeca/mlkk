@@ -1739,16 +1739,22 @@ footer {
   .program-slider .sy-pager {
     margin-bottom: 3.45em; }
   .program-slider .sy-pager li {
-    height: 0.7em;
-    width: 0.7em;
-    color: #333333; }
+    color: #333333;
+    margin: 0 .7em 0 0; }
     .program-slider .sy-pager li a {
-      position: relative; }
+      -webkit-transition: scale 0.5s;
+      -moz-transition: scale 0.5s;
+      transition: scale 0.5s;
+      -webkit-transform: scale(0.7);
+      -moz-transform: scale(0.7);
+      transform: scale(0.7); }
     .program-slider .sy-pager li.sy-active a {
-      height: 1em;
-      width: 1em;
-      position: relative;
-      top: -0.15em;
+      -webkit-transition: scale 0.5s;
+      -moz-transition: scale 0.5s;
+      transition: scale 0.5s;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      transform: scale(1);
       background-color: #FDB813; }
   .program-slider .program-image {
     max-height: 16rem;

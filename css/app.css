@@ -1792,11 +1792,3 @@ footer {
     font-style: normal;
     font-size: 1rem;
     color: #999999; }
-
-.read-more {
-  display: block;
-  font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-size: 0.9375rem;
-  font-weight: 600;
-  text-align: right;
-  color: #11afbc; }

@@ -70,7 +70,7 @@
       </div>
     </section>
     
-    <div class="info-snacks">
+    <div class="info-snacks" style="background-image: url(/img/background-images/farmers.market_green.jpg);">
       <div class="grid-wrapper">
         <h3>Since opening our doors in 1969</h3>
         <ul class="sliding-facts">
@@ -98,6 +98,7 @@
     </section>
     
     <div class="featured-quote">
+      <div class="faded-background-image" style="background-image: url(/img/background-images/quote_bw.jpg);"></div>
       <div class="grid-wrapper">
         <h3>“Were it not for the generous hearts of our donors and supporters, we would be unable to meet that need”</h3>
         <span class="quote-credit">&mdash; Harvey</span>

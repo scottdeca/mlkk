@@ -1585,8 +1585,9 @@ footer {
     margin: 0 auto 1.5em;
     width: 12em; }
 
-.hero {
-  background: url(/img/hero/hero_home_2.jpg); }
+.subpage .hero {
+  background: url(/img/hero/hero_our.mission.jpg);
+  background-position: center center; }
 
 .subpage-with-subnav {
   /*
@@ -1716,7 +1717,8 @@ footer {
   font-weight: 400; }
 
 .featured-quote {
-  background-color: #ddd; }
+  background-color: white;
+  position: relative; }
   .featured-quote .grid-wrapper {
     padding: 0 10em; }
   .featured-quote h3 {
@@ -1725,6 +1727,15 @@ footer {
     font-style: italic; }
   .featured-quote .quote-credit {
     font-size: 1.3em; }
+  .featured-quote .faded-background-image {
+    background-image: url(/img/background-images/quote_bw.jpg);
+    background-position: center center;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute; }
 
 .program-slider {
   float: left;

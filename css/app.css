@@ -208,7 +208,7 @@ table {
     display: table;
     clear: both; }
 
-.soft-dropshadow, .testimonial-widget .sy-box .sy-slide.sy-active, .testimonials-homepage .testimonial-box-horizontal > div, .program-slider .sy-slides-wrap {
+.soft-dropshadow, .testimonial-widget .sy-box .sy-slide.sy-active, .testimonials-homepage .testimonial-box-horizontal .testimonial-box, .program-slider .sy-slides-wrap {
   -webkit-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.18); }
@@ -1379,10 +1379,10 @@ header.navigation {
     margin-bottom: 6.25rem; }
     .testimonials-homepage .testimonial-box-horizontal:last-child {
       margin-right: 0; }
-    .testimonials-homepage .testimonial-box-horizontal > div {
+    .testimonials-homepage .testimonial-box-horizontal .testimonial-box {
       border: 1px solid #dddddd;
       margin-bottom: 0.875em; }
-      .testimonials-homepage .testimonial-box-horizontal > div:after {
+      .testimonials-homepage .testimonial-box-horizontal .testimonial-box:after {
         content: "";
         display: table;
         clear: both; }
@@ -1421,7 +1421,8 @@ header.navigation {
       font-size: 1rem;
       color: #999999; }
   .testimonials-homepage .read-more {
-    display: block;
+    text-align: right; }
+  .testimonials-homepage .read-more a {
     font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 0.9375rem;
     font-weight: 600;

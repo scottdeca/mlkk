@@ -20,7 +20,7 @@
     @include shift(2);
     margin-bottom: rem(100);
     
-    & > div {
+    .testimonial-box {
       border: 1px solid $light-gray;
       @extend .soft-dropshadow;
       @include clearfix;
@@ -73,7 +73,10 @@
     }
     
     .read-more {
-      display: block;
+      text-align: right;
+    }
+    
+    .read-more a {
       font-family: $ui-font-family;
       font-size: rem(15);
       font-weight: 600;

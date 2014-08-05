@@ -101,7 +101,7 @@
 remfugit latem que pe. Ga. Uciliatur aut ut excepro vitatur remoluptus.</p>
     
     <div class="testimonial-box-horizontal">
-      <div>
+      <div class="testimonial-box">
         <div class="testimonial-image">
           <img src="http://placehold.it/300x250" alt="" />
         </div>
@@ -110,7 +110,7 @@ remfugit latem que pe. Ga. Uciliatur aut ut excepro vitatur remoluptus.</p>
           <span class="testimonial-name">– Marc Reynolds</span>
         </div>
       </div>
-      <span class="read-more">Read more stories &rarr;</span>
+      <div class="read-more"><a href="#">Read more stories &rarr;</a></div>
     </div>
   </section>
   

@@ -1695,27 +1695,40 @@ footer {
     line-height: 1.41;
     padding-right: 10%; }
 
+ul {
+  list-style: square; }
+  ul > li {
+    line-height: 1.3;
+    margin-bottom: 0.6em;
+    width: 60%; }
+
 .list-large {
   list-style: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-size: 1.25em; }
 
 .list-large li {
+  width: 82%;
   padding-left: 1.7em;
-  text-indent: -0.8em;
-  line-height: 1.3;
+  text-indent: -0.7em;
+  line-height: 1.4;
   margin-bottom: 0.6em; }
 
 .list-large li:before {
   content: "•";
-  font-size: 1.375em;
+  font-size: 1em;
   color: #11afbc;
   /* or whatever color you prefer */
   display: inline-block;
-  width: 0.5em; }
+  width: 0.6em; }
 
 cite {
   font-style: italic; }
+
+ul + cite {
+  display: block;
+  margin-bottom: 1.5em; }
 
 .info-snacks, .featured-quote {
   min-height: 30.625rem;

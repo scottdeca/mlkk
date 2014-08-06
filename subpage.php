@@ -110,6 +110,13 @@
         <li>Children from food-insecure households are more likely to suffer from irritability, fatigue and difficulty concentrating than those who have adequate nutrition.</li>
       </ul>
       <cite>(Based on statistics from <a href="#">Feed America</a>)</cite>
+      
+       <ul>
+        <li>One out of six Americans does not have access to enough food</li>
+        <li>16 million children are living in food-insecure households</li>
+        <li>The lack of adequate nutrition affects the cognitive and behavioral development of children.</li>
+        <li>Children from food-insecure households are more likely to suffer from irritability, fatigue and difficulty concentrating than those who have adequate nutrition.</li>
+      </ul>
     </section>
     
     <div class="featured-quote">
@@ -155,43 +162,7 @@
           </div>
         </article>
       </div>
-      
-      
     </section>
-    
-    <!--
-    <section id="stories">
-      <h2>Lorem ipsum programs dolor mptium</h2>
-      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
-      
-      <div class="testimonial-widget">
-        <div id="story-slide-1">
-          <div class="testimonial-box">
-            <div class="testimonial-image">
-              <img src="http://placehold.it/300x250" alt="" />
-            </div>
-            <div class="testimonial-info">
-              <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
-              <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-            </div>
-          </div>
-          <button class="read-more">Continue reading &rarr;</span>
-        </div>
-        
-        <div id="story-slide-2">
-          <div class="testimonial-box">
-            <div class="testimonial-image">
-              <img src="http://placehold.it/300x250" alt="" />
-            </div>
-            <div class="testimonial-quote">
-              <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-              <span class="testimonial-name">– Marc Reynolds</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    -->
     
     
     <section id="stories-slider">
@@ -253,40 +224,7 @@
   </div> <!-- .subnav-content ends -->
   
   
-  <footer>
-    <div class="grid-wrapper">
-      <div class="colophon">
-        <img class="logo" src="/img/kfp_logo_green.png" alt="MLK Kitchen for the Poor">
-        <div class="contact-info">
-          <ul class="address">
-            <li>Street Address</li>
-            <li>Address #1</li>
-            <li>Toledo, OH 43604</li>
-          </ul>
-          <ul class="phone-email">
-            <li>419 555 5555</li>
-            <li>contact@kitchenforthepoor</li>
-          </ul>
-        </div>
-        
-        <p class="copyright">Copyright ©2014 Martin Luther King Kitchen for the Poor. <a href="#">Privacy Policy</a></p>
-      </div>
-      
-      <div class="tell-us-more">
-        <h3>Tell us about you</h3>
-        <p>Whether you’d like to help out at our next event, help cook some meals, or just learn more, we’d be glad to hear from you.</p>
-        <form>
-          <select name="select_element">
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-            <option value="3">Option 3</option>
-          </select>
-          <input class="button" type="submit" value="submit">
-        </form>
-      </div>
-    </div>
-  </footer>
-  
+  <?php include("parts/footer.php"); ?>  
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/jquery.scrollNav.min.js"></script>

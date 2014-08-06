@@ -1,0 +1,19 @@
+section {
+  padding-left: 2em;
+  padding-right: 2em;  
+  
+  @include media($medium-screen) {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  
+  @include media($large-screen) {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  
+  @include media($xlarge-screen) {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+}

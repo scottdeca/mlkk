@@ -1,10 +1,24 @@
+// ------------------------------------------------------------
+// Omega Reset
+// ------------------------------------------------------------
+
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}
+
 .bullets {
 	@include outer-container;
   overflow: auto;
   margin-bottom: $base-line-height;
 
   & > div {
+    @include media($medium-screen) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
     @include media($large-screen) {
+      @include omega-reset(2n);
       @include span-columns(3);
       @include omega(4n);
     }

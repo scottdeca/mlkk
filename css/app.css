@@ -1695,9 +1695,9 @@ footer {
     line-height: 1.41;
     padding-right: 10%; }
 
-ul {
+section ul {
   list-style: square; }
-  ul > li {
+  section ul > li {
     line-height: 1.3;
     margin-bottom: 0.6em;
     width: 60%; }

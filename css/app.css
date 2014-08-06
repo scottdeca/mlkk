@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1694,6 +1695,28 @@ footer {
     line-height: 1.41;
     padding-right: 10%; }
 
+.list-large {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.list-large li {
+  padding-left: 1.7em;
+  text-indent: -0.8em;
+  line-height: 1.3;
+  margin-bottom: 0.6em; }
+
+.list-large li:before {
+  content: "•";
+  font-size: 1.375em;
+  color: #11afbc;
+  /* or whatever color you prefer */
+  display: inline-block;
+  width: 0.5em; }
+
+cite {
+  font-style: italic; }
+
 .info-snacks, .featured-quote {
   min-height: 30.625rem;
   background-color: #bed62f;
@@ -1725,7 +1748,8 @@ footer {
   .featured-quote h3 {
     color: #11afbc;
     font-size: 2.6875rem;
-    font-style: italic; }
+    font-style: italic;
+    margin-bottom: 0.375em; }
   .featured-quote .quote-credit {
     font-size: 1.3em; }
   .featured-quote .faded-background-image {

@@ -32,7 +32,7 @@
   <div class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
-        <h1>Tem qui dellor sunt voluptaepre 200 et a con 52 soluptati unt quo omniet occaesequo ommo.</h1>
+        <h1>Feeding the hungry with love, compassion and respect since 1969.</h1>
       </div>
       <button class="learn-more">Learn More</button>
       <button class="give">Give</button>
@@ -44,29 +44,29 @@
     <div class="bullet">
       <div class="bullet-icon bullet-icon-1"></div>
       <div class="bullet-content">
-        <h2>This Bullet Title</h2>
-        <p>Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+        <h2>We are welcoming.</h2>
+        <p>We accept all who walk in our door, up to 200 people a day, most days. We are always ready to lend a hand, to listen and to serve without judgment.</p>
         </div>
     </div>  
     <div class="bullet">
       <div class="bullet-icon bullet-icon-2"></div>
       <div class="bullet-content">
-        <h2>Another Bullet Title</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum.</p>
+        <h2>We are respectful.</h2>
+        <p>We know the people we serve have dignity – and pride. We honor them, and we are honored to serve them. If they want to talk, we listen.</p>
       </div>
     </div>
     <div class="bullet">
       <div class="bullet-icon bullet-icon-3"></div>
       <div class="bullet-content">
-        <h2>Last Bullet Title</h2>
-        <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+        <h2>We are community.</h2>
+        <p>We are proud to know that people consider us a part of their extended families. The kitchen is a family whose members watch out for one another.</p>
       </div>
     </div>
     <div class="bullet">
       <div class="bullet-icon bullet-icon-4"></div>
       <div class="bullet-content">
-        <h2>Last Bullet Title</h2>
-        <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+        <h2>We are necessary.</h2>
+        <p>We’d like to know a day will come when there would be no need for us. Until that day, we do what we feel called to do, and that is to feed the hungry.</p>
       </div>
     </div> 
   </section>
@@ -106,8 +106,8 @@ remfugit latem que pe. Ga. Uciliatur aut ut excepro vitatur remoluptus.</p>
           <img src="http://placehold.it/300x250" alt="" />
         </div>
         <div class="testimonial-quote">
-          <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-          <span class="testimonial-name">– Marc Reynolds</span>
+          <p>It’s been a privilege working with the staff and volunteers at the MLK Kitchen for the Poor. They truly care about fighting hunger and bettering the community.</p>
+          <span class="testimonial-name">– Alexis Means, 13abc Action News, <br />former board member for the kitchen</span>
         </div>
       </div>
       <div class="read-more"><a href="#">Read more stories &rarr;</a></div>
@@ -135,10 +135,10 @@ remfugit latem que pe. Ga. Uciliatur aut ut excepro vitatur remoluptus.</p>
       
       <div class="tell-us-more">
         <h3>Tell us about you</h3>
-        <p>Whether you’d like to help out at our next event, help cook some meals, or just learn more, we’d be glad to hear from you.</p>
+        <p>Whether you’d like to assist at our next event, help cook some meals or just learn more about what we do, we’d enjoy hearing from you.</p>
         <form>
           <select name="select_element">
-            <option value="1">Option 1</option>
+            <option value="1">How would you like to help out?</option>
             <option value="2">Option 2</option>
             <option value="3">Option 3</option>
           </select>

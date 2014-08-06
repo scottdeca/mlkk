@@ -32,7 +32,7 @@
   <div class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
-        <h1>Tem qui dellor sunt voluptaepre 200 et a con 52 soluptati unt quo omniet occaesequo ommo.</h1>
+        <h1>We’re here for people who need help during tough times.</h1>
       </div>
     </div>
     <div class="overlay"></div>
@@ -43,31 +43,41 @@
   
     <section id="mission">
       <h2 class="section-name hidden">Mission</h2>
-      <h2>MLK Kitchen for the Poor feeds anyone who walks through its doors — regardless of race, age, sex or religious belief.</h2>
-      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+      <h2>We offer hope and acceptance to those in need, keeping in mind the dignity of all persons.</h2>
+      <p>We help anyone who walks through our doors, regardless of age, sex, religion, political beliefs or race. We feed the homeless and those with low incomes. We provide hope where there seems to be none.</p>
       
       <div class="mini-bullet-points 2-column">
         <div class="mini-bullet-point">
           <h4>Meal delivery</h4>
-          <p>The MLK Kitchen for the Poor was established in 1969 by the late 
-  Rev. the tremendous need he saw in his community.</p>
+          <p>Delivers meals to the elderly and area shut-ins.</p>
         </div>
         <div class="mini-bullet-point">
-          <h4>Meal delivery</h4>
-          <p>The MLK Kitchen for the Poor was established in 1969 by the late 
-  Rev. the tremendous need he saw in his community.</p>
+          <h4>Meals for Summer Vacation</h4>
+          <p>Serves hot meals to neighborhood children during summer vacation</p>
         </div>
         <div class="mini-bullet-point">
-          <h4>Meal delivery</h4>
-          <p>The MLK Kitchen for the Poor was established in 1969 by the late 
-  Rev. the tremendous need he saw in his community.</p>
+          <h4>Providing ingredients for home cooking</h4>
+          <p>Provides ingredients for food-stamp recipient families to prepare meals at home</p>
         </div>
         <div class="mini-bullet-point">
-          <h4>Meal delivery</h4>
-          <p>The MLK Kitchen for the Poor was established in 1969 by the late 
-  Rev. the tremendous need he saw in his community.</p>
+          <h4>Extra help for the holidays</h4>
+          <p>Helps needy families with meals during the holidays</p>
+        </div>
+        <div class="mini-bullet-point">
+          <h4>Secret Santa families</h4>
+          <p>Matches “adoptive” families with needy families to provide gifts for Christmas</p>
+        </div>
+        <div class="mini-bullet-point">
+          <h4>Providing essentials for our community</h4>
+          <p>Provides clothing, toys, counseling and support for the immediate community</p>
+        </div>
+        <div class="mini-bullet-point">
+          <h4>Christmas gifts for children</h4>
+          <p>Provides Christmas gifts to children</p>
         </div>
       </div>
+      
+      <p>Respect for each person, love for all &mdash; our values, simply put. We don’t just hand out food and clothes. We make sure to honor the people we serve by treating them with the respect they deserve.</p>
     </section>
     
     <div class="info-snacks" style="background-image: url(/img/background-images/farmers.market_green.jpg);">
@@ -92,16 +102,22 @@
     
     <section id="learn-about-hunger" data-magellan-destination="hunger">
       <h2 class="section-name hidden">Learn about Hunger</h2>
-      <h2>MLK Kitchen for the Poor feeds anyone who walks through its doors — regardless of race, age, sex or religious belief.</h2>
-      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
-      <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
+      <h2>Recognizing that local hunger has global effects, we do what we can to feed the hungry.</h2>
+      <ul class="list-large">
+        <li>One out of six Americans does not have access to enough food</li>
+        <li>16 million children are living in food-insecure households</li>
+        <li>The lack of adequate nutrition affects the cognitive and behavioral development of children.</li>
+        <li>Children from food-insecure households are more likely to suffer from irritability, fatigue and difficulty concentrating than those who have adequate nutrition.</li>
+      </ul>
+      <cite>(Based on statistics from <a href="#">Feed America</a>)</cite>
     </section>
     
     <div class="featured-quote">
       <div class="faded-background-image" style="background-image: url(/img/background-images/quote_bw.jpg);"></div>
       <div class="grid-wrapper">
-        <h3>“Were it not for the generous hearts of our donors and supporters, we would be unable to meet that need”</h3>
-        <span class="quote-credit">&mdash; Harvey</span>
+        <h3>&ldquo;I have the audacity to believe that people everywhere can have three meals a day for their bodies, education and culture for the minds and dignity, equality and freedom for their spirits.&rdquo;
+</h3>
+        <cite class="quote-credit"><b>Martin Luther King, Jr.</b>, American Civil Rights Leader</cite>
       </div>
     </div>
     
@@ -188,25 +204,14 @@
     
     <div class="testimonial-widget"><div class="grid-push-3">
       <div id="testimonial-widget-slider">
-      
-        <article class="testimonial-box">
-           <div class="testimonial-image">
-            <img src="http://placehold.it/300x250" alt="" />
-          </div>
-          <div class="testimonial-info">
-            <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
-            <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-            <div class="button-link-wrapper"><a href="#!" class="button-link buy-now button hollow">Continue reading &rarr;</a></div>
-          </div>
-        </article>
         
-        <article title="Read More" class="testimonial-box">
+        <article class="testimonial-box">
           <div class="testimonial-image">
             <img src="http://placehold.it/300x250" alt="" />
           </div>
           <div class="testimonial-quote">
-            <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-            <span class="testimonial-name">– Marc Reynolds</span>
+            <p>I am blessed. With my illness, it’s not easy. I count on the people at the kitchen to help me out every day. They make me feel loved and appreciated so I don’t feel isolated. I appreciate them and thank God for them every day.</p>
+            <cite class="testimonial-name">Cecelia</cite>
           </div>
         </article>
         
@@ -215,29 +220,29 @@
             <img src="http://placehold.it/300x250" alt="" />
           </div>
           <div class="testimonial-info">
-            <h4>Marc Reynolds: Nimre vendrae rem quas molutpta tioratu</h4>
-            <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
+            <h4>I don’t know where I’d be without the help the kitchen gave us</h4>
+            <p>Willie Ward, Sr., principal of Martin Luther King, Jr., Academy for Boys in Toledo, is clear: the two biggest influences on his life to date are his mother and Martin Luther King, Jr...</p>
             <div class="button-link-wrapper"><a href="#!" class="button-link buy-now button hollow">Continue reading &rarr;</a></div>
           </div>
         </article>
         
-        <article title="Read More" class="testimonial-box">
+        <article class="testimonial-box">
           <div class="testimonial-image">
             <img src="http://placehold.it/300x250" alt="" />
           </div>
           <div class="testimonial-quote">
-            <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-            <span class="testimonial-name">– Marc Reynolds</span>
+            <p>Miss Henrietta and all the people at the kitchen have been so welcoming to us. We have been homeless and living in a shelter for a while. We always feel respected and loved when we come to the kitchen.</p>
+            <cite class="testimonial-name">Jeff</cite>
           </div>
         </article>
         
-        <article title="Read More" class="testimonial-box">
+        <article class="testimonial-box">
           <div class="testimonial-image">
             <img src="http://placehold.it/300x250" alt="" />
           </div>
           <div class="testimonial-quote">
-            <p>Testimonial about the the kitchenipsum Tas dion recte nim re vendae rem quas molupta tioratur explit et eossiti quisit rem fugit latem que pe.</p>
-            <span class="testimonial-name">– Marc Reynolds</span>
+            <p>I’ve been coming here for a long time. I don’t know what I would do without the kitchen. It’s a place where I don’t have to go hungry. I can count on coming here to get a decent lunch and whatever else they give.</p>
+            <cite class="testimonial-name">Joe</cite>
           </div>
         </article>
         

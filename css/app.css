@@ -1404,11 +1404,17 @@ header.navigation {
 .testimonials-homepage {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  border-top: 2px dotted #dddddd;
+  padding-top: 3em; }
   .testimonials-homepage:after {
     content: "";
     display: table;
     clear: both; }
+  @media screen and (min-width: 53.75em) {
+    .testimonials-homepage {
+      border-top: none;
+      padding-top: 0; } }
   .testimonials-homepage .inline-with-rule {
     text-align: center;
     margin-bottom: 0.5rem; }
@@ -1416,16 +1422,19 @@ header.navigation {
     text-align: center;
     font-size: 1.125rem;
     line-height: 1.625rem;
-    max-width: 50%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3.125rem; }
+    @media screen and (min-width: 53.75em) {
+      .testimonials-homepage .description {
+        max-width: 70%; } }
   .testimonials-homepage .testimonial-box-horizontal {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-left: 17.05961%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
     margin-bottom: 6.25rem; }
     .testimonials-homepage .testimonial-box-horizontal:last-child {
       margin-right: 0; }
@@ -1436,6 +1445,15 @@ header.navigation {
         content: "";
         display: table;
         clear: both; }
+  @media screen and (min-width: 53.75em) {
+    .testimonials-homepage .testimonial-box-horizontal {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%; }
+      .testimonials-homepage .testimonial-box-horizontal:last-child {
+        margin-right: 0; } }
   .testimonials-homepage .testimonial-image {
     width: 46%;
     margin-right: 8%;
@@ -1488,7 +1506,7 @@ footer {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 57.35098%; }
+    width: 100%; }
     footer .colophon:last-child {
       margin-right: 0; }
     footer .colophon li {
@@ -1497,29 +1515,32 @@ footer {
     footer .colophon .logo {
       float: left;
       display: block;
-      margin-right: 4.11092%;
-      width: 25.63506%;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-right: 0;
       margin-bottom: 1.75rem; }
       footer .colophon .logo:last-child {
         margin-right: 0; }
     footer .colophon .address {
       float: left;
       display: block;
-      margin-right: 4.11092%;
-      width: 25.63506%; }
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-right: 0; }
       footer .colophon .address:last-child {
         margin-right: 0; }
     footer .colophon .phone-email {
       float: left;
       display: block;
-      margin-right: 4.11092%;
-      width: 55.38104%; }
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-right: 0; }
       footer .colophon .phone-email:last-child {
         margin-right: 0; }
     footer .colophon .copyright {
       float: left;
       display: block;
-      margin-right: 4.11092%;
+      margin-right: 2.35765%;
       width: 100%;
       text-transform: uppercase;
       font-size: 0.75rem; }
@@ -1533,9 +1554,7 @@ footer {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 40.29137%;
-    padding-left: 6%;
-    border-left: 1px solid rgba(87, 103, 66, 0.2); }
+    width: 100%; }
     footer .tell-us-more:last-child {
       margin-right: 0; }
     footer .tell-us-more h3 {
@@ -1590,6 +1609,54 @@ footer {
       padding-bottom: 0;
       text-align: center;
       border: none; }
+  @media screen and (min-width: 40em) {
+    footer .colophon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      footer .colophon:last-child {
+        margin-right: 0; }
+      footer .colophon .logo {
+        float: left;
+        display: block;
+        margin-right: 4.11092%;
+        width: 25.63506%;
+        margin-bottom: 1.75rem; }
+        footer .colophon .logo:last-child {
+          margin-right: 0; }
+      footer .colophon .address {
+        float: left;
+        display: block;
+        margin-right: 4.11092%;
+        width: 25.63506%; }
+        footer .colophon .address:last-child {
+          margin-right: 0; }
+      footer .colophon .phone-email {
+        float: left;
+        display: block;
+        margin-right: 4.11092%;
+        width: 55.38104%; }
+        footer .colophon .phone-email:last-child {
+          margin-right: 0; }
+      footer .colophon .copyright {
+        float: left;
+        display: block;
+        margin-right: 4.11092%;
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 0.75rem; }
+        footer .colophon .copyright:last-child {
+          margin-right: 0; }
+    footer .tell-us-more {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      padding-left: 6%;
+      border-left: 1px solid rgba(87, 103, 66, 0.2); }
+      footer .tell-us-more:last-child {
+        margin-right: 0; } }
   footer .footer-links {
     margin-bottom: 1.5em; }
     footer .footer-links:after {

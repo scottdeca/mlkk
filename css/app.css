@@ -1212,7 +1212,7 @@ header.navigation {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
-    padding: 11.3125em 10em 6em;
+    padding: 11.3125em 1em 6em;
     margin: auto;
     text-align: center;
     color: white;
@@ -1226,6 +1226,9 @@ header.navigation {
       content: "";
       display: table;
       clear: both; }
+    @media screen and (min-width: 53.75em) {
+      .hero .hero-inner {
+        padding: 11.3125em 10em 6em; } }
     .hero .hero-inner button {
       font-size: 1em;
       outline: none; }
@@ -1248,7 +1251,7 @@ header.navigation {
       text-align: center;
       margin-bottom: 3.875em; }
       .hero .hero-inner .hero-copy h1 {
-        font-size: 1.8em;
+        font-size: 1.875rem;
         margin-bottom: .2em;
         font-weight: 200; }
         @media screen and (min-width: 40em) {

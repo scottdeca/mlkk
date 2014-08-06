@@ -21,13 +21,17 @@
 	.hero-inner {
 		@include outer-container;
 		@include clearfix;
-		padding: ($navigation-height + 5em) 10em 6em;
+		padding: ($navigation-height + 5em) 1em 6em;
 		margin: auto;
 		text-align: center;
 		color: $hero-color;
 		position: relative;
 		z-index: 99;
-
+    
+    @include media($large-screen) {
+      padding: ($navigation-height + 5em) 10em 6em;
+    }
+    
 		button {
 			font-size: $base-font-size;
 			outline: none;
@@ -59,7 +63,7 @@
 			margin-bottom: em(62);
 			
 			h1 {
-				font-size: 1.8em;
+				font-size: rem(30);
 				margin-bottom: .2em;
 				font-weight: 200;
         

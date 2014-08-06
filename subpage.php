@@ -220,7 +220,7 @@
             <img src="http://placehold.it/300x250" alt="" />
           </div>
           <div class="testimonial-info">
-            <h4>I don’t know where I’d be without the help the kitchen gave us</h4>
+            <h4>&ldquo;I don’t know where I’d be without the help the kitchen gave us&rdquo;</h4>
             <p>Willie Ward, Sr., principal of Martin Luther King, Jr., Academy for Boys in Toledo, is clear: the two biggest influences on his life to date are his mother and Martin Luther King, Jr...</p>
             <div class="button-link-wrapper"><a href="#!" class="button-link buy-now button hollow">Continue reading &rarr;</a></div>
           </div>

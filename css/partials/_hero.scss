@@ -62,7 +62,11 @@
 				font-size: 1.8em;
 				margin-bottom: .2em;
 				font-weight: 200;
-
+        
+        @include media($medium-screen) {
+					font-size: rem(46);
+				}
+        
 				@include media($large-screen) {
 					font-size: rem(64);
 				}

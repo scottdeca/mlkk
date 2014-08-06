@@ -5,14 +5,16 @@
 	margin-bottom: $base-line-height*2;
 	
 	& > div {
-		@include span-columns(6);
-		padding: rem(10) 0;
+		@include media($large-screen) {
+      @include span-columns(6);
+      padding: rem(10) 0;
+    }
 	}
 	
 	.featured-page {
-  	padding-right: rem(64);
-  	border-right: 1px solid #ddd;
-  	min-height: 250px;
+  	border-bottom: 1px solid #ddd;
+  	padding-bottom: $base-line-height * 2;
+  	margin-bottom: $base-line-height * 2.4;
   	
   	h2 {
     	font-weight: 100;
@@ -33,9 +35,24 @@
   	}
 	}
 	
-	.newsfeed {
-  	padding-left: rem(64);
+	@include media($large-screen) {
+	  .featured-page {
+    	padding-right: rem(64);
+    	border-bottom: none;
+    	border-right: 1px solid #ddd;
+    	min-height: 250px;
+  	}
 	}
+	
+	@include media($large-screen) {
+  	.newsfeed {
+    	padding-left: rem(64);
+  	}
+  	
+  	.newsfeed li {
+    	margin-bottom: rem(13);
+  	}
+  }
 	
 	.newsfeed ul {
   	list-style-type: none;
@@ -44,7 +61,7 @@
 	.newsfeed li {
 	  width: 100%;
 	  line-height: inherit;
-  	margin-bottom: rem(13);
+  	margin-bottom: rem(20);
 	}
 	
 	.newsfeed-headline {

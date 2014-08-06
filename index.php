@@ -49,14 +49,14 @@
         </div>
     </div>  
     <div class="bullet">
-      <div class="bullet-icon bullet-icon-2"></div>
+      <div class="bullet-icon bullet-icon-3"></div>
       <div class="bullet-content">
         <h2>We are respectful.</h2>
         <p>We know the people we serve have dignity – and pride. We honor them, and we are honored to serve them. If they want to talk, we listen.</p>
       </div>
     </div>
     <div class="bullet">
-      <div class="bullet-icon bullet-icon-3"></div>
+      <div class="bullet-icon bullet-icon-2"></div>
       <div class="bullet-content">
         <h2>We are community.</h2>
         <p>We are proud to know that people consider us a part of their extended families. The kitchen is a family whose members watch out for one another.</p>
@@ -80,15 +80,15 @@
     <div class="newsfeed">
       <ul>
         <li>
-          <h3 class="newsfeed-headline">Toledo City Paper nominates MLK Kitchen for an award</h3>
+          <h3 class="newsfeed-headline">National Food Drive is this Wednesday</h3>
           <span class="newsfeed-meta">Mar 25, 2014<span class="divider">|</span><a class="read-more" href="#">Read More</a></span>
         </li>
         <li>
-          <h3 class="newsfeed-headline">Toledo City Paper nominates MLK Kitchen for an award</h3>
+          <h3 class="newsfeed-headline">September Bowl-a-Thon</h3>
           <span class="newsfeed-meta">Mar 25, 2014<span class="divider">|</span><a class="read-more" href="#">Read More</a></span>
         </li>
         <li>
-          <h3 class="newsfeed-headline">Toledo City Paper nominates MLK Kitchen for an award</h3>
+          <h3 class="newsfeed-headline">A big thanks to all of our volunteers this weekend</h3>
           <span class="newsfeed-meta">Mar 25, 2014<span class="divider">|</span><a class="read-more" href="#">Read More</a></span>
         </li>
       </ul>

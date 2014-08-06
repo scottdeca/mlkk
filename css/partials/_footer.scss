@@ -11,7 +11,7 @@ footer {
   font-family: $ui-font-family;
   
   .colophon {
-  	 @include span-columns(12);
+  	 @include span-columns(7);
   	 
   	 li {
     	 font-size: rem(14);
@@ -19,23 +19,20 @@ footer {
   	 }
   	 
   	 .logo { 
-  	  @include span-columns(5 of 12);
-  	  @include omega;
+  	  @include span-columns(2 of 7);
   	  margin-bottom: rem(28);
   	  }
   	 
   	 .address {
-    	 @include span-columns(8 of 12);
-    	 @include omega;
+    	 @include span-columns(2 of 7);
   	 }
   	 
   	 .phone-email {
-    	 @include span-columns(8 of 12);
-    	 @include omega;
+    	 @include span-columns(4 of 7);
   	 }
   	 
   	 .copyright {
-    	 @include span-columns(12 of 12);
+    	 @include span-columns(7 of 7);
     	 text-transform: uppercase;
     	 font-size: rem(12);
     	 
@@ -47,9 +44,9 @@ footer {
   }
   
   .tell-us-more {
-    @include span-columns(12);
-    //padding-left: 6%;
-    //border-left: 1px solid transparentize($footer-color, .6);
+    @include span-columns(5);
+    padding-left: 6%;
+    border-left: 1px solid transparentize($footer-color, .6);
     
     h3 {
       font-size: rem(30);
@@ -120,36 +117,8 @@ footer {
 
   
   
-  @include media($medium-screen) {
-    .colophon { 
-      @include span-columns(7);
-      
-      .logo { 
-    	  @include span-columns(2 of 7);
-    	  margin-bottom: rem(28);
-  	  }
-    	 
-    	 .address {
-      	 @include span-columns(2 of 7);
-    	 }
-    	 
-    	 .phone-email {
-      	 @include span-columns(4 of 7);
-    	 }
-    	 
-    	 .copyright {
-      	 @include span-columns(7 of 7);
-      	 text-transform: uppercase;
-      	 font-size: rem(12);
-    	 }
-      }
-    
-    .tell-us-more { 
-      @include span-columns(5);
-      padding-left: 6%;
-      border-left: 1px solid transparentize($footer-color, .6);
-      }
-  }
+  
+  
   
   
   

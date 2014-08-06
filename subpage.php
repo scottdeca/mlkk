@@ -12,7 +12,7 @@
 
   <header class="navigation">
     <div class="menu-wrapper">
-      <a href="javascript:void(0)" class="logo">
+      <a href="/" class="logo">
         <img src="/img/kfp_logo_rev.png" alt="MLK Kitchen for the Poor">
       </a>
       <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
@@ -64,7 +64,7 @@
           <p>Helps needy families with meals during the holidays</p>
         </div>
         <div class="mini-bullet-point">
-          <h4>Secret Santa families</h4>
+          <h4>Secret Santa, for the whole family</h4>
           <p>Matches “adoptive” families with needy families to provide gifts for Christmas</p>
         </div>
         <div class="mini-bullet-point">

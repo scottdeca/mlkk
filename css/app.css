@@ -1335,7 +1335,11 @@ header.navigation {
       color: #11afbc; }
   .featuredpage-newsfeed .newsfeed {
     padding-left: 4rem; }
+  .featuredpage-newsfeed .newsfeed ul {
+    list-style-type: none; }
   .featuredpage-newsfeed .newsfeed li {
+    width: 100%;
+    line-height: inherit;
     margin-bottom: 0.8125rem; }
   .featuredpage-newsfeed .newsfeed-headline {
     font-style: italic;

@@ -37,7 +37,13 @@
   	padding-left: rem(64);
 	}
 	
+	.newsfeed ul {
+  	list-style-type: none;
+	}
+	
 	.newsfeed li {
+	  width: 100%;
+	  line-height: inherit;
   	margin-bottom: rem(13);
 	}
 	

@@ -1719,7 +1719,6 @@ ul {
   content: "•";
   font-size: 1em;
   color: #11afbc;
-  /* or whatever color you prefer */
   display: inline-block;
   width: 0.6em; }
 

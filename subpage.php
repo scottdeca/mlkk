@@ -109,14 +109,7 @@
         <li>The lack of adequate nutrition affects the cognitive and behavioral development of children.</li>
         <li>Children from food-insecure households are more likely to suffer from irritability, fatigue and difficulty concentrating than those who have adequate nutrition.</li>
       </ul>
-      <cite>(Based on statistics from <a href="#">Feed America</a>)</cite>
-      
-       <ul>
-        <li>One out of six Americans does not have access to enough food</li>
-        <li>16 million children are living in food-insecure households</li>
-        <li>The lack of adequate nutrition affects the cognitive and behavioral development of children.</li>
-        <li>Children from food-insecure households are more likely to suffer from irritability, fatigue and difficulty concentrating than those who have adequate nutrition.</li>
-      </ul>
+      <cite>Based on statistics from <a href="#">Feed America</a></cite>
     </section>
     
     <div class="featured-quote">

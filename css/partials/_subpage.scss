@@ -3,6 +3,18 @@
 	background-position: center center;
 }
 
+.subpage {
+  section {
+    @include outer-container;
+    padding: 0 $gutter;
+    
+    & > * {
+      @include span-columns(9);
+      @include shift(1.5);
+    }
+  }
+}
+
 .subpage-with-subnav {
   
   .scroll-nav {

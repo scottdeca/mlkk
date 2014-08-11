@@ -1503,6 +1503,7 @@ header.navigation {
 footer {
   background: #bed62f;
   padding: 3em 1.618em;
+  margin-top: 3em;
   width: 100%;
   font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   footer .colophon {
@@ -1660,6 +1661,24 @@ footer {
 .subpage .hero {
   background: url(/img/hero/hero_our.mission.jpg);
   background-position: center center; }
+
+.subpage section {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.618em; }
+  .subpage section:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .subpage section > * {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-left: 12.79471%; }
+    .subpage section > *:last-child {
+      margin-right: 0; }
 
 .subpage-with-subnav {
   /*

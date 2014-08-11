@@ -280,6 +280,8 @@
     auto: false
   });
   
+  
+  // ScrollNav Settings
   $('.subnav-content').scrollNav({
     sections: '.section-name',
     subSections: false,

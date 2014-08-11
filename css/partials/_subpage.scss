@@ -1,11 +1,12 @@
 .subpage .hero { background-position: center center; }
 
-.our-work .hero { background: url(/img/hero/hero_our.mission.jpg); }
+.our-work .hero { background-image: url(/img/hero/hero_our.mission.jpg); }
 
 .subpage {
   section {
     @include outer-container;
     padding: 0 $gutter;
+    margin-top: $base-line-height;
     
     & > * {
       @include span-columns(9);
@@ -75,7 +76,8 @@
   h2 {
     font-weight: 100;
     //font-size: $base-font-size * 2.5;
-    font-size: rem(39);
+    //font-size: rem(39);
+    font-size: $base-font-size * 2.2;
     line-height: $unitless-line-height * .8;
     margin-bottom: $base-line-height * .4;
   }

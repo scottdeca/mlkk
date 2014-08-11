@@ -287,6 +287,7 @@ h6 {
   font-size: 1em; }
 
 p {
+  font-size: 1.2em;
   margin: 0 0 0.75em; }
 
 a {
@@ -1191,7 +1192,7 @@ header.navigation {
           display: block; } }
 
 .hero {
-  background: url(/img/hero/hero_home_2.jpg);
+  background-image: url(/img/hero/hero_home_2.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -1666,13 +1667,14 @@ footer {
   background-position: center center; }
 
 .our-work .hero {
-  background: url(/img/hero/hero_our.mission.jpg); }
+  background-image: url(/img/hero/hero_our.mission.jpg); }
 
 .subpage section {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1.618em; }
+  padding: 0 1.618em;
+  margin-top: 1.5em; }
   .subpage section:after {
     content: "";
     display: table;
@@ -1746,7 +1748,7 @@ footer {
   color: transparent; }
 .subpage h2 {
   font-weight: 100;
-  font-size: 2.4375rem;
+  font-size: 2.2em;
   line-height: 1.2;
   margin-bottom: 0.6em; }
 .subpage .scroll-nav__section > p {

@@ -3,7 +3,7 @@ $navigation-height: (em(85) + 1em);
 .hero {	
 	$hero-color: white;
 	
-	background: url(/img/hero/hero_home_2.jpg);
+	background-image: url(/img/hero/hero_home_2.jpg);
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;

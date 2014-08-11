@@ -1876,6 +1876,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/get-help.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/get-help.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/img\/background-images\/farmers.market_green.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1938,6 +1947,17 @@
 		"initialSize": 3762,
 		"inputAbbreviatedPath": "\/img\/bullet_4.png",
 		"outputAbbreviatedPath": "\/img\/bullet_4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero\/hero_condensed.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67262,
+		"inputAbbreviatedPath": "\/img\/hero\/hero_condensed.jpg",
+		"outputAbbreviatedPath": "\/img\/hero\/hero_condensed.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2101,11 +2121,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/subpage-noquote.php": {
+	"\/subpage-condensed.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/subpage-noquote.php",
+		"inputAbbreviatedPath": "\/subpage-condensed.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/subpage-with-nav.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/subpage-with-nav.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

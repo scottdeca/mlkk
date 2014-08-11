@@ -1271,7 +1271,7 @@ header.navigation {
 
 .hero-condensed {
   min-height: 7.575em;
-  background: url(/img/hero/hero_condensed.jpg); }
+  background-image: url(/img/hero/hero_condensed.jpg); }
 
 .bullets {
   max-width: 68em;

@@ -93,6 +93,5 @@ $navigation-height: (em(85) + 1em);
 
 .hero-condensed {
   min-height: $navigation-height * 1.2;
-  
-  background: url(/img/hero/hero_condensed.jpg);
+  background-image: url(/img/hero/hero_condensed.jpg);
 }

@@ -287,7 +287,7 @@ h6 {
   font-size: 1em; }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.1875em;
   margin: 0 0 0.75em; }
 
 a {
@@ -1663,6 +1663,9 @@ footer {
     margin: 0 auto 1.5em;
     width: 12em; }
 
+.placeholder {
+  font-family: theatre; }
+
 .subpage .hero {
   background-position: center center; }
 
@@ -1687,6 +1690,15 @@ footer {
     margin-left: 12.79471%; }
     .subpage section > *:last-child {
       margin-right: 0; }
+.subpage h2 {
+  font-size: 1.8em;
+  line-height: 1.5;
+  color: #3d3d3d; }
+.subpage p {
+  font-size: 1.375em;
+  line-height: 1.5;
+  color: #898989;
+  margin-bottom: 1.05em; }
 
 .subpage-with-subnav {
   /*

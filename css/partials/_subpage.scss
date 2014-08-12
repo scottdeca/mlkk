@@ -1,3 +1,7 @@
+// Very temporary -  delete after getting all content in place
+.placeholder { font-family: theatre; }
+//
+
 .subpage .hero { background-position: center center; }
 
 .our-work .hero { background-image: url(/img/hero/hero_our.mission.jpg); }
@@ -12,6 +16,20 @@
       @include span-columns(9);
       @include shift(1.5);
     }
+  }
+  
+  h2 {
+    font-size: $base-font-size * 1.8; //30px
+    line-height: $unitless-line-height;
+    color: shade($dark-gray, 10%); 
+  }
+  
+  p {
+    font-size: $base-font-size * 1.375; // 22px
+    line-height: $unitless-line-height;
+    color: shade($medium-gray, 10%);
+    
+    margin-bottom: $base-line-height * .7;
   }
 }
 

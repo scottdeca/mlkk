@@ -1792,7 +1792,7 @@ footer {
     .subpage-with-subnav .mini-bullet-points:last-child {
       margin-right: 0; }
 
-.subpage .section-name.hidden {
+.subpage .hidden {
   visibility: hidden;
   height: 0;
   width: 0;

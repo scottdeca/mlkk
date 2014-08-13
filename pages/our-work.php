@@ -26,7 +26,6 @@
   <div class="subnav-content">
   
     <section id="mission">
-      <h2 class="section-name hidden">Mission</h2>
       <h6 class="subhead">Mission</h6>
       <h2>We offer hope and acceptance to those in need, keeping in mind the dignity of all persons.</h2>
       <p>We help anyone who walks through our doors, regardless of age, sex, religion, political beliefs or race. We feed the homeless and those with low incomes. We provide hope where there seems to be none.</p>
@@ -86,7 +85,6 @@
     </div>
     
     <section id="learn-about-hunger" data-magellan-destination="hunger">
-      <h2 class="section-name hidden">Learn about hunger</h2>
       <h6 class="subhead">Learn about hunger</h6>
       <h2>Recognizing that local hunger has global effects, we do what we can to feed the hungry.</h2>
       <ul class="list-large">
@@ -108,7 +106,6 @@
     </div>
     
     <section id="programs">
-      <h2 class="section-name hidden">Programs</h2>
       <h6 class="subhead">Programs</h6>
       <h2>Lorem ipsum programs dolor optium</h2>
       <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
@@ -147,7 +144,6 @@
     
     <section id="stories-slider">
     
-      <h2 class="section-name hidden">Stories</h2>
       <h6 class="subhead">Stories</h6>
       <h2>Lorem ipsum programs dolor optium</h2>
       <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
@@ -288,7 +284,7 @@
     
     // ScrollNav Settings
     $('.subnav-content').scrollNav({
-      sections: '.section-name',
+      sections: '.subhead',
       subSections: false,
       sectionElem: 'div',
       showHeadline: false,

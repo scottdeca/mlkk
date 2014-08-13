@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Get Help - MLK Kitchen for the Poor</title>
+  <title>News &amp; Events - MLK Kitchen for the Poor</title>
   <link rel="stylesheet" href="/css/app.css">
   
   <script type="text/javascript" src="//use.typekit.net/vvd8hgv.js"></script>
@@ -13,35 +13,17 @@
   <?php include $_SERVER['DOCUMENT_ROOT']."/parts/nav.php"; ?>
   <div class="nav-clone"><?php include $_SERVER['DOCUMENT_ROOT']."/parts/nav.php"; ?></div>
 
-  <div class="hero">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <h1>Are you going through tough times?</h1>
-        <p>We’re here to serve, so please contact us.</p>
-      </div>
-    </div>
+  <div class="hero hero-condensed">
     <div class="overlay"></div>
   </div>
   
   
   <section>
-  
-    <h2>Life can be so difficult. Pick up the phone to call us or simply come to the kitchen.</h2>
-    <p>We know it’s difficult to admit you need help. We want you to know we have many years of experience with people who need a helping hand. We treat all who come to us with dignity and respect. So, just come on in to the kitchen – or give us a call. We’re here for you.</p>
-    
-    <b>Address:</b>
-    <ul class="no-bullets">
-      <li>650 Vance St.</li>
-      <li>Toledo, OH 43604</li>
-    </ul>
-    
-    <b>Contact:</b>
-    <ul class="no-bullets">
-      <li>419.241.2596</li>
-      <li>mlk.kitchen@bex.net</li>
-    </ul>
-    
+    <h6 class="subhead">Events</h6>
+    <h2>We hold annual fundraisers to help defray our costs.</h2>
+    <p>Our annual Bowl-a-Thon and our Soiree are our major fundraisers, and they are vital to our operation. We have a large number of people in the Toledo area and beyond who’ve been helping the kitchen remain open by organizing and attending these events.</p>
   </section>
+  
 
   
   

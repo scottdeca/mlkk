@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Get Help - MLK Kitchen for the Poor</title>
+  <title>Contact - MLK Kitchen for the Poor</title>
   <link rel="stylesheet" href="/css/app.css">
   
   <script type="text/javascript" src="//use.typekit.net/vvd8hgv.js"></script>
@@ -16,8 +16,7 @@
   <div class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
-        <h1>Are you going through tough times?</h1>
-        <p>We’re here to serve, so please contact us.</p>
+        <h1>We invite you to be part of our kitchen family in whatever ways you feel called</h1>
       </div>
     </div>
     <div class="overlay"></div>
@@ -25,22 +24,36 @@
   
   
   <section>
+    <h6 class="subhead">History</h6>
+    <h2>Our proud history, our wonderful legacy <br />of service.</h2>
+    <p>The late Rev. Harvey Savage, Sr., established the kitchen in 1969 in response to the tremendous need he saw in his community. Located in Toledo’s central city, the kitchen feeds more than 200 people each day, including school children and the elderly. Some clients live in nearby housing projects or single-story family homes while others are homeless. The median income in the neighborhoods served by the kitchen is about $5,500.</p>
+    <p>The kitchen’s current executive director is Harvey Savage, Jr., who agreed to head the organization when his father died.</p>
+  </section>
   
-    <h2>Life can be so difficult. Pick up the phone to call us or simply come to the kitchen.</h2>
-    <p>We know it’s difficult to admit you need help. We want you to know we have many years of experience with people who need a helping hand. We treat all who come to us with dignity and respect. So, just come on in to the kitchen – or give us a call. We’re here for you.</p>
+  <section>
+    <h6 class="subhead">Leadership &amp; Board</h6>
+    <dl>
+      <dt>Harvey Savage, Jr.</dt>
+      <dd>Executive Director</dd>
+    </dl>
     
-    <b>Address:</b>
-    <ul class="no-bullets">
-      <li>650 Vance St.</li>
-      <li>Toledo, OH 43604</li>
-    </ul>
-    
-    <b>Contact:</b>
-    <ul class="no-bullets">
-      <li>419.241.2596</li>
-      <li>mlk.kitchen@bex.net</li>
-    </ul>
-    
+    <dl>
+      <dt>Board of Direction</dt>
+      
+      <dt>Erica Parish</dt>
+      <dd>President</dd>
+      
+      <dt>John Rich</dt>
+      <dd>Secretary</dd>
+      
+      <dt>Mario Govela</dt>
+      <dd>Treasurer</dd>
+      
+      <dt>Jeffrey Sweich</dt>
+      <dt>John Savage</dt>
+      <dt>Mary Lou Leonard</dt>
+      <dt>Tisha Lee</dt>
+    </dl>
   </section>
 
   

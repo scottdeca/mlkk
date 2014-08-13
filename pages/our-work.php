@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Home - MLK Kitchen for the Poor</title>
+  <title>Our Work - MLK Kitchen for the Poor</title>
   <link rel="stylesheet" href="/css/app.css">
   
   <script type="text/javascript" src="//use.typekit.net/vvd8hgv.js"></script>

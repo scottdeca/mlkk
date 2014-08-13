@@ -44,6 +44,7 @@
     &.fixed .scroll-nav__wrapper {
       position: fixed;
       top: rem(40);
+      top: rem(90); // Temporary fix for the subnav on subpages, thanks to the new animated header
     }
     
     .active a {

@@ -1749,7 +1749,8 @@ footer {
       margin-right: 0; }
     .subpage-with-subnav .scroll-nav.fixed .scroll-nav__wrapper {
       position: fixed;
-      top: 2.5rem; }
+      top: 2.5rem;
+      top: 5.625rem; }
     .subpage-with-subnav .scroll-nav .active a {
       color: black; }
     .subpage-with-subnav .scroll-nav li {

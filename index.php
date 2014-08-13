@@ -10,8 +10,8 @@
 </head>
 <body>
   
-  
   <?php include("parts/nav.php"); ?>
+  <div class="nav-clone"><?php include("parts/nav.php"); ?></div>
 
   <div class="hero">
     <div class="hero-inner">
@@ -102,33 +102,37 @@ remfugit latem que pe. Ga. Uciliatur aut ut excepro vitatur remoluptus.</p>
   <?php include("parts/footer.php"); ?>
   
 
-<script src="js/vendor/jquery.js"></script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    var menu = $('#navigation-menu');
-    var menuToggle = $('#js-mobile-menu');
-    var signUp = $('.sign-up');
+  <script src="js/vendor/jquery.js"></script>
   
-    $(menuToggle).on('click', function(e) {
-      e.preventDefault();
-      menu.slideToggle(function(){
-        if(menu.is(':hidden')) {
-          menu.removeAttr('style');
-        }
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var menu = $('#navigation-menu');
+      var menuToggle = $('#js-mobile-menu');
+      var signUp = $('.sign-up');
+    
+      $(menuToggle).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle(function(){
+          if(menu.is(':hidden')) {
+            menu.removeAttr('style');
+          }
+        });
+      });
+    
+      // underline under the active nav item
+      $(".nav .nav-link").click(function() {
+        $(".nav .nav-link").each(function() {
+          $(this).removeClass("active-nav-item");
+        });
+        $(this).addClass("active-nav-item");
+        $(".nav .more").removeClass("active-nav-item");
       });
     });
-  
-    // underline under the active nav item
-    $(".nav .nav-link").click(function() {
-      $(".nav .nav-link").each(function() {
-        $(this).removeClass("active-nav-item");
-      });
-      $(this).addClass("active-nav-item");
-      $(".nav .more").removeClass("active-nav-item");
-    });
-  });
-</script>
+  </script>
 
+  <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+	<script src="/js/vendor/classie.js"></script>
+	<script src="/js/vendor/cbpAnimatedHeader.js"></script>
+  
 </body>
 </html>

@@ -41,9 +41,6 @@
   </section>
   
   
-
-  
-  
   <?php include("parts/footer.php"); ?>  
 
   <script src="js/vendor/jquery.js"></script>

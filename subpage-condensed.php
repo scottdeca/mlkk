@@ -11,6 +11,7 @@
 <body class="subpage">
 
   <?php include("parts/nav.php"); ?>
+  <div class="nav-clone"><?php include("parts/nav.php"); ?></div>
 
   <div class="hero hero-condensed">
     <div class="overlay"></div>
@@ -67,6 +68,10 @@
       });
     });
   </script>
-
+  
+  <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+	<script src="/js/vendor/classie.js"></script>
+	<script src="/js/vendor/cbpAnimatedHeader.js"></script>
+  
 </body>
 </html>

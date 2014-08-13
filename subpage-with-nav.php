@@ -11,6 +11,7 @@
 <body class="subpage subpage-with-subnav our-work">
 
   <?php include("parts/nav.php"); ?>
+  <div class="nav-clone"><?php include("parts/nav.php"); ?></div>
 
   <div class="hero">
     <div class="hero-inner">
@@ -202,132 +203,136 @@
   
   <?php include("parts/footer.php"); ?>  
 
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/jquery.scrollNav.min.js"></script>
-
-<script src="js/vendor/slippry.js"></script>
-
-<script type="text/javascript">
-  jQuery('.sliding-facts').slippry({
-    // general elements & wrapper
-    slippryWrapper: '<div class="sy-box pictures-slider" />', // wrapper to wrap everything, including pager
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/jquery.scrollNav.min.js"></script>
   
-    // options
-    adaptiveHeight: false, // height of the sliders adapts to current slide
-    captions: false, // Position: overlay, below, custom, false
+  <script src="js/vendor/slippry.js"></script>
   
-    // pager
-    pager: false,
+  <script type="text/javascript">
+    jQuery('.sliding-facts').slippry({
+      // general elements & wrapper
+      slippryWrapper: '<div class="sy-box pictures-slider" />', // wrapper to wrap everything, including pager
     
-    // controls
-    controls: false,
-    autoHover: false,
-  
-    // transitions
-    transition: 'horizontal', // fade, horizontal, kenburns, false
-    speed: 300 // time the transition takes (ms)
+      // options
+      adaptiveHeight: false, // height of the sliders adapts to current slide
+      captions: false, // Position: overlay, below, custom, false
+    
+      // pager
+      pager: false,
+      
+      // controls
+      controls: false,
+      autoHover: false,
+    
+      // transitions
+      transition: 'horizontal', // fade, horizontal, kenburns, false
+      speed: 300 // time the transition takes (ms)
+    });
+    
+    jQuery('.program-widget').slippry({
+      // general elements & wrapper
+      slippryWrapper: '<div class="sy-box program-slider" />', // wrapper to wrap everything, including pager
+      elements: 'article',
+      
+      // options
+      adaptiveHeight: true, // height of the sliders adapts to current slide
+      captions: false, // Position: overlay, below, custom, false
+    
+      // pager
+      pager: true,
+      
+      // controls
+      controls: false,
+      autoHover: true,
+    
+      // transitions
+      transition: 'horizontal', // fade, horizontal, kenburns, false
+      speed: 300, // time the transition takes (ms)
+      
+      // slideshow
+      auto: false,
+    });
+    
+    jQuery('#testimonial-widget-slider').slippry({
+      // general elements & wrapper
+      slippryWrapper: '<div class="sy-box testimonial-widget-slider" />', // wrapper to wrap everything, including pager
+      elements: 'article', // elments cointaining slide content
+    
+      // options
+      adaptiveHeight: false, // height of the sliders adapts to current slide
+      start: 2, // num (starting from 1), random
+      loop: false, // first -> last & last -> first arrows
+      captionsSrc: 'article',
+      //captions: 'custom', // Position: overlay, below, custom, false
+      captions: 'false',
+      captionsEl: '.product-name',
+    
+      // pager
+      pager: false,
+    
+      // transitions
+      slideMargin: 1, // spacing between slides (in %)
+      useCSS: true,
+      transition: 'horizontal',
+      easing: 'swing',
+      speed: 500, // time the transition takes (ms)
+    
+      // slideshow
+      auto: false
+    });
+    
+    
+    // ScrollNav Settings
+    $('.subnav-content').scrollNav({
+      sections: '.section-name',
+      subSections: false,
+      sectionElem: 'div',
+      showHeadline: false,
+      headlineText: 'Scroll To',
+      showTopLink: false,
+      topLinkText: 'Top',
+      fixedMargin: 40,
+      scrollOffset: 40,
+      animated: true,
+      speed: 500,
+      insertTarget: $('.subnav-content > section:first-child'), // this.selector
+      insertLocation: 'prependTo', //insertBefore, prependTo, appendTo, or insertAfter
+      arrowKeys: false,
+      onInit: null,
+      onRender: null,
+      onDestroy: null
   });
+  </script>
   
-  jQuery('.program-widget').slippry({
-    // general elements & wrapper
-    slippryWrapper: '<div class="sy-box program-slider" />', // wrapper to wrap everything, including pager
-    elements: 'article',
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var menu = $('#navigation-menu');
+      var menuToggle = $('#js-mobile-menu');
+      var signUp = $('.sign-up');
     
-    // options
-    adaptiveHeight: true, // height of the sliders adapts to current slide
-    captions: false, // Position: overlay, below, custom, false
-  
-    // pager
-    pager: true,
+      $(menuToggle).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle(function(){
+          if(menu.is(':hidden')) {
+            menu.removeAttr('style');
+          }
+        });
+      });
     
-    // controls
-    controls: false,
-    autoHover: true,
-  
-    // transitions
-    transition: 'horizontal', // fade, horizontal, kenburns, false
-    speed: 300, // time the transition takes (ms)
-    
-    // slideshow
-    auto: false,
-  });
-  
-  jQuery('#testimonial-widget-slider').slippry({
-    // general elements & wrapper
-    slippryWrapper: '<div class="sy-box testimonial-widget-slider" />', // wrapper to wrap everything, including pager
-    elements: 'article', // elments cointaining slide content
-  
-    // options
-    adaptiveHeight: false, // height of the sliders adapts to current slide
-    start: 2, // num (starting from 1), random
-    loop: false, // first -> last & last -> first arrows
-    captionsSrc: 'article',
-    //captions: 'custom', // Position: overlay, below, custom, false
-    captions: 'false',
-    captionsEl: '.product-name',
-  
-    // pager
-    pager: false,
-  
-    // transitions
-    slideMargin: 1, // spacing between slides (in %)
-    useCSS: true,
-    transition: 'horizontal',
-    easing: 'swing',
-    speed: 500, // time the transition takes (ms)
-  
-    // slideshow
-    auto: false
-  });
-  
-  
-  // ScrollNav Settings
-  $('.subnav-content').scrollNav({
-    sections: '.section-name',
-    subSections: false,
-    sectionElem: 'div',
-    showHeadline: false,
-    headlineText: 'Scroll To',
-    showTopLink: false,
-    topLinkText: 'Top',
-    fixedMargin: 40,
-    scrollOffset: 40,
-    animated: true,
-    speed: 500,
-    insertTarget: $('.subnav-content > section:first-child'), // this.selector
-    insertLocation: 'prependTo', //insertBefore, prependTo, appendTo, or insertAfter
-    arrowKeys: false,
-    onInit: null,
-    onRender: null,
-    onDestroy: null
-});
-</script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    var menu = $('#navigation-menu');
-    var menuToggle = $('#js-mobile-menu');
-    var signUp = $('.sign-up');
-  
-    $(menuToggle).on('click', function(e) {
-      e.preventDefault();
-      menu.slideToggle(function(){
-        if(menu.is(':hidden')) {
-          menu.removeAttr('style');
-        }
+      // underline under the active nav item
+      $(".nav .nav-link").click(function() {
+        $(".nav .nav-link").each(function() {
+          $(this).removeClass("active-nav-item");
+        });
+        $(this).addClass("active-nav-item");
+        $(".nav .more").removeClass("active-nav-item");
       });
     });
-  
-    // underline under the active nav item
-    $(".nav .nav-link").click(function() {
-      $(".nav .nav-link").each(function() {
-        $(this).removeClass("active-nav-item");
-      });
-      $(this).addClass("active-nav-item");
-      $(".nav .more").removeClass("active-nav-item");
-    });
-  });
-</script>
+  </script>
+
+  <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+  <script src="/js/vendor/classie.js"></script>
+  <script src="/js/vendor/cbpAnimatedHeader.js"></script>
 
 </body>
 </html>

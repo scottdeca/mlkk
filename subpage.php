@@ -11,6 +11,7 @@
 <body class="subpage">
 
   <?php include("parts/nav.php"); ?>
+  <div class="nav-clone"><?php include("parts/nav.php"); ?></div>
 
   <div class="hero">
     <div class="hero-inner">

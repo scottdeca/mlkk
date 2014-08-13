@@ -273,26 +273,25 @@ header.navigation {
 }
 
 
-@-webkit-keyframes drop-in {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-  	transform: translateY(0%);
-  }
+.nav-clone {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
-.navigation {
+.nav-clone .navigation {
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
+	-webkit-transform: translateY(-100%);
 }
 
-.navigation.navigation-drop {
+.nav-clone .navigation.navigation-drop {
   position: fixed;
   margin-top: 0;
   background-color: $dark-gray;
   
-  -webkit-animation: drop-in 0.5s;
-  -webkit-animation-iteration-count: 1;
+  -webkit-transform: translateY(0%);
 }

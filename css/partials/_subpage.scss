@@ -10,7 +10,7 @@
   section {
     @include outer-container;
     padding: 0 $gutter;
-    margin-top: $base-line-height;
+    margin-top: $base-line-height * 1.4;
     
     & > * {
       @include span-columns(9);

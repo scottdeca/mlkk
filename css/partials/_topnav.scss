@@ -272,7 +272,9 @@ header.navigation {
   }
 }
 
-
+//
+// Animation essentials
+//
 .nav-clone {
   position: fixed;
   top: 0;
@@ -294,4 +296,24 @@ header.navigation {
   background-color: $dark-gray;
   
   -webkit-transform: translateY(0%);
+}
+
+// Extra styling for animated header
+
+.nav-clone .navigation {
+  $nav-clone-height: em(75);
+  height: $nav-clone-height;
+  padding-right: 1em;
+  
+  .logo {
+    height: $nav-clone-height;
+    padding-left: 2em;
+    img { 
+      max-height: $nav-clone-height;
+      padding: 1em 0;
+      }
+  }
+  
+  ul li a { font-size: rem(12); }
+  
 }

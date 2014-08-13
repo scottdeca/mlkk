@@ -1210,6 +1210,18 @@ header.navigation {
   background-color: #444444;
   -webkit-transform: translateY(0%); }
 
+.nav-clone .navigation {
+  height: 4.6875em;
+  padding-right: 1em; }
+  .nav-clone .navigation .logo {
+    height: 4.6875em;
+    padding-left: 2em; }
+    .nav-clone .navigation .logo img {
+      max-height: 4.6875em;
+      padding: 1em 0; }
+  .nav-clone .navigation ul li a {
+    font-size: 0.75rem; }
+
 .hero {
   background-image: url(/img/hero/hero_home_2.jpg);
   background-size: cover;

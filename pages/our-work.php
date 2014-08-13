@@ -27,6 +27,7 @@
   
     <section id="mission">
       <h2 class="section-name hidden">Mission</h2>
+      <h6 class="subhead">Mission</h6>
       <h2>We offer hope and acceptance to those in need, keeping in mind the dignity of all persons.</h2>
       <p>We help anyone who walks through our doors, regardless of age, sex, religion, political beliefs or race. We feed the homeless and those with low incomes. We provide hope where there seems to be none.</p>
       
@@ -85,7 +86,8 @@
     </div>
     
     <section id="learn-about-hunger" data-magellan-destination="hunger">
-      <h2 class="section-name hidden">Learn about Hunger</h2>
+      <h2 class="section-name hidden">Learn about hunger</h2>
+      <h6 class="subhead">Learn about hunger</h6>
       <h2>Recognizing that local hunger has global effects, we do what we can to feed the hungry.</h2>
       <ul class="list-large">
         <li>One out of six Americans does not have access to enough food</li>
@@ -107,6 +109,7 @@
     
     <section id="programs">
       <h2 class="section-name hidden">Programs</h2>
+      <h6 class="subhead">Programs</h6>
       <h2>Lorem ipsum programs dolor optium</h2>
       <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
       
@@ -145,6 +148,7 @@
     <section id="stories-slider">
     
       <h2 class="section-name hidden">Stories</h2>
+      <h6 class="subhead">Stories</h6>
       <h2>Lorem ipsum programs dolor optium</h2>
       <p>The MLK Kitchen for the Poor was established in 1969 by the late Rev. Harvey Savage, Sr., in response to the tremendous need he saw in his community. Located in Toledo’s central city, the Kitchen feeds more than 200 people each day, from school children to the elderly.</p>
       
@@ -170,7 +174,7 @@
           <div class="testimonial-info">
             <h4>&ldquo;I don’t know where I’d be without the help the kitchen gave us&rdquo;</h4>
             <p>Willie Ward, Sr., principal of Martin Luther King, Jr., Academy for Boys in Toledo, is clear: the two biggest influences on his life to date are his mother and Martin Luther King, Jr...</p>
-            <div class="button-link-wrapper"><a href="#!" class="button-link buy-now button hollow">Continue reading &rarr;</a></div>
+            <div class="button-link-wrapper"><a href="/pages/willie-ward.php" class="button-link buy-now button hollow">Continue reading &rarr;</a></div>
           </div>
         </article>
         
@@ -291,8 +295,8 @@
       headlineText: 'Scroll To',
       showTopLink: false,
       topLinkText: 'Top',
-      fixedMargin: 40,
-      scrollOffset: 40,
+      fixedMargin: 80,
+      scrollOffset: 80,
       animated: true,
       speed: 500,
       insertTarget: $('.subnav-content > section:first-child'), // this.selector

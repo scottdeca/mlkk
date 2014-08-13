@@ -80,11 +80,13 @@ $navigation-height: (em(85) + 1em);
 			p {
 				margin: auto;
 				margin-bottom: 3em;	
-				font-weight: 200;
+				font-weight: 500;
+				font-style: italic;
+				color: white;
 
 				@include media($large-screen) {
-					font-size: 1.2em;
-					max-width: 40%;
+					font-size: rem(24);
+					max-width: 80%;
 				}
 			}
 		}

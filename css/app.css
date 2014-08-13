@@ -1295,11 +1295,13 @@ header.navigation {
       .hero .hero-inner .hero-copy p {
         margin: auto;
         margin-bottom: 3em;
-        font-weight: 200; }
+        font-weight: 500;
+        font-style: italic;
+        color: white; }
         @media screen and (min-width: 53.75em) {
           .hero .hero-inner .hero-copy p {
-            font-size: 1.2em;
-            max-width: 40%; } }
+            font-size: 1.5rem;
+            max-width: 80%; } }
 
 .hero-condensed {
   min-height: 7.575em;
@@ -1725,6 +1727,13 @@ footer {
   font-size: 1.8em;
   line-height: 1.5;
   color: #3d3d3d; }
+.subpage .subhead {
+  font-family: "jaf-facitweb", "Din Next LT Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #98ab25;
+  margin-top: 1.8em;
+  margin-bottom: 1.5em; }
 .subpage p {
   font-size: 1.375em;
   line-height: 1.5;
@@ -1842,6 +1851,11 @@ section ul {
     line-height: 1.3;
     margin-bottom: 0.6em;
     width: 60%; }
+  section ul.no-bullets {
+    list-style-type: none; }
+    section ul.no-bullets li {
+      line-height: 1.2;
+      margin-bottom: 0.15em; }
 
 .list-large {
   list-style: none;

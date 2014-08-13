@@ -1191,6 +1191,24 @@ header.navigation {
           box-sizing: border-box;
           display: block; } }
 
+@-webkit-keyframes drop-in {
+  0% {
+    transform: translateY(-100%); }
+
+  100% {
+    transform: translateY(0%); } }
+.navigation {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.navigation.navigation-drop {
+  position: fixed;
+  margin-top: 0;
+  background-color: #444444;
+  -webkit-animation: drop-in 0.5s;
+  -webkit-animation-iteration-count: 1; }
+
 .hero {
   background-image: url(/img/hero/hero_home_2.jpg);
   background-size: cover;

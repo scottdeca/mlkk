@@ -72,6 +72,10 @@
       });
     });
   </script>
-
+  
+  <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+	<script src="/js/vendor/classie.js"></script>
+	<script src="/js/vendor/cbpAnimatedHeader.js"></script>
+  
 </body>
 </html>

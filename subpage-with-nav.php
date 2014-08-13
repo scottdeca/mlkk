@@ -33,31 +33,31 @@
       <div class="mini-bullet-points 2-column">
         <div class="mini-bullet-point">
           <h4>Meal delivery</h4>
-          <p>Delivers meals to the elderly and area shut-ins.</p>
+          <p>We deliver meals to the elderly and area shut-ins.</p>
         </div>
         <div class="mini-bullet-point">
-          <h4>Meals for Summer Vacation</h4>
-          <p>Serves hot meals to neighborhood children during summer vacation</p>
+          <h4>Meals for summer vacation</h4>
+          <p>We serve hot meals to neighborhood children during summer vacation</p>
         </div>
         <div class="mini-bullet-point">
-          <h4>Providing ingredients for home cooking</h4>
-          <p>Provides ingredients for food-stamp recipient families to prepare meals at home</p>
+          <h4>Ingredients for home cooking</h4>
+          <p>We provide ingredients for food-stamp recipient families to prepare meals at home</p>
         </div>
         <div class="mini-bullet-point">
           <h4>Extra help for the holidays</h4>
-          <p>Helps needy families with meals during the holidays</p>
+          <p>We help needy families with meals during the holidays</p>
         </div>
         <div class="mini-bullet-point">
-          <h4>Secret Santa, for the whole family</h4>
-          <p>Matches “adoptive” families with needy families to provide gifts for Christmas</p>
+          <h4>Christmas gifts for the whole family</h4>
+          <p>We match “adoptive” families with needy families to provide gifts for Christmas</p>
         </div>
         <div class="mini-bullet-point">
-          <h4>Providing essentials for our community</h4>
-          <p>Provides clothing, toys, counseling and support for the immediate community</p>
+          <h4>Essentials for our community</h4>
+          <p>We provide clothing, toys, counseling and support for the immediate community</p>
         </div>
         <div class="mini-bullet-point">
           <h4>Christmas gifts for children</h4>
-          <p>Provides Christmas gifts to children</p>
+          <p>We provide Christmas gifts to children</p>
         </div>
       </div>
       

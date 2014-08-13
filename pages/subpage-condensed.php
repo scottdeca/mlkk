@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <title>Home - MLK Kitchen for the Poor</title>
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="/css/app.css">
   
   <script type="text/javascript" src="//use.typekit.net/vvd8hgv.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body class="subpage">
 
-  <?php include("parts/nav.php"); ?>
-  <div class="nav-clone"><?php include("parts/nav.php"); ?></div>
+  <?php include $_SERVER['DOCUMENT_ROOT']."/parts/nav.php"; ?>
+  <div class="nav-clone"><?php include $_SERVER['DOCUMENT_ROOT']."/parts/nav.php"; ?></div>
 
   <div class="hero hero-condensed">
     <div class="overlay"></div>
@@ -39,9 +39,9 @@
 
   
   
-  <?php include("parts/footer.php"); ?>  
+  <?php include $_SERVER['DOCUMENT_ROOT']."/parts/footer.php"; ?>  
 
-  <script src="js/vendor/jquery.js"></script>
+  <script src="/js/vendor/jquery.js"></script>
   
   <script type="text/javascript">
     $(document).ready(function() {

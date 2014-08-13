@@ -6,12 +6,12 @@
     <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
     <div class="nav">
       <ul id="navigation-menu">
-        <li class="nav-link"><a href="/subpage-with-nav.php">Our Work</a></li>
-        <li class="nav-link"><a href="/subpage-condensed.php">Get Help</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">Get Involved</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">News & Events</a>
-        <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+        <li class="nav-link"><a href="/pages/our-work.php">Our Work</a></li>
+        <li class="nav-link"><a href="/pages/get-help.php">Get Help</a></li>
+        <li class="nav-link"><a href="/pages/get-involved.php">Get Involved</a></li>
+        <li class="nav-link"><a href="/pages/news.php">News & Events</a>
+        <li class="nav-link"><a href="/pages/about-us.php">About Us</a></li>
+        <li class="nav-link"><a href="/pages/contact.php">Contact</a></li>
       </ul>
     </div>
   </div>

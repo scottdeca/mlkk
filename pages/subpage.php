@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <title>Home - MLK Kitchen for the Poor</title>
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="/css/app.css">
   
   <script type="text/javascript" src="//use.typekit.net/vvd8hgv.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body class="subpage">
 
-  <?php include("parts/nav.php"); ?>
+  <?php include $_SERVER['DOCUMENT_ROOT']."/parts/nav.php"; ?>
+  <div class="nav-clone"><?php include $_SERVER['DOCUMENT_ROOT']."/parts/nav.php"; ?></div>
 
   <div class="hero">
     <div class="hero-inner">
@@ -40,12 +41,9 @@
   </section>
   
   
+  <?php include $_SERVER['DOCUMENT_ROOT']."/parts/footer.php"; ?>  
 
-  
-  
-  <?php include("parts/footer.php"); ?>  
-
-  <script src="js/vendor/jquery.js"></script>
+  <script src="/js/vendor/jquery.js"></script>
   
   <script type="text/javascript">
     $(document).ready(function() {
@@ -72,6 +70,10 @@
       });
     });
   </script>
-
+  
+  <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+	<script src="/js/vendor/classie.js"></script>
+	<script src="/js/vendor/cbpAnimatedHeader.js"></script>
+  
 </body>
 </html>

@@ -22,38 +22,20 @@
     <div class="overlay"></div>
   </div>
   
-  
   <section>
-    <h6 class="subhead">History</h6>
-    <h2>Our proud history, our wonderful legacy <br />of service.</h2>
-    <p>The late Rev. Harvey Savage, Sr., established the kitchen in 1969 in response to the tremendous need he saw in his community. Located in Toledo’s central city, the kitchen feeds more than 200 people each day, including school children and the elderly. Some clients live in nearby housing projects or single-story family homes while others are homeless. The median income in the neighborhoods served by the kitchen is about $5,500.</p>
-    <p>The kitchen’s current executive director is Harvey Savage, Jr., who agreed to head the organization when his father died.</p>
-  </section>
-  
-  <section>
-    <h6 class="subhead">Leadership &amp; Board</h6>
-    <dl>
-      <dt>Harvey Savage, Jr.</dt>
-      <dd>Executive Director</dd>
-    </dl>
+    <h6 class="subhead">Contact Info &amp; Location</h6>
     
-    <dl>
-      <dt>Board of Direction</dt>
-      
-      <dt>Erica Parish</dt>
-      <dd>President</dd>
-      
-      <dt>John Rich</dt>
-      <dd>Secretary</dd>
-      
-      <dt>Mario Govela</dt>
-      <dd>Treasurer</dd>
-      
-      <dt>Jeffrey Sweich</dt>
-      <dt>John Savage</dt>
-      <dt>Mary Lou Leonard</dt>
-      <dt>Tisha Lee</dt>
-    </dl>
+    <b>Contact:</b>
+    <ul class="no-bullets">
+      <li>419.241.2596</li>
+      <li>mlk.kitchen@bex.net</li>
+    </ul>
+    
+    <b>Address:</b>
+    <ul class="no-bullets">
+      <li>650 Vance St.</li>
+      <li>Toledo, OH 43604</li>
+    </ul>
   </section>
 
   

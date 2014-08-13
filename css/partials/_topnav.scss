@@ -272,6 +272,12 @@ header.navigation {
   }
 }
 
+.nav-clone {
+  display: none;
+  
+  @include media($large-screen) { display: block; }
+}
+
 //
 // Animation essentials
 //

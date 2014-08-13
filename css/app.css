@@ -1192,6 +1192,12 @@ header.navigation {
           display: block; } }
 
 .nav-clone {
+  display: none; }
+  @media screen and (min-width: 53.75em) {
+    .nav-clone {
+      display: block; } }
+
+.nav-clone {
   position: fixed;
   top: 0;
   left: 0;

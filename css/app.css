@@ -1213,7 +1213,11 @@ header.navigation {
 .nav-clone .navigation.navigation-drop {
   position: fixed;
   margin-top: 0;
-  background-color: #444444;
+  background-color: white;
+  border-bottom: 1px solid #dddddd;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
   -webkit-transform: translateY(0%); }
 
 .nav-clone .navigation {
@@ -1226,6 +1230,7 @@ header.navigation {
       max-height: 4.6875em;
       padding: 1em 0; }
   .nav-clone .navigation ul li a {
+    color: #444444;
     font-size: 0.75rem; }
 
 .hero {

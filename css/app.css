@@ -987,10 +987,8 @@ header.navigation {
     float: left;
     max-height: 5.3125em;
     padding-left: 1em;
-    padding-right: 2em; }
-    header.navigation .logo img {
-      max-height: 5.3125em;
-      padding: .8em 0; }
+    padding-right: 2em;
+    background-image: url(/img/kfp_logo_rev.png); }
   header.navigation .navigation-menu-button {
     color: rgba(255, 255, 255, 0.9);
     cursor: pointer;

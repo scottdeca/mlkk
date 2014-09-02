@@ -1,8 +1,6 @@
 <header class="navigation">
   <div class="menu-wrapper">
-    <a href="/" class="logo">
-      <img src="/img/kfp_logo_rev.png" alt="MLK Kitchen for the Poor">
-    </a>
+    <a href="/" class="logo"></a>
     <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
     <div class="nav">
       <ul id="navigation-menu">
